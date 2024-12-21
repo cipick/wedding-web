@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -35,7 +34,7 @@ export default function Home() {
             property="og:image"
             content="https://danielaandmoe.com/images/daniela-and-moe-wedding-085db2c3.jpg"
         />
-        <meta property="fb:app_id" content={305232433007153} />
+        <meta property="fb:app_id" content={"305232433007153"} />
         <meta name="twitter:site" content="@moeamaya" />
         <meta name="twitter:domain" content="danielaandmoe.com" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -491,1388 +490,1388 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section id="facts" className="index-facts">
-            <div className="index-facts__wrapper">
-              <ul className="index-facts__list">
-                <li className="index-fact index-fact__intro">
-                  <h5>Fun Facts</h5>
-                  <h3>Quirky lil quiz about the happy couple</h3>
-                  <h6>
-                    <span className="d-md-none">Click</span>
-                    <span className="d-none d-md-inline">Hover</span> for Answer
-                  </h6>
-                </li>
-                <li className="index-fact">
-                  <div className="index-fact__inner">
-                    <div className="index-fact__inner-front">
-                      <div>
-                        <div className="index-fact__inner-front-icon">
-                          <img
-                              src="/images/icon/footprint-ac7d4a6b.svg"
-                              alt="Footprint"
-                          />
-                        </div>
-                        Cine este cel mai rasfatat?
-                      </div>
-                    </div>
-                    <div className="index-fact__inner-back">Cleodora</div>
-                  </div>
-                </li>
-                <li className="index-fact">
-                  <div className="index-fact__inner">
-                    <div className="index-fact__inner-front">
-                      <div>
-                        <div className="index-fact__inner-front-icon">
-                          <img
-                              src="/images/icon/calendar-d0eafa06.svg"
-                              alt="Calendar"
-                          />
-                        </div>
-                        How long have we known each other?
-                      </div>
-                    </div>
-                    <div className="index-fact__inner-back">8 years and counting</div>
-                  </div>
-                </li>
-                <li className="index-fact">
-                  <div className="index-fact__inner">
-                    <div className="index-fact__inner-front">
-                      <div>
-                        <div className="index-fact__inner-front-icon">
-                          <img src="/images/icon/mit-6891628f.svg" alt="Mit" />
-                        </div>
-                        Where did we meet?
-                      </div>
-                    </div>
-                    <div className="index-fact__inner-back">MIT design studio</div>
-                  </div>
-                </li>
-                <li className="index-fact">
-                  <div className="index-fact__inner">
-                    <div className="index-fact__inner-front">
-                      <div>
-                        <div className="index-fact__inner-front-icon">
-                          <img src="/images/icon/pasta-20cdfcab.svg" alt="Pasta" />
-                        </div>
-                        Comfort food?
-                      </div>
-                    </div>
-                    <div className="index-fact__inner-back">
-                      Pasta
-                      <br />
-                      (Papardelle!)
-                    </div>
-                  </div>
-                </li>
-                <li className="index-fact">
-                  <div className="index-fact__inner">
-                    <div className="index-fact__inner-front">
-                      <div>
-                        <div className="index-fact__inner-front-icon">
-                          <img src="/images/icon/cactus-f69624f6.svg" alt="Cactus" />
-                        </div>
-                        Where did we get in engaged?
-                      </div>
-                    </div>
-                    <div className="index-fact__inner-back">
-                      Antelope Canyon in Arizona
-                    </div>
-                  </div>
-                </li>
-                <li className="index-fact">
-                  <div className="index-fact__inner">
-                    <div className="index-fact__inner-front">
-                      <div>
-                        <div className="index-fact__inner-front-icon">
-                          <img src="/images/icon/home-37d05e2c.svg" alt="Home" />
-                        </div>
-                        Where is our dream house?
-                      </div>
-                    </div>
-                    <div className="index-fact__inner-back">
-                      Trick question, we don't know!
-                    </div>
-                  </div>
-                </li>
-                <li className="index-fact">
-                  <div className="index-fact__inner">
-                    <div className="index-fact__inner-front">
-                      <div>
-                        <div className="index-fact__inner-front-icon">
-                          <img src="/images/icon/palm-334ee2e3.svg" alt="Palm" />
-                        </div>
-                        Favorite LA spot?
-                      </div>
-                    </div>
-                    <div className="index-fact__inner-back">
-                      <div>
-                        Daniela:{" "}
-                        <a target="_blank" href="https://thedoughroom.com/">
-                          The Doughroom
-                        </a>
-                        <br />
-                        Moe:{" "}
-                        <a
-                            target="_blank"
-                            href="https://www.yelp.com/biz_photos/resident-los-angeles-2?select=i_HFCNafsOAkjPiR0m9A0Q"
-                        >
-                          Resident
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </section>
-          <section id="marriage" className="index-section index-marriage">
-            <div className="index-marriage__graphic-left">
-              <svg
-                  width={498}
-                  height={614}
-                  viewBox="0 0 498 614"
-                  xmlns="http://www.w3.org/2000/svg"
-              >
-                <g fill="none" fillRule="evenodd">
-                  <path
-                      d="M270.7 462.5c-8.1-11.3-16.2-22.8-26.8-31.8-8.5-7.2-18.3-12.7-28-18-19.6-10.8-39.3-21.6-58.9-32.3-2.8-3.6 3.5-7.3 8.1-7.5 26-.9 52.1 2.6 76.9 10.4 6.7 2.1 13.5 4.6 20.5 5.2 9.5.9 18.9-1.6 27.9-4.6 26.1-8.5 51-20.8 73.6-36.4 16-11.1 30.9-23.9 45.7-36.6 14.1-12.1 28.2-24.2 42.2-36.4 12.3-10.6 24.7-21.3 33.5-35 8.7-13.6 13.4-30.8 8.6-46.3-60.9-4-122.7 7.7-177.8 33.8-19.2 9.1-37.6 19.8-57 28.3-29 12.7-60 20.2-91.3 24.9 28.3-5.1 48.7-29.3 66.5-51.9 11.9-15.1 23.8-30.3 32.7-47.3 4.2-8 7.7-16.5 13.2-23.7 5.5-7.2 12.7-12.8 18.5-19.7 12.7-15.1 17.8-35.1 22.4-54.3 6.7-27.7 12.7-59.5-3.8-82.8-28.5 21-57.1 42-85.6 63.1-8.1 5.9-16.2 11.9-25 16.7-5.2 2.8-10.7 5.3-15.2 9s-7.8 8.6-11.1 13.5c-11.9 18-23 36.5-33.3 55.5-7.7 14.2-14.9 28.9-18.3 44.6-7.1 33.4 3.8 67.8 2.8 101.9-.7 22-6.4 43.5-12 64.8C102.8 434 86.5 500.3 94 566.5c.9 7.9 2.2 15.9 6 22.8 11.9 21.6 41.4 24.1 66.1 23.9 39.2-.3 78.6-.6 117.1-7.6 28.1-5.1 78.6-14.3 53.5-50.5-21.6-30.9-44-61.6-66-92.6z"
-                      fill="#F6BBA4"
-                      fillRule="nonzero"
-                  />
-                  <path
-                      d="M80.8 582.4c-5-11.7-4.5-25-8-37.2-6.8-23.6-27.3-40.2-44.2-58-16.9-17.8-32-42.4-24.2-65.8 9.3-12 28.2 1 35.1 14.5 6.9 13.5 16.4 31.2 31.2 28.2-17.7-37.6-31-77.3-39.2-118-3.1-15.3-5.5-31.5-.3-46.2 5.2-14.7 20.2-27.1 35.5-24.1 15 3 23.9 18.6 28 33.4 4 14.8 5.5 30.8 14.5 43.3 7.3-57 14.5-114 21.8-171 .5-4.1 1.1-8.3 3.1-11.9 6.6-12 25.6-10.5 35.5-1 9.9 9.4 13.5 23.5 18.2 36.3 4.7 12.8 12.3 26.3 25.3 30.4 13.7-36 33.8-69.4 59.2-98.4 13.3-15.2 30.1-30.1 50.3-30.4 35-.5 55 43.1 49 77.5s-27.8 64-38.2 97.4c12.5-3.1 25.6-6.2 38.2-3.7 12.7 2.6 24.8 12.6 25.3 25.5.6 16.6-16.6 27.6-31.6 35-35.8 17.7-71.7 35.4-107.5 53.1 14.9 9.6 34.1 8.1 51.7 10.4 17.6 2.3 37.6 12.4 38.7 30.1 1.5 22.1-25.7 33.4-47.4 38-31.6 6.7-63.2 13.4-94.9 20.1-24.8 5.3-55.2 16.7-56.4 42 24.5 20 68.1-19.1 90.3 3.4 13.2 13.4 3.3 38-13.4 46.4-16.8 8.4-36.7 6-55.4 4.6-27.5-2-75.4 30.9-90.2-3.9z"
-                      stroke="#092A49"
-                      strokeWidth={3}
-                  />
-                  <path
-                      d="M358.6 134.5c4.7-1.1 9.1-3.9 13.8-4.8.9-.2 1.8.6 1.7 1.5-.3 3.6-2 7.3-2.8 10.9-1 4.2-.3 9.4 3.9 11.2 9.9-2.6 17.9-9.5 25.3-16.2 2.3-2.1 4.7-4.2 6.5-6.7 1.8-2.4 3.7-5.5 6.5-6.3 1-.3 2 .2 2.5 1.1 3.3 5.7 1.7 13.1.2 19.8-1.6 7.2-2.6 15.4 2.7 20.5.4.4.9.8 1.6 1 .8.2 1.7-.1 2.5-.4 6.5-2.7 10.5-9 13-15 3.5-8.5 4.9-17.5 4.2-26.2-.1-1.8-.1-3.9 1.6-4.9.9-.5 2-.5 2.9-.4 4.8.6 8.7 3.5 12.3 6.3 3.6 2.8 7.3 5.8 12.1 6.7 4.8.9 10.9-1.4 12.2-5.8 1.1-3.7-1.4-7.1-3.8-10-2.4-2.9-4.8-5.8-8.1-7.8-3.2-1.9-7.4-2.9-11.2-1.8-.3.1-.5-.1-.6-.3l-.5-1.4c-.2-.7.1-1.5.8-1.9 8.3-4.1 16.4-8.4 24.4-13 6-3.5 13.4-3.9 15-11.1.6-2.5-.3-5.3-2.7-6.4-2.4-1.1-5.5-.3-8.2.6l-12.3 3.9c-2.6.8-5.8 1.5-7.5-.2-1.7-1.7-.7-4.4.4-6.6l7.5-15.6c1.2-2.5 2.4-5.1 2.6-7.7.1-2.7-1-5.4-3.6-6.5-3.3-1.4-7.5.4-10.8 2.3-9.6 5.8-17.9 13.4-24.1 22.2-.9 1.3-1.9 2.7-3.4 3.2-3.3 1.1-5.7-2.3-6.7-5.1-3.9-10.5-6.8-21.4-8.7-32.5-6.3-3.1-15.1 2.1-17.7 8.4-2.6 6.3-.9 13.2 1.1 19.4 1.8 5.7 3.9 11.5 3 17.5-.2 1.2-1.1 2.2-2.2 2.5-3.9 1-8.2-.3-11.9-1.7-5.5-2-11-4.1-16.6-6.1-4.1-1.5-9.2-2.9-13-.4-3.6 2.3-4.1 7.2-2.2 10.5 1.9 3.3 5.4 5.5 8.9 7.5 5.2 3.1 10.4 6.1 15.6 9.2.5.3 1 .6 1.3 1.1 1.1 1.8-1.9 3.6-4.1 4.4-12.3 4.1-23.6 11.4-31.9 20.7-1.3 1.4-2.5 2.9-2.8 4.7-1 4.6 6 7 11.3 5.7zm47.6-34.7c-.4-1.3-.8-2.8-.3-4.1 1-2.7 3.8-2.7 4-6 0-.6-.1-2.5.4-3.2 1.2-1.5 7.1-3.6 10.1-4.5 1.2-.4 2.4-.7 3.6-.6 1.4.2 2.6 1 3.7 1.7 2.4 1.8 4.6 3.7 6.6 5.8 1.1 1.1 2.2 2.3 2.6 3.8 2.7 10.4-10.2 14.1-18.7 15.4-2 .3-4.1.5-6-.1-3.6-1-5-4.8-6-8.2z"
-                      fill="#E5BA2B"
-                      fillRule="nonzero"
-                  />
-                </g>
-              </svg>
-            </div>
-            <div className="index-marriage__graphic-right">
-              <svg
-                  width={400}
-                  height={494}
-                  viewBox="0 0 400 494"
-                  xmlns="http://www.w3.org/2000/svg"
-              >
-                <g fill="none" fillRule="evenodd">
-                  <path
-                      d="M229.8 481.6c-14.2 3.3-27.7 9.9-42.3 10.7-14.5.8-31.3-6.6-34.2-20.9-1.5-7.5.8-16.1-3.7-22.2-2.8-3.9-7.7-5.6-12.2-7.1-42.5-14.2-102.3-19.8-127.6-42.5-10.9-9.8-11.5-43.5.7-60.4 16-22.2 51.3-18.6 72-36.6 21.1-18.3 20-52.5 38.6-73.3 11.4-12.7 28.5-18.5 45.3-21.4 55.4-9.6 112.1 7.9 163 32 8-14.4-7.9-30-21.9-38.6-85.9-52.8-176.6-97.8-270.6-134.4 7.9-9.9 15.8-19.8 23.6-29.7C75.2 18.7 95-1.8 118.2 2.8c20.8 4.1 32 26.4 49.1 39 20.4 15.1 51 14.6 70.9-1.1 5.4-4.2 10-9.4 15.9-13 7.5-4.5 16.4-5.9 25.1-6 51.6-.9 96.9 40.9 113.2 89.8 4.3 13 7.1 26.8 5.4 40.4-1.5 12.3-6.6 23.8-10.9 35.4-14.6 39.6-20.5 82.3-17.3 124.4 2.4 32.1 10.1 64.4 4.5 96.1-4 22.5-14.4 43.3-24.7 63.7-2.8 5.5-6 11.4-11.6 13.8-9.4 4-33.1-3.1-43.3-3.9-21.5-1.9-43.3-4.8-64.7.2z"
-                      stroke="#7E803C"
-                      strokeWidth={3}
-                  />
-                  <g fill="#193C35" fillRule="nonzero">
-                    <path d="M208.5 327.2c-4.3 8.6-12.1 14.8-20.2 20-4.5 2.8-9.2 5.5-14.4 6.4-6.9 1.3-14-.6-21-1.1-8.2-.7-18-.3-22.8-7-1.8-2.5-2.6-5.6-2.8-8.7-.5-8.2 2.6-16.6 8.5-22.3 2.5-2.5 5.4-4.4 8.3-6.4 4.7-3.2 9.5-6.4 14.2-9.6 2.6-1.8 5.3-3.6 8.4-4.1 1.9-.4 3.9-.2 5.9 0 19.5 1.8 49.4 5.6 35.9 32.8zM137 267c3.4 1.1 7 2.4 9.2 5.3 3.3 4.4 2.3 10.8-.4 15.5-3.8 6.6-10.4 11.2-17.5 13.9-7.1 2.7-14.7 3.8-22.2 4.6-4.6.5-9.4.9-13.6-.9-2.4-1-4.4-2.6-6.4-4.2-3.6-2.9-7.2-5.9-9.6-9.8-2.4-3.9-3.4-9-1.4-13.2 1.6-3.3 4.8-5.5 7.8-7.5 3.2-2.2 6.4-4.3 9.6-6.5 10.6-7.1 33-.7 44.5 2.8zM120.8 169.7c2.3 1.7 4.1 4 5.8 6.3 4.9 6.7 9 14 12.2 21.7.9 2.2 1.8 4.5 1.9 7 .2 2.9-.7 5.7-1.5 8.4-1.8 5.8-3.8 11.9-8.5 15.9-4 3.4-18.3 4-20.6 3.5-2.6-.5-4.4-2.7-6.1-4.8-4.8-6.1-9.6-12.3-14.3-18.4-2-2.6-4.1-5.2-5.4-8.2-2.3-5.2-2.3-11.1-1.1-16.7 3.8-18.1 21.6-26.6 37.6-14.7zM201.2 226.6c.4 2.4.7 4.7 1 7.1.7 5.8 1.3 11.5 2 17.3.2 1.6.3 3.3-.4 4.6-1.8 3.4-6.9 2.4-10.4.9-2.7-1.1-5.4-2.3-8-3.4-10.5-4.4-21.5-9.3-28.2-18.5-5.3-7.2-7.2-16.3-9-25.1-3-14.7.3-33.1 18.9-26.2 17.4 6.6 30.9 25.4 34.1 43.3zM252.3 219.1c2.9 1.3 4.9 4.1 6.7 6.8l13.2 19.8c1.6 2.5 3.3 5 4 7.9 1.6 6.6-2.3 13.2-3.1 20-.6 5.2.5 10.8-1.8 15.5-2 4.1-6.1 6.6-10 8.9-1 .6-2.1 1.2-3.3 1.3-1.1 0-2.1-.4-3-.9-6.9-3.7-10.7-11.9-18-14.7-2.1-.8-4.5-1.2-6.2-2.7-3.3-3-2-8.4-1.9-12.9.1-3.6-.7-7.1-1-10.7-1-10.7 6.6-46.4 24.4-38.3zM317.3 248.1c1.6 1.7 2.8 3.7 4.4 5.3 2.1 2.1 4.7 3.4 7.1 5.2 5.8 4.5 9.1 11.7 10.2 19 1.1 7.3.3 14.7-.8 22-1.2 8.7-3.6 18.4-11.3 22.6-.8.4-1.7.8-2.6.7-2.1-.2-3.2-2.4-4.5-4-4.4-5.5-13.2-4.9-18.6-9.4-4.2-3.5-5.6-9.3-6.7-14.7-1.2-5.7-2.3-11.3-3.5-17-1.8-8.8-4.1-22.2 2.9-29.7 5.9-6.1 17.5-6.2 23.4 0zM74.6 208.6c-4.9-9.4-15.4-15.2-26-16-10.6-.9-21.2 2.6-30.4 7.9-1.4.8-2.8 1.7-3.8 2.9-1.2 1.4-1.8 3.3-2.1 5.1-1.2 7.8 2.8 15.3 7 22 2.6 4.1 5.4 8.2 9.5 10.7 3.9 2.4 8.5 3.2 13 3.9 12.3 2 25.8 3.7 36.6-2.5 13.5-7.9 1.6-23.7-3.8-34zM235.7 331.4c-1.5-.2-3-.3-4.4.1-1.5.4-2.8 1.3-4.1 2.2-8 5-18 5.7-26 10.6-6.6 4-11.6 10.7-13.3 18.3-.3 1.3-.5 2.8-.3 4.1.3 1.6 1.2 3 2.1 4.4 5.5 8.4 12.4 17.7 22.4 18.5 3.7.3 7.4-.6 10.9-1.5 9.2-2.4 18.5-4.8 26.9-9.2 33.1-17.6 16.2-44.4-14.2-47.5z" />
-                    <path d="M282.3 328.1c-15.4-10-29.6-15.2-42.8-28-3.4-3.3-28.4-17.1-31.8-18.9-10.7-5.8-21.4-11.6-32.2-17.4-6.3-3.4-12.6-6.8-19.3-9.1-4.5-1.5-9.1-2.5-13.6-4-17.7-5.8-32.9-18.5-51.3-21.3-.1 3-.1 6.2 1 9s4 4.2 6.9 4.9c2.3.5 4.4.9 6.5 1.9 4.7 2.3 9.1 5.2 14.1 6.8 19.3 6 37.7 14.7 55.9 23.4 12.5 6 25.1 11.9 37.6 17.9 7.9 3.7 15.8 7.5 23.1 12.1 12 7.5 22.7 17.2 35.3 23.8 4.2 2.2 8.5 4 12.5 6.4 11.3 6.9 20.4 19 33.6 20.4-.9-2.1.5-4.8 2.7-5.2-1 .2-7.3-4.3-8.8-4.9-3-1.2-5.3-2-8.2-3.9-7-4.6-14.1-9.3-21.2-13.9z" />
-                  </g>
-                </g>
-              </svg>
-            </div>
-            <div className="container">
-              <div className="row justify-content-md-center">
-                <div className="col col-md-10">
-                  <h5 className="text-center">Join Us in California</h5>
-                  <h2 className="text-center">Marriage Celebration</h2>
-                  <p className="large">
-                    We will marry in San Francisco in August 2019 at a small ceremony
-                    with our parents. But we definitely want to celebrate this special
-                    event with all our friends and family. Whether flying in or
-                    driving in, we hope to dance the night away in beautiful LA!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section id="events" className="index-section index-events">
-            <div className="">
-              <div className="row justify-content-md-center">
-                <div className="col index-events__intro intro-banger">
-                  <h5 className="text-center banger-top">Fun in the Sun</h5>
-                  <h3 className="">
-                    <span className="banger-1">Weekend</span>
-                    <span className="banger-2">Events</span>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            {/* Thursday */}
-            <section className="index-events__day">
-              <header>
-                <div className="row">
-                  <div className="col-2 col-md-3">
-                    <h6>Day</h6>
-                  </div>
-                  <div className="col col-md-9">
-                    <h6>Time / Location / Etc</h6>
-                  </div>
-                </div>
-              </header>
-              <div className="index-event">
-                <div className="index-event__thursday">
-                  <svg
-                      width={358}
-                      height={610}
-                      viewBox="0 0 358 610"
-                      xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g fill="none" fillRule="evenodd">
-                      <path
-                          d="M70.5 191.9c34.7-50.2 85.9-90.5 145.3-104.4 7.1 60.1-17 123.1-62.4 163.2 24.9 6.4 46.2-16.8 68.4-29.9 25-14.7 56.9-17 83.7-6 4.9 37.3-22 76.1-58.7 84.5-22.9 5.2-54.3 4.6-60.6 27.2 8.5 9.7 12.5 22.4 16 34.8 6.4 22.5 12.1 46.5 6.4 69.2-5.7 22.7-26.6 43.3-49.9 40.7-12.6-1.5-25.9-9.2-37-3.2-5.7 3-9.2 9-12.8 14.4-17.6 26.2-45.8 45.1-76.7 51.3-33.7-121-35.9-234.6 38.3-341.8z"
-                          fill="#193C35"
-                          fillRule="nonzero"
-                      />
-                      <g stroke="#C6D7D0">
-                        <path
-                            d="M81.2 606.6c-9-20.7-18-41.3-26.9-62-13.6-31.4-27.3-63-33.7-96.6-11.3-59.8 1.3-121.3 14-180.9 9.6 32.1 19.1 65 28.7 97 4.6 15.3 9.2 30.7 12.4 46.4 3.8 18.7 5.5 37.8 7.3 56.8 3.4 37.2 6.8 74.5 5.8 111.9-.4 10.6-.5 19.3-7.6 27.4z"
-                            strokeWidth={3}
-                        />
-                        <path
-                            d="M223.4 293.4c10.9 6 20.7 13.8 31.7 19.6 7.4 3.9 15.3 6.8 22.3 11.4 12.2 8.1 20.6 20.9 31.9 30.3 15.6 13 37.4 20.6 45.2 39.3-62.3 2.4-123.5-14.4-183.5-31.1-12-3.3-24.1-6.7-36.1-10-18.2-5.1-36.8-10.3-52.2-21.2-7.9-5.6-14.8-12.6-21.2-19.8-8.4-9.5-17-19.6-23.3-30.6-7.9-13.5-6.2-15.5 7.8-14.4 20.3 1.5 40.3 6.1 61 6.9 39.1 1.3 80.9 0 116.4 19.6z"
-                            strokeWidth={4}
-                        />
-                        <path
-                            d="M117.6 258c55-21 111.4-42.8 155.3-82 2.8-2.5 5.6-7 2.8-9.5-12.3-5.7-26.7-.8-39.3 4.1-27.1 10.6-54.2 21.1-81.2 31.7-28.5 11.1-57.7 22.7-79.6 44 58.8-53.1 96.2-125.4 131.9-196.1 4.9-9.7 8.5-24-1.1-29.1-8.7-4.7-18.3 4.1-24.3 11.9-29.6 38.7-59.2 77.4-88.8 116-10.3 13.4-20.6 27-27 42.6-5.7 14-7.9 29.4-6.5 44.5-10.8-11.9-3.2-30.4.1-46.1 6-28.5-4.8-57.5-8.8-86.3-2.5-17.9-2.4-36.1-5.8-53.8C42 32.2 34.7 14.3 20.6 3.1-6.1 54.9 1.9 117 11.1 174.5c2.7 17 5.5 34.2 12.6 49.9 17.9 40 55.8 48.1 93.9 33.6z"
-                            strokeWidth={3}
-                        />
-                      </g>
-                      <g fill="#F6BBA4" fillRule="nonzero">
-                        <path d="M146.6 451.6c-1.9.1-3.7 1.1-5.4 2.1-1.7 1-3.5 2-5.2 3-1.7 1-3.4 2.1-4.1 3.9-.8 2.2.2 4.7 1.9 6.3 1.7 1.6 3.9 2.4 6 3.1 3.4 1.2 6.9 2.4 10.5 2.5 18.1.2 10.3-21.9-3.7-20.9zM125.3 408.1c-1.5-.7-3-1.8-4.7-1.8-1.8 0-3.4 1.1-4.8 2.2-2 1.5-4 3-5.9 4.5-1.8 1.4-3.8 3-4 5.3-.3 3 2.5 5.4 5.2 6.7 6 2.9 20.6 5.4 24.5-1.6.3-.5 1.4-9.5 1.1-10.4-2-5.1-7.3-2.9-11.4-4.9zM270.6 338.1c-1.3-4.9-4.1-9.3-7.4-13.2-1.3-1.5-2.7-3.1-4.5-3.9-2.6-1.3-5.6-1.1-8.5-.8-5.3.5-11.5 1.5-13.9 6.3-1.8 3.6-.7 8.2 1.6 11.5 2.3 3.3 5.7 5.7 8.8 8.2 3.5 2.7 6.9 5.7 11 7.2 11.4 4.2 15.7-5.1 12.9-15.3zM157.9 375.3c-1.6-1.4-3.5-2.1-5.5-2.4-.9-.1-1.8-.2-2.6 0-.9.2-1.7.8-2.5 1.3-1.8 1.2-3.6 2.5-4.4 4.6-.4 1-.4 2.1-.3 3.2.3 2.3 1.3 4.4 2.7 6.3.4.6.9 1.1 1.6 1.4.5.2 1.1.2 1.7.2 1.7 0 3.4 0 5.1.1 1.9 0 4 0 5.5-1.2 3.7-3.2 1.9-10.7-1.3-13.5zM161.4 410.4c-2.5 1.6-3.9 4.6-4.2 7.6-.3 3.1.7 6.6 3.5 7.9 1.7.8 3.7.6 5.6.3 1.9-.3 3.7-.5 5.6-.8.6-.1 1.1-.2 1.6-.5.4-.3.8-.7 1.1-1.1 1-1.4 2.1-3 1.9-4.7-.1-.6-.3-1.2-.6-1.8-2.4-4.3-9.5-9.9-14.5-6.9zM191.7 446.1c-.8.1-1.6.2-2.3.6-1.3.7-1.9 2.2-2.4 3.6-.8 2.4-1.4 5.2-.2 7.5.8 1.5 2.2 2.6 3.5 3.6.8.6 1.5 1.1 2.3 1.7.7.5 1.3 1 2.1 1.3 1.3.5 2.7.4 4 .3 1.8-.2 3.6-.5 5.4-.9 1.2-.3 2.4-.6 3.4-1.3 1.7-1.2 2.7-3.2 2.8-5.3.1-2.1-.5-4.2-1.5-6-1.4-2.5-4.2-5.5-7.1-6.1-3-.6-7 .7-10 1zM201 402.5c-2.8-.6-5.8 1.2-7.3 3.7s-1.7 5.7-1.4 8.7c.3 2.4 1 5 3 6.5 1.8 1.4 4.2 1.4 6.4 1.4 2.6 0 5.5-.3 7.3-2.2 1.2-1.4 1.7-3.3 1.6-5.2-.3-5-4.6-11.9-9.6-12.9zM236 422.8c-.9 0-1.8.1-2.5.4-.9.4-1.7 1.1-2.4 1.9-1.5 1.6-3 3.3-3.8 5.4-.8 2.1-.8 4.7.5 6.5.7.9 1.6 1.6 2.6 2.2 5.6 3.1 12.8 2.8 18-.8 1-.7 2-1.6 2.2-2.8.1-.8 0-1.6-.2-2.3-.4-1.8-.9-3.7-1.7-5.4-2.3-4.5-8.3-5.1-12.7-5.1zM231.8 381.9c-1-.2-2-.2-2.9.2-.9.5-1.6 1.4-2.1 2.2-.8 1.3-1.6 2.6-2.3 4-.9 1.8-1.6 3.8-1 5.7.4 1.3 1.4 2.4 2.3 3.4.5.5.9 1 1.5 1.3.7.4 1.5.5 2.3.6 1.5.2 3 .3 4.4-.2.7-.3 1.2-.7 1.8-1.2 2.7-2.2 6.8-5.2 5-9-1.7-3.6-5.2-6.3-9-7zM233.7 348.4c-.4-.4-.9-.9-1.5-.9-.6-.1-1.1.3-1.6.6-2.6 1.7-5.5 3.8-5.8 7-.1 1 .1 2 .2 3 .3 1.6.6 3.2 1.4 4.6 1.2 1.9 3.4 3.1 5.6 3 2.2-.1 4.3-1.5 5.3-3.5.2-.5.4-1 .6-1.4.8-2.3 2.3-4.5 1.1-6.7-1.3-2.1-3.6-4.1-5.3-5.7zM196.1 359.9c-1.7-1.2-3.8-1.8-5.9-1.8-3.8 0-7.8 2.3-8.6 6.1-.3 1.5-.2 3.1 0 4.6.1 1.1.3 2.3.8 3.2.3.6.8 1.1 1.3 1.6 1.6 1.4 3.4 2.6 5.5 3 2.1.4 4.3-.1 5.9-1.5.8-.8 1.4-1.8 2-2.8.7-1 1.4-2.1 1.9-3.2 1.3-3.1-.3-7.3-2.9-9.2zM267 376.5c-.7-.6-1.5-1.3-2.4-1.5-.7-.1-1.4 0-2 .1-2.6.6-5 1.9-7.1 3.6-.8.7-1.6 1.5-2 2.5-.6 1.4-.4 3-.2 4.6.2 1.2.4 2.6 1.4 3.2.5.3 1.1.4 1.6.5l4.8.6c2.7.3 5.7.6 7.8-1 1.8-1.4 3.3-4.7 3-7.1-.3-2.3-3.3-4-4.9-5.5z" />
-                      </g>
-                    </g>
-                  </svg>
-                </div>
-                <div className="row">
-                  <div className="index-event__graphic">
-                    <figure className="index-event__image">
-                      <img
-                          src="/images/palihotel@2x-97a8d43d.jpg"
-                          alt="Palihotel Los Angeles"
-                      />
-                    </figure>
-                  </div>
-                  <div className="col col-md-3">
-                    <div className="row">
-                      <div className="col-2">
-                        <h6 className="index-event__num">10/17</h6>
-                      </div>
-                      <div className="col">
-                        <h3>Thursday</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-12 col-md-9">
-                    <h4>Welcome Drinks</h4>
-                    <div className="index-event__detail">
-                      <div className="row">
-                        <div className="col-2 col-md-1">
-                          <h6>Time</h6>
-                        </div>
-                        <div className="col col-md-8">
-                          <p>8pm to Close</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="index-event__detail">
-                      <div className="row">
-                        <div className="col-2 col-md-1">
-                          <h6>Where</h6>
-                        </div>
-                        <div className="col col-md-8">
-                          <p>
-                            Palihotel
-                            <br />
-                            3927 Van Buren Pl
-                            <br />
-                            Culver City, CA 90232
-                          </p>
-                          <a
-                              className="button-map"
-                              target="_blank"
-                              href="https://www.google.com/maps/place/Palihotel+Culver+City/@34.022964,-118.39347,15z/data=!4m2!3m1!1s0x0:0x131a3800932602c0?ved=2ahUKEwii4Melx_bgAhVplVQKHcdSAoAQ_BIwCnoECAUQCA"
-                          >
-                            Map
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="index-event__detail">
-                      <div className="row">
-                        <div className="col-2 col-md-1">
-                          <h6>Parking</h6>
-                        </div>
-                        <div className="col col-md-8">
-                          <p>
-                            Recommend Uber, Lyft, or Taxi
-                            <br />
-                            Limited parking garages nearby
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="index-event__detail detail-sans">
-                      <div className="row">
-                        <div className="col-2 col-md-1">
-                          <h6>Details</h6>
-                        </div>
-                        <div className="col col-md-8">
-                          <p className="sans">
-                            Ease into the weekend with a refreshing drink on the
-                            gorgeous patio of the Palihotel (also a great place to
-                            stay). Let’s catch up with old friends, meet new ones, and
-                            toast to the start of a fun weekend. Before heading over,
-                            grab dinner nearby in Culver City with it’s ever-growing
-                            range of dining options (check out some recommendations
-                            below).
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            {/* Friday */}
-            <section id="reception" className="index-events__day">
-              <header></header>
-              <div className="index-event index-event__pb">
-                <div className="index-event__reception">
-                  <svg
-                      width={352}
-                      height={268}
-                      viewBox="0 0 352 268"
-                      xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                        d="M157.4 250c-48.8 18.7-104.6 22.6-153.3 3.6 24.1-46 71.6-79 123.1-85.4-14.5-16.6-40.9-10.5-62.9-11.9-24.8-1.6-48.5-15.4-62.1-36.2 14.5-28.8 52.4-43.2 82.4-31.4 18.7 7.4 40.6 23 56 10-1.3-11 2-21.9 5.5-32.4 6.4-19.1 13.9-38.8 28.9-52.1 15-13.3 39.8-17.8 55-4.6 8.2 7.1 13.9 19 24.7 20.2 5.5.6 10.9-1.9 16-4 25.1-10.1 54.2-9.8 79.1.8-34.6 101.9-88 183.3-192.4 223.4z"
-                        stroke="#E5BA2B"
-                        strokeWidth={3}
-                        fill="none"
-                        fillRule="evenodd"
-                    />
-                  </svg>
-                </div>
-                <div className="index-event__graphic">
-                  <figure className="index-event__image">
-                    <img
-                        src="/images/smog-shoppe@2x-7aa07376.jpg"
-                        alt="Smog Shoppe Los Angeles"
-                    />
-                  </figure>
-                </div>
-                <div className="row" style={{ position: "relative", zIndex: 1 }}>
-                  <div className="col col-md-3">
-                    <div className="row">
-                      <div className="col-2">
-                        <h6 className="index-event__num">10/18</h6>
-                      </div>
-                      <div className="col">
-                        <h3>Friday</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-12 col-md-9">
-                    <h4>Reception</h4>
-                    <div className="index-event__detail">
-                      <div className="row">
-                        <div className="col-2 col-md-1">
-                          <h6>Time</h6>
-                        </div>
-                        <div className="col col-md-8">
-                          <p>4:30pm to 11pm</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="index-event__detail">
-                      <div className="row">
-                        <div className="col-2 col-md-1">
-                          <h6>Where</h6>
-                        </div>
-                        <div className="col col-md-8">
-                          <p>
-                            Smog Shoppe
-                            <br />
-                            2651 S La Cienega Blvd
-                            <br />
-                            Los Angeles, CA 90034
-                          </p>
-                          <a
-                              className="button-map"
-                              target="_blank"
-                              href="https://www.google.com/maps/place/SmogShoppe/@34.0338055,-118.3768869,15z/data=!4m2!3m1!1s0x0:0x99d31b8e30ae2b0?ved=2ahUKEwjhyPq7x_bgAhWKi1QKHW3vCmgQ_BIwD3oECAYQCA"
-                          >
-                            Map
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="index-event__detail">
-                      <div className="row">
-                        <div className="col-2 col-md-1">
-                          <h6>Dress</h6>
-                        </div>
-                        <div className="col col-md-8">
-                          <p>Cocktail Attire</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="index-event__detail">
-                      <div className="row">
-                        <div className="col-2 col-md-1">
-                          <h6>Parking</h6>
-                        </div>
-                        <div className="col col-md-8">
-                          <p>
-                            Free Valet on Site
-                            <br />
-                            See Diagram Below
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="index-event__detail detail-sans">
-                      <div className="row">
-                        <div className="col-2 col-md-1">
-                          <h6>Details</h6>
-                        </div>
-                        <div className="col col-md-8">
-                          <p className="sans">
-                            The main event! LA traffic on Friday afternoon (or any
-                            time) can be super busy, so plan accordingly. We’ll start
-                            the evening with cocktail hour from 4:30 to 6pm before
-                            transitioning into dinner. While the dress code is
-                            cocktail attire, be sure to bring comfy shoes to show off
-                            your moves on the dance floor.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <img
-                    src="/images/covaya-axon-blur-af81a085.png"
-                    className="index-event__axon lazy"
-                    data-src="/images/covaya-axon-1600-2ddb5b4c.png"
-                    data-srcset="/images/covaya-axon-3200-ed59a1db.png 2x, /images/covaya-axon-1600-2ddb5b4c.png 1x"
-                    alt="SmogShoppe Map"
-                />
-              </div>
-              <div className="index-event index-event__add">
-                <div className="index-event__after">
-                  <svg
-                      width={351}
-                      height={430}
-                      viewBox="0 0 351 430"
-                      xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g fill="none" fillRule="evenodd">
-                      <path
-                          d="M176.4 44c11.4-1.7 22.5-6.1 34-5.9 11.5.2 24.3 7.1 25.7 18.5.7 6-1.6 12.7 1.6 17.8 2 3.2 5.7 4.9 9.2 6.3 32.7 13.7 79.5 21.8 98.2 41.2 8 8.4 6.5 35-4.2 47.7-13.9 16.5-41.7 11.6-59 24.5-17.7 13.2-18.9 40.3-34.9 55.6-9.7 9.3-23.6 12.9-37 14.2-44.3 4.2-88.1-13-126.7-35.1-7.1 10.9 4.5 24.2 15 31.8 64.7 46.8 133.6 87.8 205.6 122.3-6.8 7.4-13.6 14.7-20.4 22.1-12.7 13.7-29.6 28.7-47.6 23.7-16.2-4.5-23.7-22.8-36.4-33.7-15.2-13.1-39.4-14.6-56.1-3.4-4.5 3-8.5 6.9-13.4 9.3-6.2 3.1-13.3 3.7-20.2 3.3-40.8-2.4-74-38.1-84-77.7-2.6-10.5-4-21.6-1.8-32.2 2-9.6 6.6-18.4 10.7-27.3 13.9-30.4 21.1-63.8 21.1-97.2 0-25.5-4.1-51.5 2.2-76.1 4.5-17.5 13.9-33.3 23.3-48.8 2.5-4.2 5.4-8.6 10-10.2 7.7-2.6 26 4.4 33.9 5.7 16.9 2.6 34 6.2 51.2 3.6z"
-                          fill="#C6D7D0"
-                          fillRule="nonzero"
-                      />
-                      <path
-                          d="M26.3 103.2c14-13.1 31.9-21.9 43.5-37.1 9.7-12.7 14.2-29 24.5-41.2 13.3-15.7 34.8-22.7 55.4-22.7s40.7 6.2 60.1 13c10.1 3.5 20.5 7.3 31.2 6.6 10.2-.6 19.7-5.2 29.6-7.6 20.4-5 42.9-.5 59.8 12 8.5 6.3 15.8 15 18.2 25.3 4.5 19.1-8.7 38.1-24 50.4-15.4 12.2-33.8 20.8-47 35.4-12.3 13.6-19 31.3-28.3 47.1s-23.3 30.9-41.5 33.2c-18.6 2.3-35.8-9.2-54.1-12.8-21.4-4.2-43.6 2.8-62.5 13.8-5.8 3.4-11.8 7.3-18.5 7.5-4.2.1-8.3-1.2-12.2-2.6-27.3-9.9-51.2-20.6-57.5-51.3-5.1-24.6 5.2-52.2 23.3-69z"
-                          stroke="#092A49"
-                          strokeWidth={3}
-                      />
-                    </g>
-                  </svg>
-                </div>
-                <div className="index-event__graphic d-none d-md-block">
-                  <figure className="index-event__image">
-                    <img
-                        src="/images/fathers-office@2x-35b0845d.jpg"
-                        alt="Father's Office in Culver City"
-                    />
-                  </figure>
-                </div>
-                <div className="row">
-                  <div className="col-0 col-md-3">
-                    <div className="row">
-                      <div className="col-2">
-                        <h6 className="index-event__num" />
-                      </div>
-                      <div className="col col-10">
-                        <h3 />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-12 col-md-9">
-                    <div className="index-event__divider" />
-                    <h4>After Party</h4>
-                    <div className="index-event__detail">
-                      <div className="row">
-                        <div className="col-2 col-md-1">
-                          <h6>Time</h6>
-                        </div>
-                        <div className="col col-md-8">
-                          <p>11:30pm to 1am</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="index-event__detail">
-                      <div className="row">
-                        <div className="col-2 col-md-1">
-                          <h6>Where</h6>
-                        </div>
-                        <div className="col col-md-8">
-                          <p>
-                            Father's Office
-                            <br />
-                            3229 Helms Ave
-                            <br />
-                            Los Angeles, CA 90034
-                          </p>
-                          <a
-                              className="button-map"
-                              target="_blank"
-                              href="https://www.google.com/maps/place/Father's+Office/@34.0304038,-118.3848082,15z/data=!4m2!3m1!1s0x0:0xa0ca452e7a9eed4b?ved=2ahUKEwiutO_Px_bgAhUI658KHZFPC2IQ_BIwCnoECAYQCA"
-                          >
-                            Map
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="index-event__detail detail-sans">
-                      <div className="row">
-                        <div className="col-2 col-md-1">
-                          <h6>Details</h6>
-                        </div>
-                        <div className="col col-md-8">
-                          <p className="sans">
-                            Wind down with a nightcap or late night fries at one of
-                            our favorite hangouts in LA. Either a 12 min walk or a 3
-                            min Uber just down the street from SmogShoppe.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            {/* Saturday */}
-            <section className="index-events__day">
-              <header></header>
-              <div className="index-event">
-                <div className="index-event__saturday">
-                  <svg
-                      width={337}
-                      height={539}
-                      viewBox="0 0 337 539"
-                      xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g fill="none" fillRule="evenodd">
-                      <g stroke="#F6BBA4" strokeWidth={3}>
-                        <path d="M233.2 3.3c9.2 17.9 18.5 35.7 27.7 53.6 14 27.1 28.1 54.5 35.8 84 13.7 52.6 6.1 108-1.5 161.8-10.5-28-20.9-56.7-31.4-84.6-5-13.4-10-26.8-13.8-40.5-4.5-16.4-7.2-33.3-9.9-50.1-5.3-32.9-10.5-65.9-11.9-99.2-.4-9.6-.8-17.4 5-25z" />
-                        <path d="M125.5 290.5c-10-4.7-19.2-11-29.4-15.5-6.8-3-14.1-5.1-20.5-8.8-11.4-6.5-19.6-17.4-30.2-25.1-14.6-10.6-34.5-16.1-42.6-32.3 55.3-5.9 110.7 5.4 165.2 16.6 10.9 2.3 21.8 4.5 32.8 6.8 16.5 3.4 33.3 6.9 47.7 15.7 7.4 4.5 13.9 10.3 20.1 16.4 8 7.9 16.3 16.5 22.6 25.8 7.8 11.5 6.4 13.4-6.1 13.3-18.2-.1-36.2-3-54.7-2.4-35 1.2-72.1 4.9-104.9-10.5z" />
-                        <path d="M221.7 315.7c-47.7 22-96.6 44.8-133.3 82.3-2.3 2.4-4.6 6.5-1.9 8.6 11.3 4.4 23.8-.9 34.8-6 23.5-11 46.9-22.1 70.4-33.1 24.6-11.6 50-23.7 68.2-44-49.1 50.8-78 117.3-105.6 182.4-3.8 8.9-6.1 21.9 2.7 25.9 8 3.6 16.1-4.7 20.9-12.1 24-36.2 48-72.4 72.1-108.6 8.3-12.5 16.7-25.3 21.4-39.6 4.2-12.8 5.3-26.7 3.1-40 10.3 9.9 4.7 26.8 2.7 41-3.6 25.7 7.7 50.9 13 76.3 3.3 15.7 4.3 31.9 8.4 47.5 4 15.6 11.6 31 24.8 40.2 20.6-47.7 9.8-102.4-1.9-153.1-3.4-14.9-7-30.1-14.2-43.6-18.3-34.4-52.5-39.3-85.6-24.1z" />
-                      </g>
-                      <g fill="#EB4F22" fillRule="nonzero">
-                        <path d="M222.8 286.3c-.4-1.2-1.4-2.2-2.4-3.1-1-1-2-1.9-3-2.9-.9-.9-2-1.9-3.3-2-1.6-.1-3.1 1-3.8 2.4-.7 1.4-.8 3-1 4.5-.2 2.5-.3 5 .3 7.4 3.3 12 16.5 2.8 13.2-6.3zM247.6 264.3c.2-1.1.6-2.3.3-3.4-.3-1.2-1.4-2-2.3-2.8-1.3-1-2.7-2.1-4-3.1-1.2-.9-2.7-1.9-4.2-1.7-2.1.3-3.1 2.6-3.5 4.6-.8 4.5.2 14.6 5.6 15.8.4.1 6.5-.8 7.1-1.2 2.8-2 .5-5.1 1-8.2zM320.4 347.3c3-1.8 5.4-4.4 7.3-7.3.8-1.1 1.5-2.4 1.8-3.7.4-2-.3-3.9-1-5.8-1.3-3.4-3.1-7.3-6.7-8-2.7-.5-5.5 1-7.3 3.2-1.8 2.1-2.7 4.8-3.8 7.3-1.1 2.8-2.5 5.6-2.7 8.6-.7 8.3 6.2 9.4 12.4 5.7zM275.2 279.8c.6-1.3.8-2.7.6-4.1-.1-.6-.2-1.2-.5-1.7-.3-.6-.8-1-1.3-1.4-1.1-.9-2.3-1.9-3.8-2.1-.7-.1-1.5.1-2.2.4-1.5.6-2.7 1.7-3.6 2.9-.3.4-.6.8-.6 1.3-.1.4.1.8.2 1.2l.9 3.3c.3 1.3.7 2.6 1.8 3.4 2.6 2 7.3-.6 8.5-3.2zM252.7 288.6c-1.5-1.4-3.8-1.7-5.8-1.4-2.1.4-4.2 1.7-4.6 3.7-.2 1.3.3 2.5.8 3.7.5 1.2 1 2.4 1.5 3.5.2.4.3.7.6 1 .3.2.6.4.9.5 1.1.4 2.4.8 3.5.4.4-.2.7-.4 1.1-.7 2.5-2.3 4.9-8 2-10.7zM234.7 315.1c-.2-.5-.4-1-.8-1.4-.7-.7-1.8-.9-2.8-.9-1.8-.1-3.7.1-5 1.3-.9.8-1.3 1.9-1.7 3-.2.6-.5 1.2-.7 1.8-.2.5-.4 1.1-.5 1.6-.1.9.2 1.8.5 2.7.5 1.2 1 2.3 1.6 3.4.4.7.9 1.4 1.5 2 1.1.9 2.6 1.2 4 .9 1.4-.3 2.7-1.1 3.7-2.1 1.4-1.4 2.9-3.8 2.7-5.8-.1-2.2-1.7-4.6-2.5-6.5zM265.2 313.2c-.1-2-1.8-3.6-3.8-4.1-2-.5-4.1-.1-6 .7-1.6.6-3.1 1.6-3.7 3.1-.6 1.4-.2 3 .2 4.5.5 1.7 1.2 3.6 2.8 4.4 1.1.6 2.5.5 3.7.1 3.3-1.1 7-5.2 6.8-8.7zM258.2 340c-.2-.6-.4-1.1-.7-1.6-.4-.5-1.1-.9-1.7-1.2-1.3-.7-2.8-1.4-4.3-1.5-1.5-.2-3.2.3-4.2 1.5-.5.6-.8 1.4-.9 2.1-1 4.2.5 8.9 3.8 11.7.6.5 1.4 1 2.2 1 .5 0 1-.3 1.5-.6 1.1-.6 2.3-1.2 3.2-2.1 2.6-2.3 1.9-6.4 1.1-9.3zM284.4 329.7c-.1-.7-.2-1.4-.7-1.9-.5-.5-1.2-.8-1.9-1-1-.3-2-.6-3-.8-1.3-.2-2.8-.3-3.9.4-.8.5-1.3 1.3-1.8 2.1-.2.4-.5.8-.6 1.3-.1.5 0 1.1 0 1.6.2 1 .3 2.1 1 2.8.3.4.7.7 1.1 1 1.9 1.4 4.7 3.5 6.9 1.6 2-1.6 3.2-4.4 2.9-7.1zM306.9 324.8c.2-.4.4-.8.3-1.2-.1-.4-.4-.7-.7-1-1.6-1.4-3.5-2.9-5.7-2.6-.7.1-1.3.4-1.9.7-1 .5-2 1-2.8 1.8-1.1 1.1-1.4 2.8-1 4.2.5 1.4 1.8 2.6 3.3 2.8.3.1.7.1 1.1.1 1.6.1 3.4.7 4.6-.5 1.1-1 2-2.8 2.8-4.3zM292.3 302.2c.5-1.3.5-2.8.1-4.2-.7-2.5-2.9-4.7-5.6-4.6-1 0-2.1.4-3 .8-.7.3-1.5.6-2 1.1-.3.3-.6.7-.8 1.2-.7 1.3-1.1 2.7-1 4.2.1 1.5.8 2.9 2.1 3.6.7.4 1.4.6 2.2.8.8.3 1.6.6 2.5.7 2.3.2 4.7-1.6 5.5-3.6zM294.4 351.9c.3-.6.6-1.2.5-1.8 0-.5-.2-.9-.5-1.3-.9-1.6-2.2-3-3.7-4-.6-.4-1.3-.8-2-.9-1-.1-2.1.3-3.1.7-.8.3-1.6.7-1.8 1.5-.1.4-.1.8 0 1.1.2 1.1.3 2.2.5 3.3.3 1.8.6 3.8 2.1 5 1.2.9 3.7 1.3 5.2.7 1.5-.6 2.1-2.9 2.8-4.3z" />
-                      </g>
-                    </g>
-                  </svg>
-                </div>
-                <div className="index-event__graphic">
-                  <figure className="index-event__image">
-                    <img
-                        src="/images/santa-monica-9baa3824.jpg"
-                        alt="Santa Monica Beach"
-                    />
-                  </figure>
-                </div>
-                <div className="row">
-                  <div className="col col-md-3">
-                    <div className="row">
-                      <div className="col-2">
-                        <h6 className="index-event__num">10/19</h6>
-                      </div>
-                      <div className="col">
-                        <h3>Saturday</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-12 col-md-9">
-                    <h4>Beach Day</h4>
-                    <div className="index-event__detail">
-                      <div className="row">
-                        <div className="col-2 col-md-1">
-                          <h6>Time</h6>
-                        </div>
-                        <div className="col col-md-8">
-                          <p>1:30pm to 4pm</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="index-event__detail">
-                      <div className="row">
-                        <div className="col-2 col-md-1">
-                          <h6>Where</h6>
-                        </div>
-                        <div className="col col-md-8">
-                          <p>
-                            Lifeguard Tower 26
-                            <br />
-                            Santa Monica Beach
-                            <br />
-                            2559 Ocean Front Walk
-                            <br />
-                            Santa Monica, CA 90405
-                          </p>
-                          <a
-                              className="button-map"
-                              target="_blank"
-                              href="https://www.google.com/maps/place/Lifeguard+Tower+26/@33.9991957,-118.4872947,3156m/data=!3m1!1e3!4m5!3m4!1s0x0:0x1078787a5297c37f!8m2!3d33.9991957!4d-118.4872947"
-                          >
-                            Map
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="index-event__detail detail-sans">
-                      <div className="row">
-                        <div className="col-2 col-md-1">
-                          <h6>Details</h6>
-                        </div>
-                        <div className="col col-md-8">
-                          <p className="sans">
-                            What’s a trip to LA without a day at the beach?! Let’s
-                            have a lazy Saturday and relax in the sun. Feel free to
-                            pick up picnic food and drinks or grab a bite nearby at
-                            the beach stalls. We're meeting near Lifeguard Tower 26.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </section>
-          <section id="story" className="index-section index-la">
-            <div className="index-la__left">
-              <svg
-                  width={521}
-                  height={1235}
-                  viewBox="0 0 521 1235"
-                  xmlns="http://www.w3.org/2000/svg"
-              >
-                <g fill="none" fillRule="evenodd">
-                  <path
-                      d="M12.4 432.2c9.5 4.6 20.5 4.8 30.4 8.2 19.3 6.7 32.1 24.3 46.1 39.1s33.8 28.3 53.4 22.9c10.3-7.2.4-23.4-10.5-29.7-10.9-6.3-25.1-14.9-22-27 30.4 16.3 62.7 28.9 96 37.5 12.5 3.2 25.8 5.9 38.2 2.2 12.4-3.7 23.3-15.6 21.5-28.4-1.8-12.6-14.4-20.6-26.5-24.6s-25.3-5.9-35.2-13.8l142.5-10.8c3.4-.3 6.9-.5 10-2 10.2-5 9.8-20.8 2.4-29.4-7.4-8.6-18.8-12.2-29.3-16.6-10.4-4.5-21.3-11.3-24.1-22.3 30.3-9.8 58.9-25.1 84-44.8 13.1-10.4 26.2-23.6 27.3-40.3 1.9-28.9-33.4-47.4-62.1-43.8-28.7 3.5-54.1 20.3-82.2 27.4 3.1-10.2 6.3-20.9 4.7-31.5-1.6-10.6-9.4-21.1-20.1-22-13.8-1.2-23.6 12.6-30.3 24.6L178 293.8c-7.3-12.8-5.2-28.6-6.4-43.2-1.1-14.7-8.6-31.6-23.2-33.4-18.3-2.2-28.8 19.8-33.5 37.6l-20.7 77.7c-5.4 20.3-16.2 45-37.2 44.9-15.5-21.1 18.7-55.5 1-74.9-10.5-11.5-31.3-4.4-39 9.2-7.7 13.5-6.6 30.1-6.2 45.7.7 22.9-28.6 61.1-.4 74.8z"
-                      fill="#E5BA2B"
-                      fillRule="nonzero"
-                  />
-                  <path
-                      d="M140.8 1140.1c35.1 46.8 85.6 83.6 143.1 94.7 4.6-57.9-20.8-117.4-65.8-154.1 23.6-7 44.9 14.4 66.6 26.1 24.5 13.2 55.1 14.2 80.4 2.7 3.4-35.9-23.9-72.1-59.4-78.8-22.1-4.2-52.2-2.4-59-23.8 7.8-9.6 11.1-21.9 14.1-33.9 5.3-21.8 9.9-45 3.6-66.5-6.3-21.6-27.1-40.6-49.3-37.1-12 1.9-24.4 9.7-35.4 4.5-5.6-2.7-9.1-8.3-12.8-13.3-17.8-24.5-45.5-41.5-75.4-46.4-27.9 116.9-25.8 225.8 49.3 325.9z"
-                      fill="#193C35"
-                      fillRule="nonzero"
-                  />
-                  <path
-                      d="M276.5 455.7c-7.1-11.8-14.3-23.8-24.1-33.6-7.8-7.8-17.1-13.9-26.3-20-18.6-12.2-37.2-24.4-55.8-36.5-2.5-3.8 4.1-6.9 8.6-6.8 25.8 1.1 51.4 6.6 75.3 16.3 6.5 2.6 13 5.6 19.9 6.7 9.3 1.6 18.8-.2 27.9-2.4 26.5-6.4 52.1-16.6 75.6-30.4 16.7-9.8 32.4-21.2 48-32.7 14.9-10.9 29.7-21.8 44.6-32.7 13-9.5 26.1-19.2 35.8-32 9.7-12.8 15.6-29.4 12.1-45.1-59.9-8.7-121.9-1.8-178.5 19.7-19.7 7.5-38.7 16.7-58.6 23.6-29.6 10.3-60.9 15.4-92.2 17.6 28.4-2.8 50.4-25.2 69.8-46.2 12.9-14 25.9-28.1 36-44.2 4.8-7.6 8.9-15.7 14.9-22.4 6-6.7 13.5-11.7 19.8-18 13.8-14 20.3-33.3 26.4-52 8.8-26.9 17.2-57.9 2.7-82.2-29.8 18.6-59.7 37.2-89.5 55.7-8.4 5.3-16.9 10.5-26 14.6-5.4 2.4-11 4.4-15.8 7.8-4.7 3.4-8.4 7.9-12 12.5-13.2 16.8-25.6 34.3-37.2 52.3-8.7 13.4-17 27.4-21.5 42.7-9.6 32.5-1.4 67.4-5.1 101-2.4 21.7-9.7 42.6-16.8 63.2-21.7 62.4-42.9 126.7-40.6 192.8.3 7.9.9 15.9 4.2 23.1 10.1 22.3 39.1 27.1 63.5 28.8 38.8 2.7 77.8 5.5 116.4 1.5 28.2-2.9 78.9-8 56.9-45.8-19.2-32.4-39-64.5-58.4-96.9z"
-                      stroke="#C6D7D0"
-                      strokeWidth={3}
-                  />
-                  <path
-                      d="M82.3 1088.8c-.2-9.5 3.8-18.7 4.7-28.2 1.8-18.4-7.9-35.6-14.8-52.7s-10.6-38.5 1.3-52.6c9.8-5.8 19.4 8.5 20.5 19.9 1 11.3 2.8 26.3 14 28.3-2-31.1-.2-62.5 5.3-93.2 2.1-11.5 4.9-23.5 12.6-32.3 7.7-8.9 21.6-13.3 31.5-7 9.7 6.2 11.5 19.6 10.3 31.1-1.3 11.4-4.7 23-1.9 34.2 20.8-37.8 41.7-75.5 62.5-113.3 1.5-2.7 3-5.5 5.4-7.4 7.9-6.5 20.8-.2 25.1 9.1 4.3 9.3 2.9 20.1 2.7 30.4-.3 10.3 1.3 21.8 9.3 28.2 19.5-21.3 42.8-39.1 68.5-52.3 13.5-6.9 29.3-12.7 43.5-7.3 24.6 9.3 26.5 45.3 12.7 67.7-13.7 22.3-37.1 37-53.6 57.4 9.6 1.3 19.6 2.7 27.7 8 8.1 5.3 13.8 15.7 10.6 24.8-4.2 11.8-19.2 14.7-31.7 15.7-29.9 2.4-59.8 4.9-89.7 7.3 7.8 10.8 21.5 15.1 33.2 21.5 11.7 6.5 22.8 19 18.7 31.7-5.1 15.9-27.2 16.2-43.6 13.4-23.9-4.1-47.9-8.1-71.8-12.2-18.8-3.2-43.2-3.6-51 13.7 11.6 20.7 52.8 5.5 62.1 27.3 5.5 13-8.2 27.4-22.2 28.7-14 1.3-27.3-5.9-40-12.1-18.7-9.1-61.2.6-61.9-27.8z"
-                      stroke="#7E803C"
-                      strokeWidth={3}
-                  />
-                </g>
-              </svg>
-            </div>
-            <div className="index-la__right">
-              <svg
-                  width={383}
-                  height={1163}
-                  viewBox="0 0 383 1163"
-                  xmlns="http://www.w3.org/2000/svg"
-              >
-                <g fill="none" fillRule="evenodd">
-                  <path
-                      d="M271.4 98.2C222.4 45.8 155.8 7.5 84.3 1.7 86.4 72.9 125.2 142.1 185 181c-27.9 11.7-56.7-11.6-84.7-23-31.6-12.9-69.1-10.1-98.5 7.4.7 44.3 38.7 84.8 82.9 88.2 27.6 2.2 64-4 75.2 21.2-8.2 12.7-10.7 28.2-12.7 43.2-3.6 27.4-6.1 56.2 4.5 81.7s38.5 45.9 65.1 38.8c14.4-3.9 28.5-15.1 42.6-10.1 7.2 2.6 12.2 8.9 17.4 14.5 25 27.5 61 44.6 98.1 46.6 18.4-146.5 1.4-279.1-103.5-391.3z"
-                      stroke="#092A49"
-                      strokeWidth={3}
-                  />
-                  <path
-                      d="M165.6 162.8c-3.7-3.9-9.1-6.2-12-10.8 3.9-2.8 8.8-3.4 13.3-5.1 4.5-1.7 9-5.4 8.7-10.2-7.1-7.2-17.4-10.1-27.2-12.7-3.1-.8-6.2-1.6-9.4-1.8-3.7-.1-8.6.1-9.9-3.4 3.5-7.3 11.8-10.6 19.3-13.5 7.5-2.9 15.8-7 18.1-14.7.2-.6.3-1.3.2-2-.2-.8-.9-1.5-1.6-2-5.7-4.2-13.4-3.9-20.3-2.5-9.6 2.1-18.8 6.2-26.7 12.1-1.6 1.2-3.7 2.5-5.4 1.5-.9-.5-1.4-1.4-1.7-2.4-1.7-4.7-.8-9.8.2-14.7 1-4.9 2.1-10 .6-14.7-1.5-4.7-6.5-8.8-11.2-7.3-4 1.2-6.1 5.6-7.6 9.4-1.6 3.8-3.2 7.8-3.5 11.9-.3 4.1.8 8.6 4 11.3-.8.9-1.7 1.9-2.5 2.8-8.1-5.2-16.4-10-24.9-14.5-6.1-3.2-10-9.6-17.6-6.6-2.6 1-4.9 3.5-4.8 6.3.1 2.8 2.3 5.1 4.4 7 3.2 2.9 6.4 5.7 9.5 8.6 2 1.8 4.2 4.2 3.4 6.8-.8 2.5-3.9 3.3-6.4 3.6l-18.3 2.7c-2.9.4-5.9.9-8.5 2.4-2.6 1.5-4.6 4.2-4.5 7.1.2 3.8 3.9 6.4 7.3 8.2 10 5.1 21.1 7.8 32.3 8 1.6 0 3.4 0 4.7 1.1 2.6 2.2.6 6.4-1.6 9.1-8.1 9.8-17 19-26.6 27.3.1 7.4 9 12.1 16.3 10.6 7.3-1.5 12.9-7.1 17.8-12.7 4.9-5.5 10-11.5 17-14 4.1 2.6 5 8 5.5 12.8.7 6.1 1.4 12.3 2.1 18.4.5 4.6 1.6 9.9 5.7 11.8 3.9 1.8 8.7-.7 10.9-4.4 2.2-3.7 2.6-8.1 2.9-12.4.4-6.5.9-12.9 1.3-19.4 0-.6.1-1.2.4-1.8 1.2-2 4.3-.5 6.1 1 9.7 8.5 21.9 14 34.6 15.9 1.9.3 3.9.5 5.7-.3 4.7-2.2 3.6-9.9-.1-13.8zm-55.2-21.3c-1.1 1.2-2.2 2.4-3.8 2.8-3 .8-6.7-1.8-9 .3-.5.5-1 1.2-1.7 1.3-.6.1-1.1-.2-1.6-.5-2.6-1.7-5.1-3.6-7.4-5.7-.9-.8-1.8-1.7-2.3-2.9-.5-1.4-.3-2.9-.1-4.3.5-3.2 1.3-6.3 2.3-9.4.5-1.7 1.2-3.3 2.4-4.6 8.5-8.6 18.1.5 23.4 7.3 1.3 1.6 2.4 3.4 2.7 5.4.7 3.8-2.2 7.3-4.9 10.3z"
-                      fill="#7E803C"
-                      fillRule="nonzero"
-                  />
-                  <g className="index-la__right-bottom">
-                    <path
-                        d="M206.5 1113c-10 .7-19.9 3.7-29.8 2.6-10-1-20.5-7.9-20.9-17.9-.2-5.2 2.3-10.8-.1-15.5-1.5-2.9-4.6-4.6-7.5-6.1-27.3-14.3-67.1-24.6-81.8-42.8-6.3-7.8-3.1-30.7 7.1-40.9 13.2-13.3 36.8-7 52.8-16.9 16.3-10.1 19.3-33.4 34.2-45.5 9.1-7.4 21.4-9.4 33-9.6 38.6-.4 75.2 17.6 107 39.5 7-8.9-2.1-21.2-10.7-28.6-52.5-45.2-109-85.6-168.8-120.7 6.4-5.9 12.8-11.7 19.3-17.6 12-10.9 27.7-22.7 42.9-17 13.6 5.1 18.8 21.4 29 31.8 12.2 12.5 32.9 15.5 48.2 7 4.1-2.3 7.8-5.3 12.2-7 5.6-2.2 11.8-2.2 17.7-1.4 35.1 5 61.2 38.3 66.9 73.3 1.5 9.3 1.9 19-.8 28-2.4 8.2-7.1 15.4-11.2 22.8-14.2 25.2-22.9 53.6-25.3 82.4-1.9 22-.2 44.8-7.4 65.6-5.1 14.8-14.5 27.8-23.7 40.5-2.5 3.4-5.3 7.1-9.4 8.1-6.8 1.7-22.1-5.7-28.9-7.4-14.5-3.3-29-7.7-44-6.7z"
-                        fill="#7E803C"
-                        fillRule="nonzero"
-                    />
-                    <path
-                        d="M351.7 1056c9.8-8.8 16.4-22.4 13-36.6-1.1-4.8-4.1-10.1-8.8-11.2-3.9-1-7.6 1.5-9.6 4.7s-2.7 7.1-4.1 10.7c-6.7 17.6-26.4 25-45.1 28.4-1.9.3-4.5 1.3-5.4-1.5-.9-2.8 15.9-13.8 23.9-20.7 3.3-2.9 6.7-5.9 8.5-10 2.9-6.8.9-15.2-1.2-23-1.7-6.5-5.3-14.6-11.7-14.9-3.9-.2-6.9 3-8.1 6.7-1.2 3.6-1 7.7-1.4 11.6-2 17.4-15.8 29.3-28.8 39.6-2.6 2.1-7.2 3.6-9 .3-1.3-2.4.7-4.9 2.6-6.4 8.5-7 18.5-13.9 20.7-25.3 1.3-6.5-.2-13.6-1.8-20.5-.9-4-1.8-8.2-4.1-11.8-2.3-3.6-6.3-6.6-10.2-6.4-4.1.2-6.9 3.8-8 7.7-1.1 3.9-.8 8.2-1.2 12.3-1.1 11.5-7.6 21.5-17.2 26.8-2.4-1.8-.8-5.3.9-7.4 14.1-18.1 10.2-49.2-8.4-67.4-5.9 1.7-8.6 8.4-8.5 14.9.1 6.5 2.3 13 3.2 19.5.9 6.5.3 13.6-4.3 17.5-7.9-7.2-8.3-18.9-11.7-28.8-4.3-12.3-13.8-22.5-23.1-32.2-5.4-5.7-12.9-11.9-19.3-9.3-.8.3-1.6.9-2 1.7-.7 1.7.5 3.7 1.6 5.4 7.5 11.3 20.3 35.3 16.9 38.3-4.5 4-35.1-18.2-53.3-23.9-4-1.3-8.4-2.4-11.7-.5-.7.4-1.4 1.1-1.4 2 0 .7.4 1.5.9 2.1 5.7 8.7 13.9 15.8 23.1 20.1 5.9 2.8 12.2 4.3 18.2 7.1s14.8 10.2 14.5 13c-.3 2.8-24.9.1-37.3-3.1-6-1.5-12-3.6-18-3.8-6-.2-12.2 1.8-15 6.8 6.8 9.4 18 15 28.9 16.9 10.9 2 21.6.9 32.2-.3 5.4-.6 12.6 0 14.7 5.4-6.6 10-17.2 16.9-29.4 19-5.1.9-10.5 1-14.9 3.4s-7.2 8.4-4.3 13.2c3.1 5.3 10.2 5.8 15.7 5.1 17.4-2.4 33.2-10.7 44.6-23.3 2.5-2.7 6.7-5.7 9.7-2.8 2.3 2.3 1.2 6-.3 8.5-5.3 9-13 16.4-22.3 21.3-6.7 3.6-15.5 8-13.9 16.2 1.4 7.1 10.4 11.1 16.9 9.3 6.5-1.8 10.7-7.3 14.7-12.6 8.9-11.9 22.9-36.2 26.7-35.8 3.8.4 7.9 17.3 5.8 25.8-2.1 8.4-7.3 15.3-12.9 21.5-4.8 5.3-10.3 11.9-7.7 19.4 2.7 7.9 13.3 11.1 20.3 8.1s11.1-9.8 14.7-16.4c4.7-8.5 9.4-17.8 8.4-28.2-.2-1.9-.6-3.8 0-5.5.6-1.7 2.5-2.9 4.2-2 .7.4 1.2 1 1.6 1.6 6 8.1 7.2 18.7 4.9 27.5-2.4 8.8-7.8 16.2-13.8 22.6-5.5 5.9-12 13.5-8.4 21.9 3.3 7.5 13.6 10.1 20.2 6.9 6.6-3.2 10.2-10.3 13-17.2 3.3-8.4 5.9-17.2 7.7-26.2 1.1-5.5 4.2-16.1 7-14.3 2.8 1.8 8.2 48.1-5.6 64.6-1.1 1.4-2.4 2.7-3 4.4-1.4 3.8.8 8.7 4.3 11.4 3.5 2.7 8.1 3.5 12.1 3 9.2-1.1 16.2-8.1 19.8-16.5 3.6-8.4 4.4-18 5.2-27.4.6-7 1.1-14.3-1.7-21.2-3.6-9-11.8-16.3-3.5-22.3 9.5-6.8 21.3-9.6 30.1-17.5z"
-                        stroke="#E5BA2B"
-                        strokeWidth={3}
-                    />
-                  </g>
-                </g>
-              </svg>
-            </div>
-            <div className="container">
-              <div className="row justify-content-md-center intro-banger">
-                <div className="col">
-                  <h5 className="text-center banger-top">70 and sunny</h5>
-                  <h3 className="text-center">
-                    <span className="banger-1">Los Angeles</span>
-                    <span className="banger-2">California</span>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div className="container-full index-la__map">
-              <img
-                  src="/images/map-blur-300cbc3c.png"
-                  className="index-la__map-image lazy"
-                  data-src="/images/map-1440-2380ed41.png"
-                  data-srcset="/images/map-2880-d6827275.png 2x, /images/map-1440-2380ed41.png 1x"
-                  alt="Los Angeles Map"
-              />
-              <div className="index-la__map-mark">
-                <img
-                    src="/images/location-b40625a7.png"
-                    className="index-la__map-mark-image"
-                    alt="Location"
-                />
-              </div>
-            </div>
-            <div className="container-full" id="hotels">
-              <div className="index-la__cards">
-                <div className="index-la__card--full">
-                  <div className="index-la__card-icon">
-                    <img src="/images/icon/bell-12d84be9.svg" alt="Bell" />
-                  </div>
-                  <h4>Stay</h4>
-                  <div className="index-hotels">
-                    <div className="index-hotel">
-                      <a
-                          className="index-hotel__title"
-                          href="https://www.palisociety.com/hotels/culver-city/"
-                      >
-                        Palihotel
-                      </a>
-                      <div className="index-hotel__details">
-                        <div className="row">
-                          <div className="col-3 col-md-2">
-                            <h6>Details</h6>
-                          </div>
-                          <div className="col col-md-10">
-                            <p>
-                              In downtown Culver City, stay at this beautiful boutique
-                              hotel where the bride and groom will be staying. Enjoy
-                              brunch on their patio or take advantage of the central
-                              location by walking to restraunts nearby.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="index-hotel__details">
-                        <div className="row">
-                          <div className="col-3 col-md-2">
-                            <h6>Price</h6>
-                          </div>
-                          <div className="col col-md-10">
-                            <p>$215/night</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="index-hotel__details">
-                        <div className="row">
-                          <div className="col-3 col-md-2">
-                            <h6>Book</h6>
-                          </div>
-                          <div className="col col-md-10">
-                            <p>Use code “WEDDING”</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="index-hotel">
-                      <a
-                          className="index-hotel__title"
-                          href="https://www.themayumi.com/"
-                      >
-                        Mayumi
-                      </a>
-                      <div className="index-hotel__details">
-                        <div className="row">
-                          <div className="col-3 col-md-2">
-                            <h6>Details</h6>
-                          </div>
-                          <div className="col col-md-10">
-                            <p>
-                              With a combination of design and social spaces, the
-                              Mayumi is a new modern hotel in an emerging part of
-                              Culver City. Maintains the LA vibe while also having a
-                              spa like experience.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="index-hotel__details">
-                        <div className="row">
-                          <div className="col-3 col-md-2">
-                            <h6>Price</h6>
-                          </div>
-                          <div className="col col-md-10">
-                            <p>$195/night</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="index-hotel__details">
-                        <div className="row">
-                          <div className="col-3 col-md-2">
-                            <h6>Book</h6>
-                          </div>
-                          <div className="col col-md-10">
-                            <p>
-                              <a
-                                  href="mailto:reservations@themayumi.com"
-                                  style={{ color: "#FF5734" }}
-                              >
-                                Email
-                              </a>{" "}
-                              or call (310) 313-0000 and request a room for the "Amaya
-                              Wedding".
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="index-la__cards">
-                <div className="index-la__card">
-                  <div className="index-la__card-icon">
-                    <img src="/images/icon/fork-6cabbaef.svg" alt="Fork" />
-                  </div>
-                  <h4>Eat</h4>
-                  <ul>
-                    <li>
-                      <a href="https://www.eatloqui.com/">
-                        Loqui <span className="price">$$</span>
-                      </a>
-                      <p>Tasty tacos in a fancy-not-fancy place. (Culver City)</p>
-                    </li>
-                    <li>
-                      <a href="http://www.hatchethallla.com/">
-                        Hatchet Hall <span className="price">$$$</span>
-                      </a>
-                      <p>
-                        Amazing food and drinks, southern leaning. This place inspired
-                        our wedding cocktail! (Culver City)
-                      </p>
-                    </li>
-                    <li>
-                      <a href="https://www.thedoughroom.com/">
-                        The Doughroom <span className="price">$</span>
-                      </a>
-                      <p>
-                        Daniela’s top pick. Excellent pizza, pasta, beer, and wine,
-                        paired with the perfect casual vibe. (Palms)
-                      </p>
-                    </li>
-                    <li>
-                      <a href="http://www.superbafoodandbread.com/">
-                        Superba <span className="price">$$</span>
-                      </a>
-                      <p>Great brunch spot (Venice)</p>
-                    </li>
-                  </ul>
-                </div>
-                <div className="index-la__card">
-                  <div className="index-la__card-icon">
-                    <img src="/images/icon/drink-de5bc5bc.svg" alt="Drink" />
-                  </div>
-                  <h4>Drink</h4>
-                  <ul>
-                    <li>
-                      <a href="http://www.thewallacela.com/">
-                        The Wallace <span className="price">$$</span>
-                      </a>
-                      <p>Solid drinks and a good food menu (Culver City)</p>
-                    </li>
-                    <li>
-                      <a href="https://www.accomplicebar.com/">
-                        Accomplice <span className="price">$$</span>
-                      </a>
-                      <p>
-                        Great drinks and you can order food from next door (Mar Vista)
-                      </p>
-                    </li>
-                    <li>
-                      <a href="https://www.cornerdoorla.com/">
-                        The Corner Door <span className="price">$$</span>
-                      </a>
-                      <p>
-                        Excellent drinks with a small, but great food menu (Culver
-                        City)
-                      </p>
-                    </li>
-                    <li>
-                      <a href="https://www.1933group.com/bigfoot-west">
-                        Big Foot West <span className="price">$</span>
-                      </a>
-                      <p>Quirky spot for a good drink (Culver City)</p>
-                    </li>
-                  </ul>
-                </div>
-                <div className="index-la__card">
-                  <div className="index-la__card-icon">
-                    <img src="/images/icon/glasses-7bea2aee.svg" alt="Glasses" />
-                  </div>
-                  <h4>Play</h4>
-                  <ul>
-                    <li>
-                      <a href="https://hikingguy.com/hiking-trails/best-la-hikes/baldwin-hills-scenic-overlook-hike/">
-                        Baldwin Hills Steps <span className="price" />
-                      </a>
-                      <p>Hike (or drive) with a serious view! (Culver City)</p>
-                    </li>
-                    <li>
-                      <a href="https://www.visitcalifornia.com/attraction/5-amazing-things-do-griffith-park">
-                        Griffith Park <span className="price" />
-                      </a>
-                      <p>
-                        Giant park with nice hiking trails, the iconic observatory,
-                        and the Hollywood sign (Los Feliz)
-                      </p>
-                    </li>
-                    <li>
-                      <a href="https://www.thebroad.org/">
-                        The Broad <span className="price" />
-                      </a>
-                      <p>Modern art museum, next to the Disney Concert Hall (DTLA)</p>
-                    </li>
-                    <li>
-                      <a href="https://www.abbotkinneyblvd.com/">
-                        Abbot Kinney <span className="price" />
-                      </a>
-                      <p>
-                        Lively street chock full of boutiques, cafes, and beautiful
-                        people (Venice)
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section id="registry" className="index-section index-registry">
-            <div className="container">
-              <div className="row justify-content-md-center">
-                <div className="col col-md-10">
-                  <h5 className="text-center">Registry</h5>
-                  <h2 className="text-center">Your presence is a gift</h2>
-                  <p className="large">
-                    Having loving family and friends in our lives is the best gift of
-                    all. If you wish to honor us with a wedding gift, we have compiled
-                    some ideas{" "}
-                    <a
-                        href="https://www.blueprintregistry.com/registry/daniela-moe-wedding-registry-10-18-2019"
-                        target="_blank"
-                    >
-                      here
-                    </a>
-                    .
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section id="rsvp" className="index-section index-rsvp">
-            <div className="index-rsvp__left">
-              <svg
-                  width={570}
-                  height={669}
-                  viewBox="0 0 570 669"
-                  xmlns="http://www.w3.org/2000/svg"
-              >
-                <g fill="none" fillRule="evenodd">
-                  <path
-                      d="M208.9 276.1c-3.7 19.9-7 41.3-20 55.7-6.7 7.4-15.5 12.3-24.3 16.8C112.9 375.1 57.4 393.4.4 402.7c4 25.4 8 50.9 12.1 76.3.8 5.2 2 11 6 14 3.3 2.5 7.6 2.4 11.5 2.2 36.9-1.7 73.8-3.3 110.6-5 16.8-.8 33.9-1.5 50.2 3.4 22.3 6.6 41.1 22.9 61.2 35.6 62.1 39.3 137.4 44.1 207.6 34.4-1-27.2-30.7-41.2-55.1-48.5-32-9.6-64-19.2-96-28.7-21-6.3-45.5-16-51.6-38.7 26.9-5.4 53.4-12.8 79.8-20.1 9.3-2.6 18.5-5.1 27.8-7.7 60.5-16.7 121-33.5 181.4-50.3 6.7-1.9 13.7-3.9 18.6-9.2 4.9-5.2 6.6-14.7 1.8-20.3-4-4.6-10.4-4.9-16.1-4.8-75.6 1.1-150.9 12.1-223.5 32.6-9.8 2.8-25.6-.1-23.2-10.7 42.5-15.4 81.6-40.9 113.8-74.3 14.6-15.1 28.7-37 20.8-57.8-31.3-10.1-63.5 9-87 32.2-23.5 23.2-43.6 51.8-72.3 67.1-7.1 3.8-16.8 6.3-22.5-.1-7.5-8.4-.3-21.7 6.7-30.1 15.9-19.2 31.4-39.8 39.2-64.3 11.8-37.1-.7-92.2-43.1-61.4-30.5 21.9-43.4 70.6-50.2 107.6z"
-                      fill="#F6BBA4"
-                      fillRule="nonzero"
-                  />
-                  <path
-                      d="M289.4 493.4c-9.9-10.9-19.9-21.9-32.2-30-9.8-6.5-20.8-10.9-31.7-15.3-22-8.9-43.9-17.6-66-26.3-3.4-3.4 2.8-8.1 7.6-8.9 27.1-4.3 55-3.9 82 1.1 7.3 1.4 14.7 3.1 22.2 2.9 10-.3 19.6-4.1 28.7-8.3 26.3-12.2 50.9-28.3 72.6-47.6 15.4-13.7 29.3-29 43.2-44.2 13.2-14.5 26.5-29 39.7-43.5 11.5-12.7 23.2-25.5 30.7-41 7.4-15.4 10.1-34 3.1-49.6-64.4 3.6-127.7 23.8-182.3 58.1-19 12-36.9 25.6-56.2 37-28.8 17-60.4 28.9-92.6 37.8 29.1-9 47.4-36.9 63.2-63 10.5-17.3 21.1-34.8 28.3-53.8 3.4-9 6-18.3 10.8-26.6 4.8-8.2 11.7-15 16.9-23 11.4-17.5 14.2-39.1 16.6-59.8 3.5-30 5.8-64.1-14.5-86.4-27.3 25.7-54.5 51.4-81.8 77.1-7.7 7.3-15.4 14.5-24.1 20.7-5.1 3.6-10.5 6.9-14.8 11.4-4.2 4.5-7.1 10.1-9.9 15.6-10.2 20.4-19.5 41.2-27.9 62.4-6.2 15.9-12 32.2-13.5 49.2-3.2 35.9 12.7 70.7 15.9 106.6 2.1 23.2-1.1 46.5-4.3 69.5-9.5 69.7-18.1 141.4-1.8 209.9 1.9 8.1 4.3 16.4 9.2 23.2 15.2 21.2 46.5 20 72.4 16.7 41.1-5.3 82.4-10.7 121.9-22.9 28.8-8.9 80.7-25 49.7-59.8-26.7-30.1-54.1-59.5-81.1-89.2z"
-                      stroke="#7E803C"
-                      strokeWidth={3}
-                  />
-                </g>
-              </svg>
-            </div>
-            <div className="container">
-              <div className="row justify-content-md-center">
-                <div className="col col-md-7 col-lg-5">
-                  {/* <h5 class="text-center">RSVP</h5> */}
-                  <h2 className="text-center">RSVP</h2>
-                  <div
-                      className="js-form"
-                      style={{ display: "block" }}
-                      data-dashlane-rid="8d8a63088ddd54af"
-                      data-dashlane-classification="other"
-                  >
-                    <h5>Your name</h5>
-                    <input
-                        className="js-form-name"
-                        type="text"
-                        placeholder="Full Name"
-                        data-dashlane-rid="72ad7512b003b7aa"
-                        data-dashlane-classification="name"
-                        data-kwimpalastatus="alive"
-                        data-kwimpalaid="1732746978972-0"
-                    />
-                    <h5>Your response</h5>
-                    <div className="index-rsvp__options">
-                      <div
-                          className="index-rsvp__option is-active js-rsvp-option"
-                          data-value="YES"
-                      >
-                        Joyfully Accepts
-                      </div>
-                      <div
-                          className="index-rsvp__option js-rsvp-option"
-                          data-value="NO"
-                      >
-                        Regretfully Declines
-                      </div>
-                    </div>
-                    <div className="index-rsvp__show is-active js-rsvp-show">
-                      <h5>Adults attending</h5>
-                      <p>
-                        Unfortunately due to venue restrictions we cannot accommodate
-                        guests under age 10 at the reception. Please{" "}
-                        <a
-                            href="mailto:moeamaya@gmail.com"
-                            style={{ textDecoration: "underline" }}
-                        >
-                          reach out
-                        </a>{" "}
-                        for babysitting support during the reception.
-                      </p>
-                      <input
-                          className="js-form-attending"
-                          type="text"
-                          placeholder="List names of others attending"
-                          data-dashlane-rid="f3858f46b0e43832"
-                          data-dashlane-classification="date"
-                      />
-                      <h5>Dietary Restrictions</h5>
-                      <input
-                          className="js-form-diet"
-                          type="text"
-                          placeholder="List any diet restrictions"
-                          data-dashlane-rid="6fa2a894e6eaa510"
-                          data-dashlane-classification="other"
-                      />
-                    </div>
-                    <button
-                        className="index-rsvp__button"
-                        disabled=""
-                        style={{ opacity: "0.3" }}
-                        data-dashlane-label="true"
-                        data-dashlane-rid="78c5a34ad46a7b1f"
-                        data-dashlane-classification="action"
-                    >
-                      Submit
-                    </button>
-                    <span
-                        id="1732746978972-0"
-                        data-dashlanecreated="true"
-                        style={{
-                          colorScheme: "initial",
-                          forcedColorAdjust: "initial",
-                          mask: "initial",
-                          mathDepth: "initial",
-                          position: "absolute",
-                          positionAnchor: "initial",
-                          textSizeAdjust: "initial",
-                          appearance: "initial",
-                          color: "initial",
-                          font: "initial",
-                          fontPalette: "initial",
-                          fontSynthesis: "initial",
-                          positionArea: "initial",
-                          textOrientation: "initial",
-                          textRendering: "initial",
-                          textSpacingTrim: "initial",
-                          WebkitFontSmoothing: "initial",
-                          WebkitLocale: "initial",
-                          WebkitTextOrientation: "initial",
-                          WebkitWritingMode: "initial",
-                          writingMode: "initial",
-                          zoom: "initial",
-                          accentColor: "initial",
-                          placeContent: "initial",
-                          placeItems: "initial",
-                          placeSelf: "initial",
-                          alignmentBaseline: "initial",
-                          anchorName: "initial",
-                          anchorScope: "initial",
-                          animationComposition: "initial",
-                          animation: "initial",
-                          appRegion: "initial",
-                          aspectRatio: "initial",
-                          backdropFilter: "initial",
-                          backfaceVisibility: "initial",
-                          background:
-                              'url("chrome-extension://fdjamakpfbbddfjaooikfcpapjohcfmg/content/injected/logo-autofill-known.svg") center center / contain no-repeat',
-                          backgroundBlendMode: "initial",
-                          baselineShift: "initial",
-                          baselineSource: "initial",
-                          blockSize: "initial",
-                          borderBlock: "initial",
-                          border: "none",
-                          borderRadius: "initial",
-                          borderCollapse: "initial",
-                          borderEndEndRadius: "initial",
-                          borderEndStartRadius: "initial",
-                          borderInline: "initial",
-                          borderStartEndRadius: "initial",
-                          borderStartStartRadius: "initial",
-                          bottom: "initial",
-                          boxDecorationBreak: "initial",
-                          boxShadow: "initial",
-                          boxSizing: "initial",
-                          breakAfter: "initial",
-                          breakBefore: "initial",
-                          breakInside: "initial",
-                          bufferedRendering: "initial",
-                          captionSide: "initial",
-                          caretColor: "initial",
-                          clear: "initial",
-                          clip: "initial",
-                          clipPath: "initial",
-                          clipRule: "initial",
-                          colorInterpolation: "initial",
-                          colorInterpolationFilters: "initial",
-                          colorRendering: "initial",
-                          columns: "initial",
-                          columnFill: "initial",
-                          gap: "initial",
-                          columnRule: "initial",
-                          columnSpan: "initial",
-                          contain: "initial",
-                          containIntrinsicBlockSize: "initial",
-                          containIntrinsicSize: "initial",
-                          containIntrinsicInlineSize: "initial",
-                          container: "initial",
-                          content: "initial",
-                          contentVisibility: "initial",
-                          counterIncrement: "initial",
-                          counterReset: "initial",
-                          counterSet: "initial",
-                          cursor: "pointer",
-                          cx: "initial",
-                          cy: "initial",
-                          d: "initial",
-                          display: "inline",
-                          dominantBaseline: "initial",
-                          emptyCells: "initial",
-                          fieldSizing: "initial",
-                          fill: "initial",
-                          fillOpacity: "initial",
-                          fillRule: "initial",
-                          filter: "initial",
-                          flex: "initial",
-                          flexFlow: "initial",
-                          float: "initial",
-                          floodColor: "initial",
-                          floodOpacity: "initial",
-                          grid: "initial",
-                          gridArea: "initial",
-                          height: 16,
-                          hyphenateCharacter: "initial",
-                          hyphenateLimitChars: "initial",
-                          hyphens: "initial",
-                          imageOrientation: "initial",
-                          imageRendering: "initial",
-                          initialLetter: "initial",
-                          inlineSize: "initial",
-                          insetBlock: "initial",
-                          insetInline: "initial",
-                          interpolateSize: "initial",
-                          isolation: "initial",
-                          left: 506,
-                          letterSpacing: "initial",
-                          lightingColor: "initial",
-                          lineBreak: "initial",
-                          listStyle: "initial",
-                          marginBlock: "initial",
-                          margin: "initial",
-                          marginInline: "initial",
-                          marker: "initial",
-                          maskType: "initial",
-                          mathShift: "initial",
-                          mathStyle: "initial",
-                          maxBlockSize: "initial",
-                          maxHeight: "initial",
-                          maxInlineSize: "initial",
-                          maxWidth: "initial",
-                          minBlockSize: "initial",
-                          minHeight: "initial",
-                          minInlineSize: "initial",
-                          minWidth: 16,
-                          mixBlendMode: "initial",
-                          objectFit: "initial",
-                          objectPosition: "initial",
-                          objectViewBox: "initial",
-                          offset: "initial",
-                          opacity: 1,
-                          order: "initial",
-                          orphans: "initial",
-                          outline: "initial",
-                          outlineOffset: "initial",
-                          overflowAnchor: "initial",
-                          overflowClipMargin: "initial",
-                          overflowWrap: "initial",
-                          overflow: "initial",
-                          overlay: "initial",
-                          overscrollBehaviorBlock: "initial",
-                          overscrollBehaviorInline: "initial",
-                          overscrollBehavior: "initial",
-                          paddingBlock: "initial",
-                          padding: "initial",
-                          paddingInline: "initial",
-                          page: "initial",
-                          pageOrientation: "initial",
-                          paintOrder: "initial",
-                          perspective: "initial",
-                          perspectiveOrigin: "initial",
-                          pointerEvents: "initial",
-                          positionTry: "initial",
-                          positionVisibility: "initial",
-                          quotes: "initial",
-                          r: "initial",
-                          resize: "initial",
-                          right: "initial",
-                          rotate: "initial",
-                          rubyAlign: "initial",
-                          rubyPosition: "initial",
-                          rx: "initial",
-                          ry: "initial",
-                          scale: "initial",
-                          scrollBehavior: "initial",
-                          scrollMarginBlock: "initial",
-                          scrollMargin: "initial",
-                          scrollMarginInline: "initial",
-                          scrollPaddingBlock: "initial",
-                          scrollPadding: "initial",
-                          scrollPaddingInline: "initial",
-                          scrollSnapAlign: "initial",
-                          scrollSnapStop: "initial",
-                          scrollSnapType: "initial",
-                          scrollTimeline: "initial",
-                          scrollbarColor: "initial",
-                          scrollbarGutter: "initial",
-                          scrollbarWidth: "initial",
-                          shapeImageThreshold: "initial",
-                          shapeMargin: "initial",
-                          shapeOutside: "initial",
-                          shapeRendering: "initial",
-                          size: "initial",
-                          speak: "initial",
-                          stopColor: "initial",
-                          stopOpacity: "initial",
-                          stroke: "initial",
-                          strokeDasharray: "initial",
-                          strokeDashoffset: "initial",
-                          strokeLinecap: "initial",
-                          strokeLinejoin: "initial",
-                          strokeMiterlimit: "initial",
-                          strokeOpacity: "initial",
-                          strokeWidth: "initial",
-                          tabSize: "initial",
-                          tableLayout: "initial",
-                          textAlign: "initial",
-                          textAlignLast: "initial",
-                          textAnchor: "initial",
-                          textCombineUpright: "initial",
-                          textDecoration: "initial",
-                          textDecorationSkipInk: "initial",
-                          textEmphasis: "initial",
-                          textEmphasisPosition: "initial",
-                          textIndent: "initial",
-                          textOverflow: "initial",
-                          textShadow: "initial",
-                          textTransform: "initial",
-                          textUnderlineOffset: "initial",
-                          textUnderlinePosition: "initial",
-                          textWrap: "initial",
-                          timelineScope: "initial",
-                          top: 139,
-                          touchAction: "initial",
-                          transform: "initial",
-                          transformBox: "initial",
-                          transformOrigin: "initial",
-                          transformStyle: "initial",
-                          transition: "initial",
-                          translate: "initial",
-                          userSelect: "initial",
-                          vectorEffect: "initial",
-                          verticalAlign: "initial",
-                          viewTimeline: "initial",
-                          viewTransitionClass: "initial",
-                          viewTransitionName: "initial",
-                          visibility: "visible",
-                          borderSpacing: "initial",
-                          WebkitBoxAlign: "initial",
-                          WebkitBoxDecorationBreak: "initial",
-                          WebkitBoxDirection: "initial",
-                          WebkitBoxFlex: "initial",
-                          WebkitBoxOrdinalGroup: "initial",
-                          WebkitBoxOrient: "initial",
-                          WebkitBoxPack: "initial",
-                          WebkitBoxReflect: "initial",
-                          WebkitLineBreak: "initial",
-                          WebkitLineClamp: "initial",
-                          WebkitMaskBoxImage: "initial",
-                          WebkitPrintColorAdjust: "initial",
-                          WebkitRtlOrdering: "initial",
-                          WebkitRubyPosition: "initial",
-                          WebkitTapHighlightColor: "initial",
-                          WebkitTextCombine: "initial",
-                          WebkitTextDecorationsInEffect: "initial",
-                          WebkitTextFillColor: "initial",
-                          WebkitTextSecurity: "initial",
-                          WebkitTextStroke: "initial",
-                          WebkitUserDrag: "initial",
-                          whiteSpaceCollapse: "initial",
-                          widows: "initial",
-                          width: 16,
-                          willChange: "initial",
-                          wordBreak: "initial",
-                          wordSpacing: "initial",
-                          x: "initial",
-                          y: "initial",
-                          zIndex: "auto"
-                        }}
-                    />
-                  </div>
-                  <div
-                      className="index-rsvp__success js-form-success"
-                      style={{ display: "none" }}
-                  >
-                    <span>Thanks!</span>
-                    <br />
-                    We've receieved your response.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+          {/*<section id="facts" className="index-facts">*/}
+          {/*  <div className="index-facts__wrapper">*/}
+          {/*    <ul className="index-facts__list">*/}
+          {/*      <li className="index-fact index-fact__intro">*/}
+          {/*        <h5>Fun Facts</h5>*/}
+          {/*        <h3>Quirky lil quiz about the happy couple</h3>*/}
+          {/*        <h6>*/}
+          {/*          <span className="d-md-none">Click</span>*/}
+          {/*          <span className="d-none d-md-inline">Hover</span> for Answer*/}
+          {/*        </h6>*/}
+          {/*      </li>*/}
+          {/*      <li className="index-fact">*/}
+          {/*        <div className="index-fact__inner">*/}
+          {/*          <div className="index-fact__inner-front">*/}
+          {/*            <div>*/}
+          {/*              <div className="index-fact__inner-front-icon">*/}
+          {/*                <img*/}
+          {/*                    src="/images/icon/footprint-ac7d4a6b.svg"*/}
+          {/*                    alt="Footprint"*/}
+          {/*                />*/}
+          {/*              </div>*/}
+          {/*              Cine este cel mai rasfatat?*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-fact__inner-back">Cleodora</div>*/}
+          {/*        </div>*/}
+          {/*      </li>*/}
+          {/*      <li className="index-fact">*/}
+          {/*        <div className="index-fact__inner">*/}
+          {/*          <div className="index-fact__inner-front">*/}
+          {/*            <div>*/}
+          {/*              <div className="index-fact__inner-front-icon">*/}
+          {/*                <img*/}
+          {/*                    src="/images/icon/calendar-d0eafa06.svg"*/}
+          {/*                    alt="Calendar"*/}
+          {/*                />*/}
+          {/*              </div>*/}
+          {/*              How long have we known each other?*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-fact__inner-back">8 years and counting</div>*/}
+          {/*        </div>*/}
+          {/*      </li>*/}
+          {/*      <li className="index-fact">*/}
+          {/*        <div className="index-fact__inner">*/}
+          {/*          <div className="index-fact__inner-front">*/}
+          {/*            <div>*/}
+          {/*              <div className="index-fact__inner-front-icon">*/}
+          {/*                <img src="/images/icon/mit-6891628f.svg" alt="Mit" />*/}
+          {/*              </div>*/}
+          {/*              Where did we meet?*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-fact__inner-back">MIT design studio</div>*/}
+          {/*        </div>*/}
+          {/*      </li>*/}
+          {/*      <li className="index-fact">*/}
+          {/*        <div className="index-fact__inner">*/}
+          {/*          <div className="index-fact__inner-front">*/}
+          {/*            <div>*/}
+          {/*              <div className="index-fact__inner-front-icon">*/}
+          {/*                <img src="/images/icon/pasta-20cdfcab.svg" alt="Pasta" />*/}
+          {/*              </div>*/}
+          {/*              Comfort food?*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-fact__inner-back">*/}
+          {/*            Pasta*/}
+          {/*            <br />*/}
+          {/*            (Papardelle!)*/}
+          {/*          </div>*/}
+          {/*        </div>*/}
+          {/*      </li>*/}
+          {/*      <li className="index-fact">*/}
+          {/*        <div className="index-fact__inner">*/}
+          {/*          <div className="index-fact__inner-front">*/}
+          {/*            <div>*/}
+          {/*              <div className="index-fact__inner-front-icon">*/}
+          {/*                <img src="/images/icon/cactus-f69624f6.svg" alt="Cactus" />*/}
+          {/*              </div>*/}
+          {/*              Where did we get in engaged?*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-fact__inner-back">*/}
+          {/*            Antelope Canyon in Arizona*/}
+          {/*          </div>*/}
+          {/*        </div>*/}
+          {/*      </li>*/}
+          {/*      <li className="index-fact">*/}
+          {/*        <div className="index-fact__inner">*/}
+          {/*          <div className="index-fact__inner-front">*/}
+          {/*            <div>*/}
+          {/*              <div className="index-fact__inner-front-icon">*/}
+          {/*                <img src="/images/icon/home-37d05e2c.svg" alt="Home" />*/}
+          {/*              </div>*/}
+          {/*              Where is our dream house?*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-fact__inner-back">*/}
+          {/*            Trick question, we don&apos;t know!*/}
+          {/*          </div>*/}
+          {/*        </div>*/}
+          {/*      </li>*/}
+          {/*      <li className="index-fact">*/}
+          {/*        <div className="index-fact__inner">*/}
+          {/*          <div className="index-fact__inner-front">*/}
+          {/*            <div>*/}
+          {/*              <div className="index-fact__inner-front-icon">*/}
+          {/*                <img src="/images/icon/palm-334ee2e3.svg" alt="Palm" />*/}
+          {/*              </div>*/}
+          {/*              Favorite LA spot?*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-fact__inner-back">*/}
+          {/*            <div>*/}
+          {/*              Daniela:{" "}*/}
+          {/*              <a target="_blank" href="https://thedoughroom.com/">*/}
+          {/*                The Doughroom*/}
+          {/*              </a>*/}
+          {/*              <br />*/}
+          {/*              Moe:{" "}*/}
+          {/*              <a*/}
+          {/*                  target="_blank"*/}
+          {/*                  href="https://www.yelp.com/biz_photos/resident-los-angeles-2?select=i_HFCNafsOAkjPiR0m9A0Q"*/}
+          {/*              >*/}
+          {/*                Resident*/}
+          {/*              </a>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*        </div>*/}
+          {/*      </li>*/}
+          {/*    </ul>*/}
+          {/*  </div>*/}
+          {/*</section>*/}
+          {/*<section id="marriage" className="index-section index-marriage">*/}
+          {/*  <div className="index-marriage__graphic-left">*/}
+          {/*    <svg*/}
+          {/*        width={498}*/}
+          {/*        height={614}*/}
+          {/*        viewBox="0 0 498 614"*/}
+          {/*        xmlns="http://www.w3.org/2000/svg"*/}
+          {/*    >*/}
+          {/*      <g fill="none" fillRule="evenodd">*/}
+          {/*        <path*/}
+          {/*            d="M270.7 462.5c-8.1-11.3-16.2-22.8-26.8-31.8-8.5-7.2-18.3-12.7-28-18-19.6-10.8-39.3-21.6-58.9-32.3-2.8-3.6 3.5-7.3 8.1-7.5 26-.9 52.1 2.6 76.9 10.4 6.7 2.1 13.5 4.6 20.5 5.2 9.5.9 18.9-1.6 27.9-4.6 26.1-8.5 51-20.8 73.6-36.4 16-11.1 30.9-23.9 45.7-36.6 14.1-12.1 28.2-24.2 42.2-36.4 12.3-10.6 24.7-21.3 33.5-35 8.7-13.6 13.4-30.8 8.6-46.3-60.9-4-122.7 7.7-177.8 33.8-19.2 9.1-37.6 19.8-57 28.3-29 12.7-60 20.2-91.3 24.9 28.3-5.1 48.7-29.3 66.5-51.9 11.9-15.1 23.8-30.3 32.7-47.3 4.2-8 7.7-16.5 13.2-23.7 5.5-7.2 12.7-12.8 18.5-19.7 12.7-15.1 17.8-35.1 22.4-54.3 6.7-27.7 12.7-59.5-3.8-82.8-28.5 21-57.1 42-85.6 63.1-8.1 5.9-16.2 11.9-25 16.7-5.2 2.8-10.7 5.3-15.2 9s-7.8 8.6-11.1 13.5c-11.9 18-23 36.5-33.3 55.5-7.7 14.2-14.9 28.9-18.3 44.6-7.1 33.4 3.8 67.8 2.8 101.9-.7 22-6.4 43.5-12 64.8C102.8 434 86.5 500.3 94 566.5c.9 7.9 2.2 15.9 6 22.8 11.9 21.6 41.4 24.1 66.1 23.9 39.2-.3 78.6-.6 117.1-7.6 28.1-5.1 78.6-14.3 53.5-50.5-21.6-30.9-44-61.6-66-92.6z"*/}
+          {/*            fill="#F6BBA4"*/}
+          {/*            fillRule="nonzero"*/}
+          {/*        />*/}
+          {/*        <path*/}
+          {/*            d="M80.8 582.4c-5-11.7-4.5-25-8-37.2-6.8-23.6-27.3-40.2-44.2-58-16.9-17.8-32-42.4-24.2-65.8 9.3-12 28.2 1 35.1 14.5 6.9 13.5 16.4 31.2 31.2 28.2-17.7-37.6-31-77.3-39.2-118-3.1-15.3-5.5-31.5-.3-46.2 5.2-14.7 20.2-27.1 35.5-24.1 15 3 23.9 18.6 28 33.4 4 14.8 5.5 30.8 14.5 43.3 7.3-57 14.5-114 21.8-171 .5-4.1 1.1-8.3 3.1-11.9 6.6-12 25.6-10.5 35.5-1 9.9 9.4 13.5 23.5 18.2 36.3 4.7 12.8 12.3 26.3 25.3 30.4 13.7-36 33.8-69.4 59.2-98.4 13.3-15.2 30.1-30.1 50.3-30.4 35-.5 55 43.1 49 77.5s-27.8 64-38.2 97.4c12.5-3.1 25.6-6.2 38.2-3.7 12.7 2.6 24.8 12.6 25.3 25.5.6 16.6-16.6 27.6-31.6 35-35.8 17.7-71.7 35.4-107.5 53.1 14.9 9.6 34.1 8.1 51.7 10.4 17.6 2.3 37.6 12.4 38.7 30.1 1.5 22.1-25.7 33.4-47.4 38-31.6 6.7-63.2 13.4-94.9 20.1-24.8 5.3-55.2 16.7-56.4 42 24.5 20 68.1-19.1 90.3 3.4 13.2 13.4 3.3 38-13.4 46.4-16.8 8.4-36.7 6-55.4 4.6-27.5-2-75.4 30.9-90.2-3.9z"*/}
+          {/*            stroke="#092A49"*/}
+          {/*            strokeWidth={3}*/}
+          {/*        />*/}
+          {/*        <path*/}
+          {/*            d="M358.6 134.5c4.7-1.1 9.1-3.9 13.8-4.8.9-.2 1.8.6 1.7 1.5-.3 3.6-2 7.3-2.8 10.9-1 4.2-.3 9.4 3.9 11.2 9.9-2.6 17.9-9.5 25.3-16.2 2.3-2.1 4.7-4.2 6.5-6.7 1.8-2.4 3.7-5.5 6.5-6.3 1-.3 2 .2 2.5 1.1 3.3 5.7 1.7 13.1.2 19.8-1.6 7.2-2.6 15.4 2.7 20.5.4.4.9.8 1.6 1 .8.2 1.7-.1 2.5-.4 6.5-2.7 10.5-9 13-15 3.5-8.5 4.9-17.5 4.2-26.2-.1-1.8-.1-3.9 1.6-4.9.9-.5 2-.5 2.9-.4 4.8.6 8.7 3.5 12.3 6.3 3.6 2.8 7.3 5.8 12.1 6.7 4.8.9 10.9-1.4 12.2-5.8 1.1-3.7-1.4-7.1-3.8-10-2.4-2.9-4.8-5.8-8.1-7.8-3.2-1.9-7.4-2.9-11.2-1.8-.3.1-.5-.1-.6-.3l-.5-1.4c-.2-.7.1-1.5.8-1.9 8.3-4.1 16.4-8.4 24.4-13 6-3.5 13.4-3.9 15-11.1.6-2.5-.3-5.3-2.7-6.4-2.4-1.1-5.5-.3-8.2.6l-12.3 3.9c-2.6.8-5.8 1.5-7.5-.2-1.7-1.7-.7-4.4.4-6.6l7.5-15.6c1.2-2.5 2.4-5.1 2.6-7.7.1-2.7-1-5.4-3.6-6.5-3.3-1.4-7.5.4-10.8 2.3-9.6 5.8-17.9 13.4-24.1 22.2-.9 1.3-1.9 2.7-3.4 3.2-3.3 1.1-5.7-2.3-6.7-5.1-3.9-10.5-6.8-21.4-8.7-32.5-6.3-3.1-15.1 2.1-17.7 8.4-2.6 6.3-.9 13.2 1.1 19.4 1.8 5.7 3.9 11.5 3 17.5-.2 1.2-1.1 2.2-2.2 2.5-3.9 1-8.2-.3-11.9-1.7-5.5-2-11-4.1-16.6-6.1-4.1-1.5-9.2-2.9-13-.4-3.6 2.3-4.1 7.2-2.2 10.5 1.9 3.3 5.4 5.5 8.9 7.5 5.2 3.1 10.4 6.1 15.6 9.2.5.3 1 .6 1.3 1.1 1.1 1.8-1.9 3.6-4.1 4.4-12.3 4.1-23.6 11.4-31.9 20.7-1.3 1.4-2.5 2.9-2.8 4.7-1 4.6 6 7 11.3 5.7zm47.6-34.7c-.4-1.3-.8-2.8-.3-4.1 1-2.7 3.8-2.7 4-6 0-.6-.1-2.5.4-3.2 1.2-1.5 7.1-3.6 10.1-4.5 1.2-.4 2.4-.7 3.6-.6 1.4.2 2.6 1 3.7 1.7 2.4 1.8 4.6 3.7 6.6 5.8 1.1 1.1 2.2 2.3 2.6 3.8 2.7 10.4-10.2 14.1-18.7 15.4-2 .3-4.1.5-6-.1-3.6-1-5-4.8-6-8.2z"*/}
+          {/*            fill="#E5BA2B"*/}
+          {/*            fillRule="nonzero"*/}
+          {/*        />*/}
+          {/*      </g>*/}
+          {/*    </svg>*/}
+          {/*  </div>*/}
+          {/*  <div className="index-marriage__graphic-right">*/}
+          {/*    <svg*/}
+          {/*        width={400}*/}
+          {/*        height={494}*/}
+          {/*        viewBox="0 0 400 494"*/}
+          {/*        xmlns="http://www.w3.org/2000/svg"*/}
+          {/*    >*/}
+          {/*      <g fill="none" fillRule="evenodd">*/}
+          {/*        <path*/}
+          {/*            d="M229.8 481.6c-14.2 3.3-27.7 9.9-42.3 10.7-14.5.8-31.3-6.6-34.2-20.9-1.5-7.5.8-16.1-3.7-22.2-2.8-3.9-7.7-5.6-12.2-7.1-42.5-14.2-102.3-19.8-127.6-42.5-10.9-9.8-11.5-43.5.7-60.4 16-22.2 51.3-18.6 72-36.6 21.1-18.3 20-52.5 38.6-73.3 11.4-12.7 28.5-18.5 45.3-21.4 55.4-9.6 112.1 7.9 163 32 8-14.4-7.9-30-21.9-38.6-85.9-52.8-176.6-97.8-270.6-134.4 7.9-9.9 15.8-19.8 23.6-29.7C75.2 18.7 95-1.8 118.2 2.8c20.8 4.1 32 26.4 49.1 39 20.4 15.1 51 14.6 70.9-1.1 5.4-4.2 10-9.4 15.9-13 7.5-4.5 16.4-5.9 25.1-6 51.6-.9 96.9 40.9 113.2 89.8 4.3 13 7.1 26.8 5.4 40.4-1.5 12.3-6.6 23.8-10.9 35.4-14.6 39.6-20.5 82.3-17.3 124.4 2.4 32.1 10.1 64.4 4.5 96.1-4 22.5-14.4 43.3-24.7 63.7-2.8 5.5-6 11.4-11.6 13.8-9.4 4-33.1-3.1-43.3-3.9-21.5-1.9-43.3-4.8-64.7.2z"*/}
+          {/*            stroke="#7E803C"*/}
+          {/*            strokeWidth={3}*/}
+          {/*        />*/}
+          {/*        <g fill="#193C35" fillRule="nonzero">*/}
+          {/*          <path d="M208.5 327.2c-4.3 8.6-12.1 14.8-20.2 20-4.5 2.8-9.2 5.5-14.4 6.4-6.9 1.3-14-.6-21-1.1-8.2-.7-18-.3-22.8-7-1.8-2.5-2.6-5.6-2.8-8.7-.5-8.2 2.6-16.6 8.5-22.3 2.5-2.5 5.4-4.4 8.3-6.4 4.7-3.2 9.5-6.4 14.2-9.6 2.6-1.8 5.3-3.6 8.4-4.1 1.9-.4 3.9-.2 5.9 0 19.5 1.8 49.4 5.6 35.9 32.8zM137 267c3.4 1.1 7 2.4 9.2 5.3 3.3 4.4 2.3 10.8-.4 15.5-3.8 6.6-10.4 11.2-17.5 13.9-7.1 2.7-14.7 3.8-22.2 4.6-4.6.5-9.4.9-13.6-.9-2.4-1-4.4-2.6-6.4-4.2-3.6-2.9-7.2-5.9-9.6-9.8-2.4-3.9-3.4-9-1.4-13.2 1.6-3.3 4.8-5.5 7.8-7.5 3.2-2.2 6.4-4.3 9.6-6.5 10.6-7.1 33-.7 44.5 2.8zM120.8 169.7c2.3 1.7 4.1 4 5.8 6.3 4.9 6.7 9 14 12.2 21.7.9 2.2 1.8 4.5 1.9 7 .2 2.9-.7 5.7-1.5 8.4-1.8 5.8-3.8 11.9-8.5 15.9-4 3.4-18.3 4-20.6 3.5-2.6-.5-4.4-2.7-6.1-4.8-4.8-6.1-9.6-12.3-14.3-18.4-2-2.6-4.1-5.2-5.4-8.2-2.3-5.2-2.3-11.1-1.1-16.7 3.8-18.1 21.6-26.6 37.6-14.7zM201.2 226.6c.4 2.4.7 4.7 1 7.1.7 5.8 1.3 11.5 2 17.3.2 1.6.3 3.3-.4 4.6-1.8 3.4-6.9 2.4-10.4.9-2.7-1.1-5.4-2.3-8-3.4-10.5-4.4-21.5-9.3-28.2-18.5-5.3-7.2-7.2-16.3-9-25.1-3-14.7.3-33.1 18.9-26.2 17.4 6.6 30.9 25.4 34.1 43.3zM252.3 219.1c2.9 1.3 4.9 4.1 6.7 6.8l13.2 19.8c1.6 2.5 3.3 5 4 7.9 1.6 6.6-2.3 13.2-3.1 20-.6 5.2.5 10.8-1.8 15.5-2 4.1-6.1 6.6-10 8.9-1 .6-2.1 1.2-3.3 1.3-1.1 0-2.1-.4-3-.9-6.9-3.7-10.7-11.9-18-14.7-2.1-.8-4.5-1.2-6.2-2.7-3.3-3-2-8.4-1.9-12.9.1-3.6-.7-7.1-1-10.7-1-10.7 6.6-46.4 24.4-38.3zM317.3 248.1c1.6 1.7 2.8 3.7 4.4 5.3 2.1 2.1 4.7 3.4 7.1 5.2 5.8 4.5 9.1 11.7 10.2 19 1.1 7.3.3 14.7-.8 22-1.2 8.7-3.6 18.4-11.3 22.6-.8.4-1.7.8-2.6.7-2.1-.2-3.2-2.4-4.5-4-4.4-5.5-13.2-4.9-18.6-9.4-4.2-3.5-5.6-9.3-6.7-14.7-1.2-5.7-2.3-11.3-3.5-17-1.8-8.8-4.1-22.2 2.9-29.7 5.9-6.1 17.5-6.2 23.4 0zM74.6 208.6c-4.9-9.4-15.4-15.2-26-16-10.6-.9-21.2 2.6-30.4 7.9-1.4.8-2.8 1.7-3.8 2.9-1.2 1.4-1.8 3.3-2.1 5.1-1.2 7.8 2.8 15.3 7 22 2.6 4.1 5.4 8.2 9.5 10.7 3.9 2.4 8.5 3.2 13 3.9 12.3 2 25.8 3.7 36.6-2.5 13.5-7.9 1.6-23.7-3.8-34zM235.7 331.4c-1.5-.2-3-.3-4.4.1-1.5.4-2.8 1.3-4.1 2.2-8 5-18 5.7-26 10.6-6.6 4-11.6 10.7-13.3 18.3-.3 1.3-.5 2.8-.3 4.1.3 1.6 1.2 3 2.1 4.4 5.5 8.4 12.4 17.7 22.4 18.5 3.7.3 7.4-.6 10.9-1.5 9.2-2.4 18.5-4.8 26.9-9.2 33.1-17.6 16.2-44.4-14.2-47.5z" />*/}
+          {/*          <path d="M282.3 328.1c-15.4-10-29.6-15.2-42.8-28-3.4-3.3-28.4-17.1-31.8-18.9-10.7-5.8-21.4-11.6-32.2-17.4-6.3-3.4-12.6-6.8-19.3-9.1-4.5-1.5-9.1-2.5-13.6-4-17.7-5.8-32.9-18.5-51.3-21.3-.1 3-.1 6.2 1 9s4 4.2 6.9 4.9c2.3.5 4.4.9 6.5 1.9 4.7 2.3 9.1 5.2 14.1 6.8 19.3 6 37.7 14.7 55.9 23.4 12.5 6 25.1 11.9 37.6 17.9 7.9 3.7 15.8 7.5 23.1 12.1 12 7.5 22.7 17.2 35.3 23.8 4.2 2.2 8.5 4 12.5 6.4 11.3 6.9 20.4 19 33.6 20.4-.9-2.1.5-4.8 2.7-5.2-1 .2-7.3-4.3-8.8-4.9-3-1.2-5.3-2-8.2-3.9-7-4.6-14.1-9.3-21.2-13.9z" />*/}
+          {/*        </g>*/}
+          {/*      </g>*/}
+          {/*    </svg>*/}
+          {/*  </div>*/}
+          {/*  <div className="container">*/}
+          {/*    <div className="row justify-content-md-center">*/}
+          {/*      <div className="col col-md-10">*/}
+          {/*        <h5 className="text-center">Join Us in California</h5>*/}
+          {/*        <h2 className="text-center">Marriage Celebration</h2>*/}
+          {/*        <p className="large">*/}
+          {/*          We will marry in San Francisco in August 2019 at a small ceremony*/}
+          {/*          with our parents. But we definitely want to celebrate this special*/}
+          {/*          event with all our friends and family. Whether flying in or*/}
+          {/*          driving in, we hope to dance the night away in beautiful LA!*/}
+          {/*        </p>*/}
+          {/*      </div>*/}
+          {/*    </div>*/}
+          {/*  </div>*/}
+          {/*</section>*/}
+          {/*<section id="events" className="index-section index-events">*/}
+          {/*  <div className="">*/}
+          {/*    <div className="row justify-content-md-center">*/}
+          {/*      <div className="col index-events__intro intro-banger">*/}
+          {/*        <h5 className="text-center banger-top">Fun in the Sun</h5>*/}
+          {/*        <h3 className="">*/}
+          {/*          <span className="banger-1">Weekend</span>*/}
+          {/*          <span className="banger-2">Events</span>*/}
+          {/*        </h3>*/}
+          {/*      </div>*/}
+          {/*    </div>*/}
+          {/*  </div>*/}
+          {/*  /!* Thursday *!/*/}
+          {/*  <section className="index-events__day">*/}
+          {/*    <header>*/}
+          {/*      <div className="row">*/}
+          {/*        <div className="col-2 col-md-3">*/}
+          {/*          <h6>Day</h6>*/}
+          {/*        </div>*/}
+          {/*        <div className="col col-md-9">*/}
+          {/*          <h6>Time / Location / Etc</h6>*/}
+          {/*        </div>*/}
+          {/*      </div>*/}
+          {/*    </header>*/}
+          {/*    <div className="index-event">*/}
+          {/*      <div className="index-event__thursday">*/}
+          {/*        <svg*/}
+          {/*            width={358}*/}
+          {/*            height={610}*/}
+          {/*            viewBox="0 0 358 610"*/}
+          {/*            xmlns="http://www.w3.org/2000/svg"*/}
+          {/*        >*/}
+          {/*          <g fill="none" fillRule="evenodd">*/}
+          {/*            <path*/}
+          {/*                d="M70.5 191.9c34.7-50.2 85.9-90.5 145.3-104.4 7.1 60.1-17 123.1-62.4 163.2 24.9 6.4 46.2-16.8 68.4-29.9 25-14.7 56.9-17 83.7-6 4.9 37.3-22 76.1-58.7 84.5-22.9 5.2-54.3 4.6-60.6 27.2 8.5 9.7 12.5 22.4 16 34.8 6.4 22.5 12.1 46.5 6.4 69.2-5.7 22.7-26.6 43.3-49.9 40.7-12.6-1.5-25.9-9.2-37-3.2-5.7 3-9.2 9-12.8 14.4-17.6 26.2-45.8 45.1-76.7 51.3-33.7-121-35.9-234.6 38.3-341.8z"*/}
+          {/*                fill="#193C35"*/}
+          {/*                fillRule="nonzero"*/}
+          {/*            />*/}
+          {/*            <g stroke="#C6D7D0">*/}
+          {/*              <path*/}
+          {/*                  d="M81.2 606.6c-9-20.7-18-41.3-26.9-62-13.6-31.4-27.3-63-33.7-96.6-11.3-59.8 1.3-121.3 14-180.9 9.6 32.1 19.1 65 28.7 97 4.6 15.3 9.2 30.7 12.4 46.4 3.8 18.7 5.5 37.8 7.3 56.8 3.4 37.2 6.8 74.5 5.8 111.9-.4 10.6-.5 19.3-7.6 27.4z"*/}
+          {/*                  strokeWidth={3}*/}
+          {/*              />*/}
+          {/*              <path*/}
+          {/*                  d="M223.4 293.4c10.9 6 20.7 13.8 31.7 19.6 7.4 3.9 15.3 6.8 22.3 11.4 12.2 8.1 20.6 20.9 31.9 30.3 15.6 13 37.4 20.6 45.2 39.3-62.3 2.4-123.5-14.4-183.5-31.1-12-3.3-24.1-6.7-36.1-10-18.2-5.1-36.8-10.3-52.2-21.2-7.9-5.6-14.8-12.6-21.2-19.8-8.4-9.5-17-19.6-23.3-30.6-7.9-13.5-6.2-15.5 7.8-14.4 20.3 1.5 40.3 6.1 61 6.9 39.1 1.3 80.9 0 116.4 19.6z"*/}
+          {/*                  strokeWidth={4}*/}
+          {/*              />*/}
+          {/*              <path*/}
+          {/*                  d="M117.6 258c55-21 111.4-42.8 155.3-82 2.8-2.5 5.6-7 2.8-9.5-12.3-5.7-26.7-.8-39.3 4.1-27.1 10.6-54.2 21.1-81.2 31.7-28.5 11.1-57.7 22.7-79.6 44 58.8-53.1 96.2-125.4 131.9-196.1 4.9-9.7 8.5-24-1.1-29.1-8.7-4.7-18.3 4.1-24.3 11.9-29.6 38.7-59.2 77.4-88.8 116-10.3 13.4-20.6 27-27 42.6-5.7 14-7.9 29.4-6.5 44.5-10.8-11.9-3.2-30.4.1-46.1 6-28.5-4.8-57.5-8.8-86.3-2.5-17.9-2.4-36.1-5.8-53.8C42 32.2 34.7 14.3 20.6 3.1-6.1 54.9 1.9 117 11.1 174.5c2.7 17 5.5 34.2 12.6 49.9 17.9 40 55.8 48.1 93.9 33.6z"*/}
+          {/*                  strokeWidth={3}*/}
+          {/*              />*/}
+          {/*            </g>*/}
+          {/*            <g fill="#F6BBA4" fillRule="nonzero">*/}
+          {/*              <path d="M146.6 451.6c-1.9.1-3.7 1.1-5.4 2.1-1.7 1-3.5 2-5.2 3-1.7 1-3.4 2.1-4.1 3.9-.8 2.2.2 4.7 1.9 6.3 1.7 1.6 3.9 2.4 6 3.1 3.4 1.2 6.9 2.4 10.5 2.5 18.1.2 10.3-21.9-3.7-20.9zM125.3 408.1c-1.5-.7-3-1.8-4.7-1.8-1.8 0-3.4 1.1-4.8 2.2-2 1.5-4 3-5.9 4.5-1.8 1.4-3.8 3-4 5.3-.3 3 2.5 5.4 5.2 6.7 6 2.9 20.6 5.4 24.5-1.6.3-.5 1.4-9.5 1.1-10.4-2-5.1-7.3-2.9-11.4-4.9zM270.6 338.1c-1.3-4.9-4.1-9.3-7.4-13.2-1.3-1.5-2.7-3.1-4.5-3.9-2.6-1.3-5.6-1.1-8.5-.8-5.3.5-11.5 1.5-13.9 6.3-1.8 3.6-.7 8.2 1.6 11.5 2.3 3.3 5.7 5.7 8.8 8.2 3.5 2.7 6.9 5.7 11 7.2 11.4 4.2 15.7-5.1 12.9-15.3zM157.9 375.3c-1.6-1.4-3.5-2.1-5.5-2.4-.9-.1-1.8-.2-2.6 0-.9.2-1.7.8-2.5 1.3-1.8 1.2-3.6 2.5-4.4 4.6-.4 1-.4 2.1-.3 3.2.3 2.3 1.3 4.4 2.7 6.3.4.6.9 1.1 1.6 1.4.5.2 1.1.2 1.7.2 1.7 0 3.4 0 5.1.1 1.9 0 4 0 5.5-1.2 3.7-3.2 1.9-10.7-1.3-13.5zM161.4 410.4c-2.5 1.6-3.9 4.6-4.2 7.6-.3 3.1.7 6.6 3.5 7.9 1.7.8 3.7.6 5.6.3 1.9-.3 3.7-.5 5.6-.8.6-.1 1.1-.2 1.6-.5.4-.3.8-.7 1.1-1.1 1-1.4 2.1-3 1.9-4.7-.1-.6-.3-1.2-.6-1.8-2.4-4.3-9.5-9.9-14.5-6.9zM191.7 446.1c-.8.1-1.6.2-2.3.6-1.3.7-1.9 2.2-2.4 3.6-.8 2.4-1.4 5.2-.2 7.5.8 1.5 2.2 2.6 3.5 3.6.8.6 1.5 1.1 2.3 1.7.7.5 1.3 1 2.1 1.3 1.3.5 2.7.4 4 .3 1.8-.2 3.6-.5 5.4-.9 1.2-.3 2.4-.6 3.4-1.3 1.7-1.2 2.7-3.2 2.8-5.3.1-2.1-.5-4.2-1.5-6-1.4-2.5-4.2-5.5-7.1-6.1-3-.6-7 .7-10 1zM201 402.5c-2.8-.6-5.8 1.2-7.3 3.7s-1.7 5.7-1.4 8.7c.3 2.4 1 5 3 6.5 1.8 1.4 4.2 1.4 6.4 1.4 2.6 0 5.5-.3 7.3-2.2 1.2-1.4 1.7-3.3 1.6-5.2-.3-5-4.6-11.9-9.6-12.9zM236 422.8c-.9 0-1.8.1-2.5.4-.9.4-1.7 1.1-2.4 1.9-1.5 1.6-3 3.3-3.8 5.4-.8 2.1-.8 4.7.5 6.5.7.9 1.6 1.6 2.6 2.2 5.6 3.1 12.8 2.8 18-.8 1-.7 2-1.6 2.2-2.8.1-.8 0-1.6-.2-2.3-.4-1.8-.9-3.7-1.7-5.4-2.3-4.5-8.3-5.1-12.7-5.1zM231.8 381.9c-1-.2-2-.2-2.9.2-.9.5-1.6 1.4-2.1 2.2-.8 1.3-1.6 2.6-2.3 4-.9 1.8-1.6 3.8-1 5.7.4 1.3 1.4 2.4 2.3 3.4.5.5.9 1 1.5 1.3.7.4 1.5.5 2.3.6 1.5.2 3 .3 4.4-.2.7-.3 1.2-.7 1.8-1.2 2.7-2.2 6.8-5.2 5-9-1.7-3.6-5.2-6.3-9-7zM233.7 348.4c-.4-.4-.9-.9-1.5-.9-.6-.1-1.1.3-1.6.6-2.6 1.7-5.5 3.8-5.8 7-.1 1 .1 2 .2 3 .3 1.6.6 3.2 1.4 4.6 1.2 1.9 3.4 3.1 5.6 3 2.2-.1 4.3-1.5 5.3-3.5.2-.5.4-1 .6-1.4.8-2.3 2.3-4.5 1.1-6.7-1.3-2.1-3.6-4.1-5.3-5.7zM196.1 359.9c-1.7-1.2-3.8-1.8-5.9-1.8-3.8 0-7.8 2.3-8.6 6.1-.3 1.5-.2 3.1 0 4.6.1 1.1.3 2.3.8 3.2.3.6.8 1.1 1.3 1.6 1.6 1.4 3.4 2.6 5.5 3 2.1.4 4.3-.1 5.9-1.5.8-.8 1.4-1.8 2-2.8.7-1 1.4-2.1 1.9-3.2 1.3-3.1-.3-7.3-2.9-9.2zM267 376.5c-.7-.6-1.5-1.3-2.4-1.5-.7-.1-1.4 0-2 .1-2.6.6-5 1.9-7.1 3.6-.8.7-1.6 1.5-2 2.5-.6 1.4-.4 3-.2 4.6.2 1.2.4 2.6 1.4 3.2.5.3 1.1.4 1.6.5l4.8.6c2.7.3 5.7.6 7.8-1 1.8-1.4 3.3-4.7 3-7.1-.3-2.3-3.3-4-4.9-5.5z" />*/}
+          {/*            </g>*/}
+          {/*          </g>*/}
+          {/*        </svg>*/}
+          {/*      </div>*/}
+          {/*      <div className="row">*/}
+          {/*        <div className="index-event__graphic">*/}
+          {/*          <figure className="index-event__image">*/}
+          {/*            <img*/}
+          {/*                src="/images/palihotel@2x-97a8d43d.jpg"*/}
+          {/*                alt="Palihotel Los Angeles"*/}
+          {/*            />*/}
+          {/*          </figure>*/}
+          {/*        </div>*/}
+          {/*        <div className="col col-md-3">*/}
+          {/*          <div className="row">*/}
+          {/*            <div className="col-2">*/}
+          {/*              <h6 className="index-event__num">10/17</h6>*/}
+          {/*            </div>*/}
+          {/*            <div className="col">*/}
+          {/*              <h3>Thursday</h3>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*        </div>*/}
+          {/*        <div className="col-12 col-md-9">*/}
+          {/*          <h4>Welcome Drinks</h4>*/}
+          {/*          <div className="index-event__detail">*/}
+          {/*            <div className="row">*/}
+          {/*              <div className="col-2 col-md-1">*/}
+          {/*                <h6>Time</h6>*/}
+          {/*              </div>*/}
+          {/*              <div className="col col-md-8">*/}
+          {/*                <p>8pm to Close</p>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-event__detail">*/}
+          {/*            <div className="row">*/}
+          {/*              <div className="col-2 col-md-1">*/}
+          {/*                <h6>Where</h6>*/}
+          {/*              </div>*/}
+          {/*              <div className="col col-md-8">*/}
+          {/*                <p>*/}
+          {/*                  Palihotel*/}
+          {/*                  <br />*/}
+          {/*                  3927 Van Buren Pl*/}
+          {/*                  <br />*/}
+          {/*                  Culver City, CA 90232*/}
+          {/*                </p>*/}
+          {/*                <a*/}
+          {/*                    className="button-map"*/}
+          {/*                    target="_blank"*/}
+          {/*                    href="https://www.google.com/maps/place/Palihotel+Culver+City/@34.022964,-118.39347,15z/data=!4m2!3m1!1s0x0:0x131a3800932602c0?ved=2ahUKEwii4Melx_bgAhVplVQKHcdSAoAQ_BIwCnoECAUQCA"*/}
+          {/*                >*/}
+          {/*                  Map*/}
+          {/*                </a>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-event__detail">*/}
+          {/*            <div className="row">*/}
+          {/*              <div className="col-2 col-md-1">*/}
+          {/*                <h6>Parking</h6>*/}
+          {/*              </div>*/}
+          {/*              <div className="col col-md-8">*/}
+          {/*                <p>*/}
+          {/*                  Recommend Uber, Lyft, or Taxi*/}
+          {/*                  <br />*/}
+          {/*                  Limited parking garages nearby*/}
+          {/*                </p>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-event__detail detail-sans">*/}
+          {/*            <div className="row">*/}
+          {/*              <div className="col-2 col-md-1">*/}
+          {/*                <h6>Details</h6>*/}
+          {/*              </div>*/}
+          {/*              <div className="col col-md-8">*/}
+          {/*                <p className="sans">*/}
+          {/*                  Ease into the weekend with a refreshing drink on the*/}
+          {/*                  gorgeous patio of the Palihotel (also a great place to*/}
+          {/*                  stay). Let’s catch up with old friends, meet new ones, and*/}
+          {/*                  toast to the start of a fun weekend. Before heading over,*/}
+          {/*                  grab dinner nearby in Culver City with it’s ever-growing*/}
+          {/*                  range of dining options (check out some recommendations*/}
+          {/*                  below).*/}
+          {/*                </p>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*        </div>*/}
+          {/*      </div>*/}
+          {/*    </div>*/}
+          {/*  </section>*/}
+          {/*  /!* Friday *!/*/}
+          {/*  <section id="reception" className="index-events__day">*/}
+          {/*    <header></header>*/}
+          {/*    <div className="index-event index-event__pb">*/}
+          {/*      <div className="index-event__reception">*/}
+          {/*        <svg*/}
+          {/*            width={352}*/}
+          {/*            height={268}*/}
+          {/*            viewBox="0 0 352 268"*/}
+          {/*            xmlns="http://www.w3.org/2000/svg"*/}
+          {/*        >*/}
+          {/*          <path*/}
+          {/*              d="M157.4 250c-48.8 18.7-104.6 22.6-153.3 3.6 24.1-46 71.6-79 123.1-85.4-14.5-16.6-40.9-10.5-62.9-11.9-24.8-1.6-48.5-15.4-62.1-36.2 14.5-28.8 52.4-43.2 82.4-31.4 18.7 7.4 40.6 23 56 10-1.3-11 2-21.9 5.5-32.4 6.4-19.1 13.9-38.8 28.9-52.1 15-13.3 39.8-17.8 55-4.6 8.2 7.1 13.9 19 24.7 20.2 5.5.6 10.9-1.9 16-4 25.1-10.1 54.2-9.8 79.1.8-34.6 101.9-88 183.3-192.4 223.4z"*/}
+          {/*              stroke="#E5BA2B"*/}
+          {/*              strokeWidth={3}*/}
+          {/*              fill="none"*/}
+          {/*              fillRule="evenodd"*/}
+          {/*          />*/}
+          {/*        </svg>*/}
+          {/*      </div>*/}
+          {/*      <div className="index-event__graphic">*/}
+          {/*        <figure className="index-event__image">*/}
+          {/*          <img*/}
+          {/*              src="/images/smog-shoppe@2x-7aa07376.jpg"*/}
+          {/*              alt="Smog Shoppe Los Angeles"*/}
+          {/*          />*/}
+          {/*        </figure>*/}
+          {/*      </div>*/}
+          {/*      <div className="row" style={{ position: "relative", zIndex: 1 }}>*/}
+          {/*        <div className="col col-md-3">*/}
+          {/*          <div className="row">*/}
+          {/*            <div className="col-2">*/}
+          {/*              <h6 className="index-event__num">10/18</h6>*/}
+          {/*            </div>*/}
+          {/*            <div className="col">*/}
+          {/*              <h3>Friday</h3>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*        </div>*/}
+          {/*        <div className="col-12 col-md-9">*/}
+          {/*          <h4>Reception</h4>*/}
+          {/*          <div className="index-event__detail">*/}
+          {/*            <div className="row">*/}
+          {/*              <div className="col-2 col-md-1">*/}
+          {/*                <h6>Time</h6>*/}
+          {/*              </div>*/}
+          {/*              <div className="col col-md-8">*/}
+          {/*                <p>4:30pm to 11pm</p>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-event__detail">*/}
+          {/*            <div className="row">*/}
+          {/*              <div className="col-2 col-md-1">*/}
+          {/*                <h6>Where</h6>*/}
+          {/*              </div>*/}
+          {/*              <div className="col col-md-8">*/}
+          {/*                <p>*/}
+          {/*                  Smog Shoppe*/}
+          {/*                  <br />*/}
+          {/*                  2651 S La Cienega Blvd*/}
+          {/*                  <br />*/}
+          {/*                  Los Angeles, CA 90034*/}
+          {/*                </p>*/}
+          {/*                <a*/}
+          {/*                    className="button-map"*/}
+          {/*                    target="_blank"*/}
+          {/*                    href="https://www.google.com/maps/place/SmogShoppe/@34.0338055,-118.3768869,15z/data=!4m2!3m1!1s0x0:0x99d31b8e30ae2b0?ved=2ahUKEwjhyPq7x_bgAhWKi1QKHW3vCmgQ_BIwD3oECAYQCA"*/}
+          {/*                >*/}
+          {/*                  Map*/}
+          {/*                </a>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-event__detail">*/}
+          {/*            <div className="row">*/}
+          {/*              <div className="col-2 col-md-1">*/}
+          {/*                <h6>Dress</h6>*/}
+          {/*              </div>*/}
+          {/*              <div className="col col-md-8">*/}
+          {/*                <p>Cocktail Attire</p>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-event__detail">*/}
+          {/*            <div className="row">*/}
+          {/*              <div className="col-2 col-md-1">*/}
+          {/*                <h6>Parking</h6>*/}
+          {/*              </div>*/}
+          {/*              <div className="col col-md-8">*/}
+          {/*                <p>*/}
+          {/*                  Free Valet on Site*/}
+          {/*                  <br />*/}
+          {/*                  See Diagram Below*/}
+          {/*                </p>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-event__detail detail-sans">*/}
+          {/*            <div className="row">*/}
+          {/*              <div className="col-2 col-md-1">*/}
+          {/*                <h6>Details</h6>*/}
+          {/*              </div>*/}
+          {/*              <div className="col col-md-8">*/}
+          {/*                <p className="sans">*/}
+          {/*                  The main event! LA traffic on Friday afternoon (or any*/}
+          {/*                  time) can be super busy, so plan accordingly. We’ll start*/}
+          {/*                  the evening with cocktail hour from 4:30 to 6pm before*/}
+          {/*                  transitioning into dinner. While the dress code is*/}
+          {/*                  cocktail attire, be sure to bring comfy shoes to show off*/}
+          {/*                  your moves on the dance floor.*/}
+          {/*                </p>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*        </div>*/}
+          {/*      </div>*/}
+          {/*      <img*/}
+          {/*          src="/images/covaya-axon-blur-af81a085.png"*/}
+          {/*          className="index-event__axon lazy"*/}
+          {/*          data-src="/images/covaya-axon-1600-2ddb5b4c.png"*/}
+          {/*          data-srcset="/images/covaya-axon-3200-ed59a1db.png 2x, /images/covaya-axon-1600-2ddb5b4c.png 1x"*/}
+          {/*          alt="SmogShoppe Map"*/}
+          {/*      />*/}
+          {/*    </div>*/}
+          {/*    <div className="index-event index-event__add">*/}
+          {/*      <div className="index-event__after">*/}
+          {/*        <svg*/}
+          {/*            width={351}*/}
+          {/*            height={430}*/}
+          {/*            viewBox="0 0 351 430"*/}
+          {/*            xmlns="http://www.w3.org/2000/svg"*/}
+          {/*        >*/}
+          {/*          <g fill="none" fillRule="evenodd">*/}
+          {/*            <path*/}
+          {/*                d="M176.4 44c11.4-1.7 22.5-6.1 34-5.9 11.5.2 24.3 7.1 25.7 18.5.7 6-1.6 12.7 1.6 17.8 2 3.2 5.7 4.9 9.2 6.3 32.7 13.7 79.5 21.8 98.2 41.2 8 8.4 6.5 35-4.2 47.7-13.9 16.5-41.7 11.6-59 24.5-17.7 13.2-18.9 40.3-34.9 55.6-9.7 9.3-23.6 12.9-37 14.2-44.3 4.2-88.1-13-126.7-35.1-7.1 10.9 4.5 24.2 15 31.8 64.7 46.8 133.6 87.8 205.6 122.3-6.8 7.4-13.6 14.7-20.4 22.1-12.7 13.7-29.6 28.7-47.6 23.7-16.2-4.5-23.7-22.8-36.4-33.7-15.2-13.1-39.4-14.6-56.1-3.4-4.5 3-8.5 6.9-13.4 9.3-6.2 3.1-13.3 3.7-20.2 3.3-40.8-2.4-74-38.1-84-77.7-2.6-10.5-4-21.6-1.8-32.2 2-9.6 6.6-18.4 10.7-27.3 13.9-30.4 21.1-63.8 21.1-97.2 0-25.5-4.1-51.5 2.2-76.1 4.5-17.5 13.9-33.3 23.3-48.8 2.5-4.2 5.4-8.6 10-10.2 7.7-2.6 26 4.4 33.9 5.7 16.9 2.6 34 6.2 51.2 3.6z"*/}
+          {/*                fill="#C6D7D0"*/}
+          {/*                fillRule="nonzero"*/}
+          {/*            />*/}
+          {/*            <path*/}
+          {/*                d="M26.3 103.2c14-13.1 31.9-21.9 43.5-37.1 9.7-12.7 14.2-29 24.5-41.2 13.3-15.7 34.8-22.7 55.4-22.7s40.7 6.2 60.1 13c10.1 3.5 20.5 7.3 31.2 6.6 10.2-.6 19.7-5.2 29.6-7.6 20.4-5 42.9-.5 59.8 12 8.5 6.3 15.8 15 18.2 25.3 4.5 19.1-8.7 38.1-24 50.4-15.4 12.2-33.8 20.8-47 35.4-12.3 13.6-19 31.3-28.3 47.1s-23.3 30.9-41.5 33.2c-18.6 2.3-35.8-9.2-54.1-12.8-21.4-4.2-43.6 2.8-62.5 13.8-5.8 3.4-11.8 7.3-18.5 7.5-4.2.1-8.3-1.2-12.2-2.6-27.3-9.9-51.2-20.6-57.5-51.3-5.1-24.6 5.2-52.2 23.3-69z"*/}
+          {/*                stroke="#092A49"*/}
+          {/*                strokeWidth={3}*/}
+          {/*            />*/}
+          {/*          </g>*/}
+          {/*        </svg>*/}
+          {/*      </div>*/}
+          {/*      <div className="index-event__graphic d-none d-md-block">*/}
+          {/*        <figure className="index-event__image">*/}
+          {/*          <img*/}
+          {/*              src="/images/fathers-office@2x-35b0845d.jpg"*/}
+          {/*              alt="Father's Office in Culver City"*/}
+          {/*          />*/}
+          {/*        </figure>*/}
+          {/*      </div>*/}
+          {/*      <div className="row">*/}
+          {/*        <div className="col-0 col-md-3">*/}
+          {/*          <div className="row">*/}
+          {/*            <div className="col-2">*/}
+          {/*              <h6 className="index-event__num" />*/}
+          {/*            </div>*/}
+          {/*            <div className="col col-10">*/}
+          {/*              <h3 />*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*        </div>*/}
+          {/*        <div className="col-12 col-md-9">*/}
+          {/*          <div className="index-event__divider" />*/}
+          {/*          <h4>After Party</h4>*/}
+          {/*          <div className="index-event__detail">*/}
+          {/*            <div className="row">*/}
+          {/*              <div className="col-2 col-md-1">*/}
+          {/*                <h6>Time</h6>*/}
+          {/*              </div>*/}
+          {/*              <div className="col col-md-8">*/}
+          {/*                <p>11:30pm to 1am</p>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-event__detail">*/}
+          {/*            <div className="row">*/}
+          {/*              <div className="col-2 col-md-1">*/}
+          {/*                <h6>Where</h6>*/}
+          {/*              </div>*/}
+          {/*              <div className="col col-md-8">*/}
+          {/*                <p>*/}
+          {/*                  Father&#39;s Office*/}
+          {/*                  <br />*/}
+          {/*                  3229 Helms Ave*/}
+          {/*                  <br />*/}
+          {/*                  Los Angeles, CA 90034*/}
+          {/*                </p>*/}
+          {/*                <a*/}
+          {/*                    className="button-map"*/}
+          {/*                    target="_blank"*/}
+          {/*                    href="https://www.google.com/maps/place/Father's+Office/@34.0304038,-118.3848082,15z/data=!4m2!3m1!1s0x0:0xa0ca452e7a9eed4b?ved=2ahUKEwiutO_Px_bgAhUI658KHZFPC2IQ_BIwCnoECAYQCA"*/}
+          {/*                >*/}
+          {/*                  Map*/}
+          {/*                </a>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-event__detail detail-sans">*/}
+          {/*            <div className="row">*/}
+          {/*              <div className="col-2 col-md-1">*/}
+          {/*                <h6>Details</h6>*/}
+          {/*              </div>*/}
+          {/*              <div className="col col-md-8">*/}
+          {/*                <p className="sans">*/}
+          {/*                  Wind down with a nightcap or late night fries at one of*/}
+          {/*                  our favorite hangouts in LA. Either a 12 min walk or a 3*/}
+          {/*                  min Uber just down the street from SmogShoppe.*/}
+          {/*                </p>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*        </div>*/}
+          {/*      </div>*/}
+          {/*    </div>*/}
+          {/*  </section>*/}
+          {/*  /!* Saturday *!/*/}
+          {/*  <section className="index-events__day">*/}
+          {/*    <header></header>*/}
+          {/*    <div className="index-event">*/}
+          {/*      <div className="index-event__saturday">*/}
+          {/*        <svg*/}
+          {/*            width={337}*/}
+          {/*            height={539}*/}
+          {/*            viewBox="0 0 337 539"*/}
+          {/*            xmlns="http://www.w3.org/2000/svg"*/}
+          {/*        >*/}
+          {/*          <g fill="none" fillRule="evenodd">*/}
+          {/*            <g stroke="#F6BBA4" strokeWidth={3}>*/}
+          {/*              <path d="M233.2 3.3c9.2 17.9 18.5 35.7 27.7 53.6 14 27.1 28.1 54.5 35.8 84 13.7 52.6 6.1 108-1.5 161.8-10.5-28-20.9-56.7-31.4-84.6-5-13.4-10-26.8-13.8-40.5-4.5-16.4-7.2-33.3-9.9-50.1-5.3-32.9-10.5-65.9-11.9-99.2-.4-9.6-.8-17.4 5-25z" />*/}
+          {/*              <path d="M125.5 290.5c-10-4.7-19.2-11-29.4-15.5-6.8-3-14.1-5.1-20.5-8.8-11.4-6.5-19.6-17.4-30.2-25.1-14.6-10.6-34.5-16.1-42.6-32.3 55.3-5.9 110.7 5.4 165.2 16.6 10.9 2.3 21.8 4.5 32.8 6.8 16.5 3.4 33.3 6.9 47.7 15.7 7.4 4.5 13.9 10.3 20.1 16.4 8 7.9 16.3 16.5 22.6 25.8 7.8 11.5 6.4 13.4-6.1 13.3-18.2-.1-36.2-3-54.7-2.4-35 1.2-72.1 4.9-104.9-10.5z" />*/}
+          {/*              <path d="M221.7 315.7c-47.7 22-96.6 44.8-133.3 82.3-2.3 2.4-4.6 6.5-1.9 8.6 11.3 4.4 23.8-.9 34.8-6 23.5-11 46.9-22.1 70.4-33.1 24.6-11.6 50-23.7 68.2-44-49.1 50.8-78 117.3-105.6 182.4-3.8 8.9-6.1 21.9 2.7 25.9 8 3.6 16.1-4.7 20.9-12.1 24-36.2 48-72.4 72.1-108.6 8.3-12.5 16.7-25.3 21.4-39.6 4.2-12.8 5.3-26.7 3.1-40 10.3 9.9 4.7 26.8 2.7 41-3.6 25.7 7.7 50.9 13 76.3 3.3 15.7 4.3 31.9 8.4 47.5 4 15.6 11.6 31 24.8 40.2 20.6-47.7 9.8-102.4-1.9-153.1-3.4-14.9-7-30.1-14.2-43.6-18.3-34.4-52.5-39.3-85.6-24.1z" />*/}
+          {/*            </g>*/}
+          {/*            <g fill="#EB4F22" fillRule="nonzero">*/}
+          {/*              <path d="M222.8 286.3c-.4-1.2-1.4-2.2-2.4-3.1-1-1-2-1.9-3-2.9-.9-.9-2-1.9-3.3-2-1.6-.1-3.1 1-3.8 2.4-.7 1.4-.8 3-1 4.5-.2 2.5-.3 5 .3 7.4 3.3 12 16.5 2.8 13.2-6.3zM247.6 264.3c.2-1.1.6-2.3.3-3.4-.3-1.2-1.4-2-2.3-2.8-1.3-1-2.7-2.1-4-3.1-1.2-.9-2.7-1.9-4.2-1.7-2.1.3-3.1 2.6-3.5 4.6-.8 4.5.2 14.6 5.6 15.8.4.1 6.5-.8 7.1-1.2 2.8-2 .5-5.1 1-8.2zM320.4 347.3c3-1.8 5.4-4.4 7.3-7.3.8-1.1 1.5-2.4 1.8-3.7.4-2-.3-3.9-1-5.8-1.3-3.4-3.1-7.3-6.7-8-2.7-.5-5.5 1-7.3 3.2-1.8 2.1-2.7 4.8-3.8 7.3-1.1 2.8-2.5 5.6-2.7 8.6-.7 8.3 6.2 9.4 12.4 5.7zM275.2 279.8c.6-1.3.8-2.7.6-4.1-.1-.6-.2-1.2-.5-1.7-.3-.6-.8-1-1.3-1.4-1.1-.9-2.3-1.9-3.8-2.1-.7-.1-1.5.1-2.2.4-1.5.6-2.7 1.7-3.6 2.9-.3.4-.6.8-.6 1.3-.1.4.1.8.2 1.2l.9 3.3c.3 1.3.7 2.6 1.8 3.4 2.6 2 7.3-.6 8.5-3.2zM252.7 288.6c-1.5-1.4-3.8-1.7-5.8-1.4-2.1.4-4.2 1.7-4.6 3.7-.2 1.3.3 2.5.8 3.7.5 1.2 1 2.4 1.5 3.5.2.4.3.7.6 1 .3.2.6.4.9.5 1.1.4 2.4.8 3.5.4.4-.2.7-.4 1.1-.7 2.5-2.3 4.9-8 2-10.7zM234.7 315.1c-.2-.5-.4-1-.8-1.4-.7-.7-1.8-.9-2.8-.9-1.8-.1-3.7.1-5 1.3-.9.8-1.3 1.9-1.7 3-.2.6-.5 1.2-.7 1.8-.2.5-.4 1.1-.5 1.6-.1.9.2 1.8.5 2.7.5 1.2 1 2.3 1.6 3.4.4.7.9 1.4 1.5 2 1.1.9 2.6 1.2 4 .9 1.4-.3 2.7-1.1 3.7-2.1 1.4-1.4 2.9-3.8 2.7-5.8-.1-2.2-1.7-4.6-2.5-6.5zM265.2 313.2c-.1-2-1.8-3.6-3.8-4.1-2-.5-4.1-.1-6 .7-1.6.6-3.1 1.6-3.7 3.1-.6 1.4-.2 3 .2 4.5.5 1.7 1.2 3.6 2.8 4.4 1.1.6 2.5.5 3.7.1 3.3-1.1 7-5.2 6.8-8.7zM258.2 340c-.2-.6-.4-1.1-.7-1.6-.4-.5-1.1-.9-1.7-1.2-1.3-.7-2.8-1.4-4.3-1.5-1.5-.2-3.2.3-4.2 1.5-.5.6-.8 1.4-.9 2.1-1 4.2.5 8.9 3.8 11.7.6.5 1.4 1 2.2 1 .5 0 1-.3 1.5-.6 1.1-.6 2.3-1.2 3.2-2.1 2.6-2.3 1.9-6.4 1.1-9.3zM284.4 329.7c-.1-.7-.2-1.4-.7-1.9-.5-.5-1.2-.8-1.9-1-1-.3-2-.6-3-.8-1.3-.2-2.8-.3-3.9.4-.8.5-1.3 1.3-1.8 2.1-.2.4-.5.8-.6 1.3-.1.5 0 1.1 0 1.6.2 1 .3 2.1 1 2.8.3.4.7.7 1.1 1 1.9 1.4 4.7 3.5 6.9 1.6 2-1.6 3.2-4.4 2.9-7.1zM306.9 324.8c.2-.4.4-.8.3-1.2-.1-.4-.4-.7-.7-1-1.6-1.4-3.5-2.9-5.7-2.6-.7.1-1.3.4-1.9.7-1 .5-2 1-2.8 1.8-1.1 1.1-1.4 2.8-1 4.2.5 1.4 1.8 2.6 3.3 2.8.3.1.7.1 1.1.1 1.6.1 3.4.7 4.6-.5 1.1-1 2-2.8 2.8-4.3zM292.3 302.2c.5-1.3.5-2.8.1-4.2-.7-2.5-2.9-4.7-5.6-4.6-1 0-2.1.4-3 .8-.7.3-1.5.6-2 1.1-.3.3-.6.7-.8 1.2-.7 1.3-1.1 2.7-1 4.2.1 1.5.8 2.9 2.1 3.6.7.4 1.4.6 2.2.8.8.3 1.6.6 2.5.7 2.3.2 4.7-1.6 5.5-3.6zM294.4 351.9c.3-.6.6-1.2.5-1.8 0-.5-.2-.9-.5-1.3-.9-1.6-2.2-3-3.7-4-.6-.4-1.3-.8-2-.9-1-.1-2.1.3-3.1.7-.8.3-1.6.7-1.8 1.5-.1.4-.1.8 0 1.1.2 1.1.3 2.2.5 3.3.3 1.8.6 3.8 2.1 5 1.2.9 3.7 1.3 5.2.7 1.5-.6 2.1-2.9 2.8-4.3z" />*/}
+          {/*            </g>*/}
+          {/*          </g>*/}
+          {/*        </svg>*/}
+          {/*      </div>*/}
+          {/*      <div className="index-event__graphic">*/}
+          {/*        <figure className="index-event__image">*/}
+          {/*          <img*/}
+          {/*              src="/images/santa-monica-9baa3824.jpg"*/}
+          {/*              alt="Santa Monica Beach"*/}
+          {/*          />*/}
+          {/*        </figure>*/}
+          {/*      </div>*/}
+          {/*      <div className="row">*/}
+          {/*        <div className="col col-md-3">*/}
+          {/*          <div className="row">*/}
+          {/*            <div className="col-2">*/}
+          {/*              <h6 className="index-event__num">10/19</h6>*/}
+          {/*            </div>*/}
+          {/*            <div className="col">*/}
+          {/*              <h3>Saturday</h3>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*        </div>*/}
+          {/*        <div className="col-12 col-md-9">*/}
+          {/*          <h4>Beach Day</h4>*/}
+          {/*          <div className="index-event__detail">*/}
+          {/*            <div className="row">*/}
+          {/*              <div className="col-2 col-md-1">*/}
+          {/*                <h6>Time</h6>*/}
+          {/*              </div>*/}
+          {/*              <div className="col col-md-8">*/}
+          {/*                <p>1:30pm to 4pm</p>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-event__detail">*/}
+          {/*            <div className="row">*/}
+          {/*              <div className="col-2 col-md-1">*/}
+          {/*                <h6>Where</h6>*/}
+          {/*              </div>*/}
+          {/*              <div className="col col-md-8">*/}
+          {/*                <p>*/}
+          {/*                  Lifeguard Tower 26*/}
+          {/*                  <br />*/}
+          {/*                  Santa Monica Beach*/}
+          {/*                  <br />*/}
+          {/*                  2559 Ocean Front Walk*/}
+          {/*                  <br />*/}
+          {/*                  Santa Monica, CA 90405*/}
+          {/*                </p>*/}
+          {/*                <a*/}
+          {/*                    className="button-map"*/}
+          {/*                    target="_blank"*/}
+          {/*                    href="https://www.google.com/maps/place/Lifeguard+Tower+26/@33.9991957,-118.4872947,3156m/data=!3m1!1e3!4m5!3m4!1s0x0:0x1078787a5297c37f!8m2!3d33.9991957!4d-118.4872947"*/}
+          {/*                >*/}
+          {/*                  Map*/}
+          {/*                </a>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-event__detail detail-sans">*/}
+          {/*            <div className="row">*/}
+          {/*              <div className="col-2 col-md-1">*/}
+          {/*                <h6>Details</h6>*/}
+          {/*              </div>*/}
+          {/*              <div className="col col-md-8">*/}
+          {/*                <p className="sans">*/}
+          {/*                  What’s a trip to LA without a day at the beach?! Let’s*/}
+          {/*                  have a lazy Saturday and relax in the sun. Feel free to*/}
+          {/*                  pick up picnic food and drinks or grab a bite nearby at*/}
+          {/*                  the beach stalls. We&apos;re meeting near Lifeguard Tower 26.*/}
+          {/*                </p>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*        </div>*/}
+          {/*      </div>*/}
+          {/*    </div>*/}
+          {/*  </section>*/}
+          {/*</section>*/}
+          {/*<section id="story" className="index-section index-la">*/}
+          {/*  <div className="index-la__left">*/}
+          {/*    <svg*/}
+          {/*        width={521}*/}
+          {/*        height={1235}*/}
+          {/*        viewBox="0 0 521 1235"*/}
+          {/*        xmlns="http://www.w3.org/2000/svg"*/}
+          {/*    >*/}
+          {/*      <g fill="none" fillRule="evenodd">*/}
+          {/*        <path*/}
+          {/*            d="M12.4 432.2c9.5 4.6 20.5 4.8 30.4 8.2 19.3 6.7 32.1 24.3 46.1 39.1s33.8 28.3 53.4 22.9c10.3-7.2.4-23.4-10.5-29.7-10.9-6.3-25.1-14.9-22-27 30.4 16.3 62.7 28.9 96 37.5 12.5 3.2 25.8 5.9 38.2 2.2 12.4-3.7 23.3-15.6 21.5-28.4-1.8-12.6-14.4-20.6-26.5-24.6s-25.3-5.9-35.2-13.8l142.5-10.8c3.4-.3 6.9-.5 10-2 10.2-5 9.8-20.8 2.4-29.4-7.4-8.6-18.8-12.2-29.3-16.6-10.4-4.5-21.3-11.3-24.1-22.3 30.3-9.8 58.9-25.1 84-44.8 13.1-10.4 26.2-23.6 27.3-40.3 1.9-28.9-33.4-47.4-62.1-43.8-28.7 3.5-54.1 20.3-82.2 27.4 3.1-10.2 6.3-20.9 4.7-31.5-1.6-10.6-9.4-21.1-20.1-22-13.8-1.2-23.6 12.6-30.3 24.6L178 293.8c-7.3-12.8-5.2-28.6-6.4-43.2-1.1-14.7-8.6-31.6-23.2-33.4-18.3-2.2-28.8 19.8-33.5 37.6l-20.7 77.7c-5.4 20.3-16.2 45-37.2 44.9-15.5-21.1 18.7-55.5 1-74.9-10.5-11.5-31.3-4.4-39 9.2-7.7 13.5-6.6 30.1-6.2 45.7.7 22.9-28.6 61.1-.4 74.8z"*/}
+          {/*            fill="#E5BA2B"*/}
+          {/*            fillRule="nonzero"*/}
+          {/*        />*/}
+          {/*        <path*/}
+          {/*            d="M140.8 1140.1c35.1 46.8 85.6 83.6 143.1 94.7 4.6-57.9-20.8-117.4-65.8-154.1 23.6-7 44.9 14.4 66.6 26.1 24.5 13.2 55.1 14.2 80.4 2.7 3.4-35.9-23.9-72.1-59.4-78.8-22.1-4.2-52.2-2.4-59-23.8 7.8-9.6 11.1-21.9 14.1-33.9 5.3-21.8 9.9-45 3.6-66.5-6.3-21.6-27.1-40.6-49.3-37.1-12 1.9-24.4 9.7-35.4 4.5-5.6-2.7-9.1-8.3-12.8-13.3-17.8-24.5-45.5-41.5-75.4-46.4-27.9 116.9-25.8 225.8 49.3 325.9z"*/}
+          {/*            fill="#193C35"*/}
+          {/*            fillRule="nonzero"*/}
+          {/*        />*/}
+          {/*        <path*/}
+          {/*            d="M276.5 455.7c-7.1-11.8-14.3-23.8-24.1-33.6-7.8-7.8-17.1-13.9-26.3-20-18.6-12.2-37.2-24.4-55.8-36.5-2.5-3.8 4.1-6.9 8.6-6.8 25.8 1.1 51.4 6.6 75.3 16.3 6.5 2.6 13 5.6 19.9 6.7 9.3 1.6 18.8-.2 27.9-2.4 26.5-6.4 52.1-16.6 75.6-30.4 16.7-9.8 32.4-21.2 48-32.7 14.9-10.9 29.7-21.8 44.6-32.7 13-9.5 26.1-19.2 35.8-32 9.7-12.8 15.6-29.4 12.1-45.1-59.9-8.7-121.9-1.8-178.5 19.7-19.7 7.5-38.7 16.7-58.6 23.6-29.6 10.3-60.9 15.4-92.2 17.6 28.4-2.8 50.4-25.2 69.8-46.2 12.9-14 25.9-28.1 36-44.2 4.8-7.6 8.9-15.7 14.9-22.4 6-6.7 13.5-11.7 19.8-18 13.8-14 20.3-33.3 26.4-52 8.8-26.9 17.2-57.9 2.7-82.2-29.8 18.6-59.7 37.2-89.5 55.7-8.4 5.3-16.9 10.5-26 14.6-5.4 2.4-11 4.4-15.8 7.8-4.7 3.4-8.4 7.9-12 12.5-13.2 16.8-25.6 34.3-37.2 52.3-8.7 13.4-17 27.4-21.5 42.7-9.6 32.5-1.4 67.4-5.1 101-2.4 21.7-9.7 42.6-16.8 63.2-21.7 62.4-42.9 126.7-40.6 192.8.3 7.9.9 15.9 4.2 23.1 10.1 22.3 39.1 27.1 63.5 28.8 38.8 2.7 77.8 5.5 116.4 1.5 28.2-2.9 78.9-8 56.9-45.8-19.2-32.4-39-64.5-58.4-96.9z"*/}
+          {/*            stroke="#C6D7D0"*/}
+          {/*            strokeWidth={3}*/}
+          {/*        />*/}
+          {/*        <path*/}
+          {/*            d="M82.3 1088.8c-.2-9.5 3.8-18.7 4.7-28.2 1.8-18.4-7.9-35.6-14.8-52.7s-10.6-38.5 1.3-52.6c9.8-5.8 19.4 8.5 20.5 19.9 1 11.3 2.8 26.3 14 28.3-2-31.1-.2-62.5 5.3-93.2 2.1-11.5 4.9-23.5 12.6-32.3 7.7-8.9 21.6-13.3 31.5-7 9.7 6.2 11.5 19.6 10.3 31.1-1.3 11.4-4.7 23-1.9 34.2 20.8-37.8 41.7-75.5 62.5-113.3 1.5-2.7 3-5.5 5.4-7.4 7.9-6.5 20.8-.2 25.1 9.1 4.3 9.3 2.9 20.1 2.7 30.4-.3 10.3 1.3 21.8 9.3 28.2 19.5-21.3 42.8-39.1 68.5-52.3 13.5-6.9 29.3-12.7 43.5-7.3 24.6 9.3 26.5 45.3 12.7 67.7-13.7 22.3-37.1 37-53.6 57.4 9.6 1.3 19.6 2.7 27.7 8 8.1 5.3 13.8 15.7 10.6 24.8-4.2 11.8-19.2 14.7-31.7 15.7-29.9 2.4-59.8 4.9-89.7 7.3 7.8 10.8 21.5 15.1 33.2 21.5 11.7 6.5 22.8 19 18.7 31.7-5.1 15.9-27.2 16.2-43.6 13.4-23.9-4.1-47.9-8.1-71.8-12.2-18.8-3.2-43.2-3.6-51 13.7 11.6 20.7 52.8 5.5 62.1 27.3 5.5 13-8.2 27.4-22.2 28.7-14 1.3-27.3-5.9-40-12.1-18.7-9.1-61.2.6-61.9-27.8z"*/}
+          {/*            stroke="#7E803C"*/}
+          {/*            strokeWidth={3}*/}
+          {/*        />*/}
+          {/*      </g>*/}
+          {/*    </svg>*/}
+          {/*  </div>*/}
+          {/*  <div className="index-la__right">*/}
+          {/*    <svg*/}
+          {/*        width={383}*/}
+          {/*        height={1163}*/}
+          {/*        viewBox="0 0 383 1163"*/}
+          {/*        xmlns="http://www.w3.org/2000/svg"*/}
+          {/*    >*/}
+          {/*      <g fill="none" fillRule="evenodd">*/}
+          {/*        <path*/}
+          {/*            d="M271.4 98.2C222.4 45.8 155.8 7.5 84.3 1.7 86.4 72.9 125.2 142.1 185 181c-27.9 11.7-56.7-11.6-84.7-23-31.6-12.9-69.1-10.1-98.5 7.4.7 44.3 38.7 84.8 82.9 88.2 27.6 2.2 64-4 75.2 21.2-8.2 12.7-10.7 28.2-12.7 43.2-3.6 27.4-6.1 56.2 4.5 81.7s38.5 45.9 65.1 38.8c14.4-3.9 28.5-15.1 42.6-10.1 7.2 2.6 12.2 8.9 17.4 14.5 25 27.5 61 44.6 98.1 46.6 18.4-146.5 1.4-279.1-103.5-391.3z"*/}
+          {/*            stroke="#092A49"*/}
+          {/*            strokeWidth={3}*/}
+          {/*        />*/}
+          {/*        <path*/}
+          {/*            d="M165.6 162.8c-3.7-3.9-9.1-6.2-12-10.8 3.9-2.8 8.8-3.4 13.3-5.1 4.5-1.7 9-5.4 8.7-10.2-7.1-7.2-17.4-10.1-27.2-12.7-3.1-.8-6.2-1.6-9.4-1.8-3.7-.1-8.6.1-9.9-3.4 3.5-7.3 11.8-10.6 19.3-13.5 7.5-2.9 15.8-7 18.1-14.7.2-.6.3-1.3.2-2-.2-.8-.9-1.5-1.6-2-5.7-4.2-13.4-3.9-20.3-2.5-9.6 2.1-18.8 6.2-26.7 12.1-1.6 1.2-3.7 2.5-5.4 1.5-.9-.5-1.4-1.4-1.7-2.4-1.7-4.7-.8-9.8.2-14.7 1-4.9 2.1-10 .6-14.7-1.5-4.7-6.5-8.8-11.2-7.3-4 1.2-6.1 5.6-7.6 9.4-1.6 3.8-3.2 7.8-3.5 11.9-.3 4.1.8 8.6 4 11.3-.8.9-1.7 1.9-2.5 2.8-8.1-5.2-16.4-10-24.9-14.5-6.1-3.2-10-9.6-17.6-6.6-2.6 1-4.9 3.5-4.8 6.3.1 2.8 2.3 5.1 4.4 7 3.2 2.9 6.4 5.7 9.5 8.6 2 1.8 4.2 4.2 3.4 6.8-.8 2.5-3.9 3.3-6.4 3.6l-18.3 2.7c-2.9.4-5.9.9-8.5 2.4-2.6 1.5-4.6 4.2-4.5 7.1.2 3.8 3.9 6.4 7.3 8.2 10 5.1 21.1 7.8 32.3 8 1.6 0 3.4 0 4.7 1.1 2.6 2.2.6 6.4-1.6 9.1-8.1 9.8-17 19-26.6 27.3.1 7.4 9 12.1 16.3 10.6 7.3-1.5 12.9-7.1 17.8-12.7 4.9-5.5 10-11.5 17-14 4.1 2.6 5 8 5.5 12.8.7 6.1 1.4 12.3 2.1 18.4.5 4.6 1.6 9.9 5.7 11.8 3.9 1.8 8.7-.7 10.9-4.4 2.2-3.7 2.6-8.1 2.9-12.4.4-6.5.9-12.9 1.3-19.4 0-.6.1-1.2.4-1.8 1.2-2 4.3-.5 6.1 1 9.7 8.5 21.9 14 34.6 15.9 1.9.3 3.9.5 5.7-.3 4.7-2.2 3.6-9.9-.1-13.8zm-55.2-21.3c-1.1 1.2-2.2 2.4-3.8 2.8-3 .8-6.7-1.8-9 .3-.5.5-1 1.2-1.7 1.3-.6.1-1.1-.2-1.6-.5-2.6-1.7-5.1-3.6-7.4-5.7-.9-.8-1.8-1.7-2.3-2.9-.5-1.4-.3-2.9-.1-4.3.5-3.2 1.3-6.3 2.3-9.4.5-1.7 1.2-3.3 2.4-4.6 8.5-8.6 18.1.5 23.4 7.3 1.3 1.6 2.4 3.4 2.7 5.4.7 3.8-2.2 7.3-4.9 10.3z"*/}
+          {/*            fill="#7E803C"*/}
+          {/*            fillRule="nonzero"*/}
+          {/*        />*/}
+          {/*        <g className="index-la__right-bottom">*/}
+          {/*          <path*/}
+          {/*              d="M206.5 1113c-10 .7-19.9 3.7-29.8 2.6-10-1-20.5-7.9-20.9-17.9-.2-5.2 2.3-10.8-.1-15.5-1.5-2.9-4.6-4.6-7.5-6.1-27.3-14.3-67.1-24.6-81.8-42.8-6.3-7.8-3.1-30.7 7.1-40.9 13.2-13.3 36.8-7 52.8-16.9 16.3-10.1 19.3-33.4 34.2-45.5 9.1-7.4 21.4-9.4 33-9.6 38.6-.4 75.2 17.6 107 39.5 7-8.9-2.1-21.2-10.7-28.6-52.5-45.2-109-85.6-168.8-120.7 6.4-5.9 12.8-11.7 19.3-17.6 12-10.9 27.7-22.7 42.9-17 13.6 5.1 18.8 21.4 29 31.8 12.2 12.5 32.9 15.5 48.2 7 4.1-2.3 7.8-5.3 12.2-7 5.6-2.2 11.8-2.2 17.7-1.4 35.1 5 61.2 38.3 66.9 73.3 1.5 9.3 1.9 19-.8 28-2.4 8.2-7.1 15.4-11.2 22.8-14.2 25.2-22.9 53.6-25.3 82.4-1.9 22-.2 44.8-7.4 65.6-5.1 14.8-14.5 27.8-23.7 40.5-2.5 3.4-5.3 7.1-9.4 8.1-6.8 1.7-22.1-5.7-28.9-7.4-14.5-3.3-29-7.7-44-6.7z"*/}
+          {/*              fill="#7E803C"*/}
+          {/*              fillRule="nonzero"*/}
+          {/*          />*/}
+          {/*          <path*/}
+          {/*              d="M351.7 1056c9.8-8.8 16.4-22.4 13-36.6-1.1-4.8-4.1-10.1-8.8-11.2-3.9-1-7.6 1.5-9.6 4.7s-2.7 7.1-4.1 10.7c-6.7 17.6-26.4 25-45.1 28.4-1.9.3-4.5 1.3-5.4-1.5-.9-2.8 15.9-13.8 23.9-20.7 3.3-2.9 6.7-5.9 8.5-10 2.9-6.8.9-15.2-1.2-23-1.7-6.5-5.3-14.6-11.7-14.9-3.9-.2-6.9 3-8.1 6.7-1.2 3.6-1 7.7-1.4 11.6-2 17.4-15.8 29.3-28.8 39.6-2.6 2.1-7.2 3.6-9 .3-1.3-2.4.7-4.9 2.6-6.4 8.5-7 18.5-13.9 20.7-25.3 1.3-6.5-.2-13.6-1.8-20.5-.9-4-1.8-8.2-4.1-11.8-2.3-3.6-6.3-6.6-10.2-6.4-4.1.2-6.9 3.8-8 7.7-1.1 3.9-.8 8.2-1.2 12.3-1.1 11.5-7.6 21.5-17.2 26.8-2.4-1.8-.8-5.3.9-7.4 14.1-18.1 10.2-49.2-8.4-67.4-5.9 1.7-8.6 8.4-8.5 14.9.1 6.5 2.3 13 3.2 19.5.9 6.5.3 13.6-4.3 17.5-7.9-7.2-8.3-18.9-11.7-28.8-4.3-12.3-13.8-22.5-23.1-32.2-5.4-5.7-12.9-11.9-19.3-9.3-.8.3-1.6.9-2 1.7-.7 1.7.5 3.7 1.6 5.4 7.5 11.3 20.3 35.3 16.9 38.3-4.5 4-35.1-18.2-53.3-23.9-4-1.3-8.4-2.4-11.7-.5-.7.4-1.4 1.1-1.4 2 0 .7.4 1.5.9 2.1 5.7 8.7 13.9 15.8 23.1 20.1 5.9 2.8 12.2 4.3 18.2 7.1s14.8 10.2 14.5 13c-.3 2.8-24.9.1-37.3-3.1-6-1.5-12-3.6-18-3.8-6-.2-12.2 1.8-15 6.8 6.8 9.4 18 15 28.9 16.9 10.9 2 21.6.9 32.2-.3 5.4-.6 12.6 0 14.7 5.4-6.6 10-17.2 16.9-29.4 19-5.1.9-10.5 1-14.9 3.4s-7.2 8.4-4.3 13.2c3.1 5.3 10.2 5.8 15.7 5.1 17.4-2.4 33.2-10.7 44.6-23.3 2.5-2.7 6.7-5.7 9.7-2.8 2.3 2.3 1.2 6-.3 8.5-5.3 9-13 16.4-22.3 21.3-6.7 3.6-15.5 8-13.9 16.2 1.4 7.1 10.4 11.1 16.9 9.3 6.5-1.8 10.7-7.3 14.7-12.6 8.9-11.9 22.9-36.2 26.7-35.8 3.8.4 7.9 17.3 5.8 25.8-2.1 8.4-7.3 15.3-12.9 21.5-4.8 5.3-10.3 11.9-7.7 19.4 2.7 7.9 13.3 11.1 20.3 8.1s11.1-9.8 14.7-16.4c4.7-8.5 9.4-17.8 8.4-28.2-.2-1.9-.6-3.8 0-5.5.6-1.7 2.5-2.9 4.2-2 .7.4 1.2 1 1.6 1.6 6 8.1 7.2 18.7 4.9 27.5-2.4 8.8-7.8 16.2-13.8 22.6-5.5 5.9-12 13.5-8.4 21.9 3.3 7.5 13.6 10.1 20.2 6.9 6.6-3.2 10.2-10.3 13-17.2 3.3-8.4 5.9-17.2 7.7-26.2 1.1-5.5 4.2-16.1 7-14.3 2.8 1.8 8.2 48.1-5.6 64.6-1.1 1.4-2.4 2.7-3 4.4-1.4 3.8.8 8.7 4.3 11.4 3.5 2.7 8.1 3.5 12.1 3 9.2-1.1 16.2-8.1 19.8-16.5 3.6-8.4 4.4-18 5.2-27.4.6-7 1.1-14.3-1.7-21.2-3.6-9-11.8-16.3-3.5-22.3 9.5-6.8 21.3-9.6 30.1-17.5z"*/}
+          {/*              stroke="#E5BA2B"*/}
+          {/*              strokeWidth={3}*/}
+          {/*          />*/}
+          {/*        </g>*/}
+          {/*      </g>*/}
+          {/*    </svg>*/}
+          {/*  </div>*/}
+          {/*  <div className="container">*/}
+          {/*    <div className="row justify-content-md-center intro-banger">*/}
+          {/*      <div className="col">*/}
+          {/*        <h5 className="text-center banger-top">70 and sunny</h5>*/}
+          {/*        <h3 className="text-center">*/}
+          {/*          <span className="banger-1">Los Angeles</span>*/}
+          {/*          <span className="banger-2">California</span>*/}
+          {/*        </h3>*/}
+          {/*      </div>*/}
+          {/*    </div>*/}
+          {/*  </div>*/}
+          {/*  <div className="container-full index-la__map">*/}
+          {/*    <img*/}
+          {/*        src="/images/map-blur-300cbc3c.png"*/}
+          {/*        className="index-la__map-image lazy"*/}
+          {/*        data-src="/images/map-1440-2380ed41.png"*/}
+          {/*        data-srcset="/images/map-2880-d6827275.png 2x, /images/map-1440-2380ed41.png 1x"*/}
+          {/*        alt="Los Angeles Map"*/}
+          {/*    />*/}
+          {/*    <div className="index-la__map-mark">*/}
+          {/*      <img*/}
+          {/*          src="/images/location-b40625a7.png"*/}
+          {/*          className="index-la__map-mark-image"*/}
+          {/*          alt="Location"*/}
+          {/*      />*/}
+          {/*    </div>*/}
+          {/*  </div>*/}
+          {/*  <div className="container-full" id="hotels">*/}
+          {/*    <div className="index-la__cards">*/}
+          {/*      <div className="index-la__card--full">*/}
+          {/*        <div className="index-la__card-icon">*/}
+          {/*          <img src="/images/icon/bell-12d84be9.svg" alt="Bell" />*/}
+          {/*        </div>*/}
+          {/*        <h4>Stay</h4>*/}
+          {/*        <div className="index-hotels">*/}
+          {/*          <div className="index-hotel">*/}
+          {/*            <a*/}
+          {/*                className="index-hotel__title"*/}
+          {/*                href="https://www.palisociety.com/hotels/culver-city/"*/}
+          {/*            >*/}
+          {/*              Palihotel*/}
+          {/*            </a>*/}
+          {/*            <div className="index-hotel__details">*/}
+          {/*              <div className="row">*/}
+          {/*                <div className="col-3 col-md-2">*/}
+          {/*                  <h6>Details</h6>*/}
+          {/*                </div>*/}
+          {/*                <div className="col col-md-10">*/}
+          {/*                  <p>*/}
+          {/*                    In downtown Culver City, stay at this beautiful boutique*/}
+          {/*                    hotel where the bride and groom will be staying. Enjoy*/}
+          {/*                    brunch on their patio or take advantage of the central*/}
+          {/*                    location by walking to restraunts nearby.*/}
+          {/*                  </p>*/}
+          {/*                </div>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*            <div className="index-hotel__details">*/}
+          {/*              <div className="row">*/}
+          {/*                <div className="col-3 col-md-2">*/}
+          {/*                  <h6>Price</h6>*/}
+          {/*                </div>*/}
+          {/*                <div className="col col-md-10">*/}
+          {/*                  <p>$215/night</p>*/}
+          {/*                </div>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*            <div className="index-hotel__details">*/}
+          {/*              <div className="row">*/}
+          {/*                <div className="col-3 col-md-2">*/}
+          {/*                  <h6>Book</h6>*/}
+          {/*                </div>*/}
+          {/*                <div className="col col-md-10">*/}
+          {/*                  <p>Use code “WEDDING”</p>*/}
+          {/*                </div>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-hotel">*/}
+          {/*            <a*/}
+          {/*                className="index-hotel__title"*/}
+          {/*                href="https://www.themayumi.com/"*/}
+          {/*            >*/}
+          {/*              Mayumi*/}
+          {/*            </a>*/}
+          {/*            <div className="index-hotel__details">*/}
+          {/*              <div className="row">*/}
+          {/*                <div className="col-3 col-md-2">*/}
+          {/*                  <h6>Details</h6>*/}
+          {/*                </div>*/}
+          {/*                <div className="col col-md-10">*/}
+          {/*                  <p>*/}
+          {/*                    With a combination of design and social spaces, the*/}
+          {/*                    Mayumi is a new modern hotel in an emerging part of*/}
+          {/*                    Culver City. Maintains the LA vibe while also having a*/}
+          {/*                    spa like experience.*/}
+          {/*                  </p>*/}
+          {/*                </div>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*            <div className="index-hotel__details">*/}
+          {/*              <div className="row">*/}
+          {/*                <div className="col-3 col-md-2">*/}
+          {/*                  <h6>Price</h6>*/}
+          {/*                </div>*/}
+          {/*                <div className="col col-md-10">*/}
+          {/*                  <p>$195/night</p>*/}
+          {/*                </div>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*            <div className="index-hotel__details">*/}
+          {/*              <div className="row">*/}
+          {/*                <div className="col-3 col-md-2">*/}
+          {/*                  <h6>Book</h6>*/}
+          {/*                </div>*/}
+          {/*                <div className="col col-md-10">*/}
+          {/*                  <p>*/}
+          {/*                    <a*/}
+          {/*                        href="mailto:reservations@themayumi.com"*/}
+          {/*                        style={{ color: "#FF5734" }}*/}
+          {/*                    >*/}
+          {/*                      Email*/}
+          {/*                    </a>{" "}*/}
+          {/*                    or call (310) 313-0000 and request a room for the "Amaya*/}
+          {/*                    Wedding".*/}
+          {/*                  </p>*/}
+          {/*                </div>*/}
+          {/*              </div>*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*        </div>*/}
+          {/*      </div>*/}
+          {/*    </div>*/}
+          {/*    <div className="index-la__cards">*/}
+          {/*      <div className="index-la__card">*/}
+          {/*        <div className="index-la__card-icon">*/}
+          {/*          <img src="/images/icon/fork-6cabbaef.svg" alt="Fork" />*/}
+          {/*        </div>*/}
+          {/*        <h4>Eat</h4>*/}
+          {/*        <ul>*/}
+          {/*          <li>*/}
+          {/*            <a href="https://www.eatloqui.com/">*/}
+          {/*              Loqui <span className="price">$$</span>*/}
+          {/*            </a>*/}
+          {/*            <p>Tasty tacos in a fancy-not-fancy place. (Culver City)</p>*/}
+          {/*          </li>*/}
+          {/*          <li>*/}
+          {/*            <a href="http://www.hatchethallla.com/">*/}
+          {/*              Hatchet Hall <span className="price">$$$</span>*/}
+          {/*            </a>*/}
+          {/*            <p>*/}
+          {/*              Amazing food and drinks, southern leaning. This place inspired*/}
+          {/*              our wedding cocktail! (Culver City)*/}
+          {/*            </p>*/}
+          {/*          </li>*/}
+          {/*          <li>*/}
+          {/*            <a href="https://www.thedoughroom.com/">*/}
+          {/*              The Doughroom <span className="price">$</span>*/}
+          {/*            </a>*/}
+          {/*            <p>*/}
+          {/*              Daniela’s top pick. Excellent pizza, pasta, beer, and wine,*/}
+          {/*              paired with the perfect casual vibe. (Palms)*/}
+          {/*            </p>*/}
+          {/*          </li>*/}
+          {/*          <li>*/}
+          {/*            <a href="http://www.superbafoodandbread.com/">*/}
+          {/*              Superba <span className="price">$$</span>*/}
+          {/*            </a>*/}
+          {/*            <p>Great brunch spot (Venice)</p>*/}
+          {/*          </li>*/}
+          {/*        </ul>*/}
+          {/*      </div>*/}
+          {/*      <div className="index-la__card">*/}
+          {/*        <div className="index-la__card-icon">*/}
+          {/*          <img src="/images/icon/drink-de5bc5bc.svg" alt="Drink" />*/}
+          {/*        </div>*/}
+          {/*        <h4>Drink</h4>*/}
+          {/*        <ul>*/}
+          {/*          <li>*/}
+          {/*            <a href="http://www.thewallacela.com/">*/}
+          {/*              The Wallace <span className="price">$$</span>*/}
+          {/*            </a>*/}
+          {/*            <p>Solid drinks and a good food menu (Culver City)</p>*/}
+          {/*          </li>*/}
+          {/*          <li>*/}
+          {/*            <a href="https://www.accomplicebar.com/">*/}
+          {/*              Accomplice <span className="price">$$</span>*/}
+          {/*            </a>*/}
+          {/*            <p>*/}
+          {/*              Great drinks and you can order food from next door (Mar Vista)*/}
+          {/*            </p>*/}
+          {/*          </li>*/}
+          {/*          <li>*/}
+          {/*            <a href="https://www.cornerdoorla.com/">*/}
+          {/*              The Corner Door <span className="price">$$</span>*/}
+          {/*            </a>*/}
+          {/*            <p>*/}
+          {/*              Excellent drinks with a small, but great food menu (Culver*/}
+          {/*              City)*/}
+          {/*            </p>*/}
+          {/*          </li>*/}
+          {/*          <li>*/}
+          {/*            <a href="https://www.1933group.com/bigfoot-west">*/}
+          {/*              Big Foot West <span className="price">$</span>*/}
+          {/*            </a>*/}
+          {/*            <p>Quirky spot for a good drink (Culver City)</p>*/}
+          {/*          </li>*/}
+          {/*        </ul>*/}
+          {/*      </div>*/}
+          {/*      <div className="index-la__card">*/}
+          {/*        <div className="index-la__card-icon">*/}
+          {/*          <img src="/images/icon/glasses-7bea2aee.svg" alt="Glasses" />*/}
+          {/*        </div>*/}
+          {/*        <h4>Play</h4>*/}
+          {/*        <ul>*/}
+          {/*          <li>*/}
+          {/*            <a href="https://hikingguy.com/hiking-trails/best-la-hikes/baldwin-hills-scenic-overlook-hike/">*/}
+          {/*              Baldwin Hills Steps <span className="price" />*/}
+          {/*            </a>*/}
+          {/*            <p>Hike (or drive) with a serious view! (Culver City)</p>*/}
+          {/*          </li>*/}
+          {/*          <li>*/}
+          {/*            <a href="https://www.visitcalifornia.com/attraction/5-amazing-things-do-griffith-park">*/}
+          {/*              Griffith Park <span className="price" />*/}
+          {/*            </a>*/}
+          {/*            <p>*/}
+          {/*              Giant park with nice hiking trails, the iconic observatory,*/}
+          {/*              and the Hollywood sign (Los Feliz)*/}
+          {/*            </p>*/}
+          {/*          </li>*/}
+          {/*          <li>*/}
+          {/*            <a href="https://www.thebroad.org/">*/}
+          {/*              The Broad <span className="price" />*/}
+          {/*            </a>*/}
+          {/*            <p>Modern art museum, next to the Disney Concert Hall (DTLA)</p>*/}
+          {/*          </li>*/}
+          {/*          <li>*/}
+          {/*            <a href="https://www.abbotkinneyblvd.com/">*/}
+          {/*              Abbot Kinney <span className="price" />*/}
+          {/*            </a>*/}
+          {/*            <p>*/}
+          {/*              Lively street chock full of boutiques, cafes, and beautiful*/}
+          {/*              people (Venice)*/}
+          {/*            </p>*/}
+          {/*          </li>*/}
+          {/*        </ul>*/}
+          {/*      </div>*/}
+          {/*    </div>*/}
+          {/*  </div>*/}
+          {/*</section>*/}
+          {/*<section id="registry" className="index-section index-registry">*/}
+          {/*  <div className="container">*/}
+          {/*    <div className="row justify-content-md-center">*/}
+          {/*      <div className="col col-md-10">*/}
+          {/*        <h5 className="text-center">Registry</h5>*/}
+          {/*        <h2 className="text-center">Your presence is a gift</h2>*/}
+          {/*        <p className="large">*/}
+          {/*          Having loving family and friends in our lives is the best gift of*/}
+          {/*          all. If you wish to honor us with a wedding gift, we have compiled*/}
+          {/*          some ideas{" "}*/}
+          {/*          <a*/}
+          {/*              href="https://www.blueprintregistry.com/registry/daniela-moe-wedding-registry-10-18-2019"*/}
+          {/*              target="_blank"*/}
+          {/*          >*/}
+          {/*            here*/}
+          {/*          </a>*/}
+          {/*          .*/}
+          {/*        </p>*/}
+          {/*      </div>*/}
+          {/*    </div>*/}
+          {/*  </div>*/}
+          {/*</section>*/}
+          {/*<section id="rsvp" className="index-section index-rsvp">*/}
+          {/*  <div className="index-rsvp__left">*/}
+          {/*    <svg*/}
+          {/*        width={570}*/}
+          {/*        height={669}*/}
+          {/*        viewBox="0 0 570 669"*/}
+          {/*        xmlns="http://www.w3.org/2000/svg"*/}
+          {/*    >*/}
+          {/*      <g fill="none" fillRule="evenodd">*/}
+          {/*        <path*/}
+          {/*            d="M208.9 276.1c-3.7 19.9-7 41.3-20 55.7-6.7 7.4-15.5 12.3-24.3 16.8C112.9 375.1 57.4 393.4.4 402.7c4 25.4 8 50.9 12.1 76.3.8 5.2 2 11 6 14 3.3 2.5 7.6 2.4 11.5 2.2 36.9-1.7 73.8-3.3 110.6-5 16.8-.8 33.9-1.5 50.2 3.4 22.3 6.6 41.1 22.9 61.2 35.6 62.1 39.3 137.4 44.1 207.6 34.4-1-27.2-30.7-41.2-55.1-48.5-32-9.6-64-19.2-96-28.7-21-6.3-45.5-16-51.6-38.7 26.9-5.4 53.4-12.8 79.8-20.1 9.3-2.6 18.5-5.1 27.8-7.7 60.5-16.7 121-33.5 181.4-50.3 6.7-1.9 13.7-3.9 18.6-9.2 4.9-5.2 6.6-14.7 1.8-20.3-4-4.6-10.4-4.9-16.1-4.8-75.6 1.1-150.9 12.1-223.5 32.6-9.8 2.8-25.6-.1-23.2-10.7 42.5-15.4 81.6-40.9 113.8-74.3 14.6-15.1 28.7-37 20.8-57.8-31.3-10.1-63.5 9-87 32.2-23.5 23.2-43.6 51.8-72.3 67.1-7.1 3.8-16.8 6.3-22.5-.1-7.5-8.4-.3-21.7 6.7-30.1 15.9-19.2 31.4-39.8 39.2-64.3 11.8-37.1-.7-92.2-43.1-61.4-30.5 21.9-43.4 70.6-50.2 107.6z"*/}
+          {/*            fill="#F6BBA4"*/}
+          {/*            fillRule="nonzero"*/}
+          {/*        />*/}
+          {/*        <path*/}
+          {/*            d="M289.4 493.4c-9.9-10.9-19.9-21.9-32.2-30-9.8-6.5-20.8-10.9-31.7-15.3-22-8.9-43.9-17.6-66-26.3-3.4-3.4 2.8-8.1 7.6-8.9 27.1-4.3 55-3.9 82 1.1 7.3 1.4 14.7 3.1 22.2 2.9 10-.3 19.6-4.1 28.7-8.3 26.3-12.2 50.9-28.3 72.6-47.6 15.4-13.7 29.3-29 43.2-44.2 13.2-14.5 26.5-29 39.7-43.5 11.5-12.7 23.2-25.5 30.7-41 7.4-15.4 10.1-34 3.1-49.6-64.4 3.6-127.7 23.8-182.3 58.1-19 12-36.9 25.6-56.2 37-28.8 17-60.4 28.9-92.6 37.8 29.1-9 47.4-36.9 63.2-63 10.5-17.3 21.1-34.8 28.3-53.8 3.4-9 6-18.3 10.8-26.6 4.8-8.2 11.7-15 16.9-23 11.4-17.5 14.2-39.1 16.6-59.8 3.5-30 5.8-64.1-14.5-86.4-27.3 25.7-54.5 51.4-81.8 77.1-7.7 7.3-15.4 14.5-24.1 20.7-5.1 3.6-10.5 6.9-14.8 11.4-4.2 4.5-7.1 10.1-9.9 15.6-10.2 20.4-19.5 41.2-27.9 62.4-6.2 15.9-12 32.2-13.5 49.2-3.2 35.9 12.7 70.7 15.9 106.6 2.1 23.2-1.1 46.5-4.3 69.5-9.5 69.7-18.1 141.4-1.8 209.9 1.9 8.1 4.3 16.4 9.2 23.2 15.2 21.2 46.5 20 72.4 16.7 41.1-5.3 82.4-10.7 121.9-22.9 28.8-8.9 80.7-25 49.7-59.8-26.7-30.1-54.1-59.5-81.1-89.2z"*/}
+          {/*            stroke="#7E803C"*/}
+          {/*            strokeWidth={3}*/}
+          {/*        />*/}
+          {/*      </g>*/}
+          {/*    </svg>*/}
+          {/*  </div>*/}
+          {/*  <div className="container">*/}
+          {/*    <div className="row justify-content-md-center">*/}
+          {/*      <div className="col col-md-7 col-lg-5">*/}
+          {/*        /!* <h5 class="text-center">RSVP</h5> *!/*/}
+          {/*        <h2 className="text-center">RSVP</h2>*/}
+          {/*        <div*/}
+          {/*            className="js-form"*/}
+          {/*            style={{ display: "block" }}*/}
+          {/*            data-dashlane-rid="8d8a63088ddd54af"*/}
+          {/*            data-dashlane-classification="other"*/}
+          {/*        >*/}
+          {/*          <h5>Your name</h5>*/}
+          {/*          <input*/}
+          {/*              className="js-form-name"*/}
+          {/*              type="text"*/}
+          {/*              placeholder="Full Name"*/}
+          {/*              data-dashlane-rid="72ad7512b003b7aa"*/}
+          {/*              data-dashlane-classification="name"*/}
+          {/*              data-kwimpalastatus="alive"*/}
+          {/*              data-kwimpalaid="1732746978972-0"*/}
+          {/*          />*/}
+          {/*          <h5>Your response</h5>*/}
+          {/*          <div className="index-rsvp__options">*/}
+          {/*            <div*/}
+          {/*                className="index-rsvp__option is-active js-rsvp-option"*/}
+          {/*                data-value="YES"*/}
+          {/*            >*/}
+          {/*              Joyfully Accepts*/}
+          {/*            </div>*/}
+          {/*            <div*/}
+          {/*                className="index-rsvp__option js-rsvp-option"*/}
+          {/*                data-value="NO"*/}
+          {/*            >*/}
+          {/*              Regretfully Declines*/}
+          {/*            </div>*/}
+          {/*          </div>*/}
+          {/*          <div className="index-rsvp__show is-active js-rsvp-show">*/}
+          {/*            <h5>Adults attending</h5>*/}
+          {/*            <p>*/}
+          {/*              Unfortunately due to venue restrictions we cannot accommodate*/}
+          {/*              guests under age 10 at the reception. Please{" "}*/}
+          {/*              <a*/}
+          {/*                  href="mailto:moeamaya@gmail.com"*/}
+          {/*                  style={{ textDecoration: "underline" }}*/}
+          {/*              >*/}
+          {/*                reach out*/}
+          {/*              </a>{" "}*/}
+          {/*              for babysitting support during the reception.*/}
+          {/*            </p>*/}
+          {/*            <input*/}
+          {/*                className="js-form-attending"*/}
+          {/*                type="text"*/}
+          {/*                placeholder="List names of others attending"*/}
+          {/*                data-dashlane-rid="f3858f46b0e43832"*/}
+          {/*                data-dashlane-classification="date"*/}
+          {/*            />*/}
+          {/*            <h5>Dietary Restrictions</h5>*/}
+          {/*            <input*/}
+          {/*                className="js-form-diet"*/}
+          {/*                type="text"*/}
+          {/*                placeholder="List any diet restrictions"*/}
+          {/*                data-dashlane-rid="6fa2a894e6eaa510"*/}
+          {/*                data-dashlane-classification="other"*/}
+          {/*            />*/}
+          {/*          </div>*/}
+          {/*          <button*/}
+          {/*              className="index-rsvp__button"*/}
+          {/*              disabled=""*/}
+          {/*              style={{ opacity: "0.3" }}*/}
+          {/*              data-dashlane-label="true"*/}
+          {/*              data-dashlane-rid="78c5a34ad46a7b1f"*/}
+          {/*              data-dashlane-classification="action"*/}
+          {/*          >*/}
+          {/*            Submit*/}
+          {/*          </button>*/}
+          {/*          <span*/}
+          {/*              id="1732746978972-0"*/}
+          {/*              data-dashlanecreated="true"*/}
+          {/*              style={{*/}
+          {/*                colorScheme: "initial",*/}
+          {/*                forcedColorAdjust: "initial",*/}
+          {/*                mask: "initial",*/}
+          {/*                mathDepth: "initial",*/}
+          {/*                position: "absolute",*/}
+          {/*                positionAnchor: "initial",*/}
+          {/*                textSizeAdjust: "initial",*/}
+          {/*                appearance: "initial",*/}
+          {/*                color: "initial",*/}
+          {/*                font: "initial",*/}
+          {/*                fontPalette: "initial",*/}
+          {/*                fontSynthesis: "initial",*/}
+          {/*                positionArea: "initial",*/}
+          {/*                textOrientation: "initial",*/}
+          {/*                textRendering: "initial",*/}
+          {/*                textSpacingTrim: "initial",*/}
+          {/*                WebkitFontSmoothing: "initial",*/}
+          {/*                WebkitLocale: "initial",*/}
+          {/*                WebkitTextOrientation: "initial",*/}
+          {/*                WebkitWritingMode: "initial",*/}
+          {/*                writingMode: "initial",*/}
+          {/*                zoom: "initial",*/}
+          {/*                accentColor: "initial",*/}
+          {/*                placeContent: "initial",*/}
+          {/*                placeItems: "initial",*/}
+          {/*                placeSelf: "initial",*/}
+          {/*                alignmentBaseline: "initial",*/}
+          {/*                anchorName: "initial",*/}
+          {/*                anchorScope: "initial",*/}
+          {/*                animationComposition: "initial",*/}
+          {/*                animation: "initial",*/}
+          {/*                appRegion: "initial",*/}
+          {/*                aspectRatio: "initial",*/}
+          {/*                backdropFilter: "initial",*/}
+          {/*                backfaceVisibility: "initial",*/}
+          {/*                background:*/}
+          {/*                    'url("chrome-extension://fdjamakpfbbddfjaooikfcpapjohcfmg/content/injected/logo-autofill-known.svg") center center / contain no-repeat',*/}
+          {/*                backgroundBlendMode: "initial",*/}
+          {/*                baselineShift: "initial",*/}
+          {/*                baselineSource: "initial",*/}
+          {/*                blockSize: "initial",*/}
+          {/*                borderBlock: "initial",*/}
+          {/*                border: "none",*/}
+          {/*                borderRadius: "initial",*/}
+          {/*                borderCollapse: "initial",*/}
+          {/*                borderEndEndRadius: "initial",*/}
+          {/*                borderEndStartRadius: "initial",*/}
+          {/*                borderInline: "initial",*/}
+          {/*                borderStartEndRadius: "initial",*/}
+          {/*                borderStartStartRadius: "initial",*/}
+          {/*                bottom: "initial",*/}
+          {/*                boxDecorationBreak: "initial",*/}
+          {/*                boxShadow: "initial",*/}
+          {/*                boxSizing: "initial",*/}
+          {/*                breakAfter: "initial",*/}
+          {/*                breakBefore: "initial",*/}
+          {/*                breakInside: "initial",*/}
+          {/*                bufferedRendering: "initial",*/}
+          {/*                captionSide: "initial",*/}
+          {/*                caretColor: "initial",*/}
+          {/*                clear: "initial",*/}
+          {/*                clip: "initial",*/}
+          {/*                clipPath: "initial",*/}
+          {/*                clipRule: "initial",*/}
+          {/*                colorInterpolation: "initial",*/}
+          {/*                colorInterpolationFilters: "initial",*/}
+          {/*                colorRendering: "initial",*/}
+          {/*                columns: "initial",*/}
+          {/*                columnFill: "initial",*/}
+          {/*                gap: "initial",*/}
+          {/*                columnRule: "initial",*/}
+          {/*                columnSpan: "initial",*/}
+          {/*                contain: "initial",*/}
+          {/*                containIntrinsicBlockSize: "initial",*/}
+          {/*                containIntrinsicSize: "initial",*/}
+          {/*                containIntrinsicInlineSize: "initial",*/}
+          {/*                container: "initial",*/}
+          {/*                content: "initial",*/}
+          {/*                contentVisibility: "initial",*/}
+          {/*                counterIncrement: "initial",*/}
+          {/*                counterReset: "initial",*/}
+          {/*                counterSet: "initial",*/}
+          {/*                cursor: "pointer",*/}
+          {/*                cx: "initial",*/}
+          {/*                cy: "initial",*/}
+          {/*                d: "initial",*/}
+          {/*                display: "inline",*/}
+          {/*                dominantBaseline: "initial",*/}
+          {/*                emptyCells: "initial",*/}
+          {/*                fieldSizing: "initial",*/}
+          {/*                fill: "initial",*/}
+          {/*                fillOpacity: "initial",*/}
+          {/*                fillRule: "initial",*/}
+          {/*                filter: "initial",*/}
+          {/*                flex: "initial",*/}
+          {/*                flexFlow: "initial",*/}
+          {/*                float: "initial",*/}
+          {/*                floodColor: "initial",*/}
+          {/*                floodOpacity: "initial",*/}
+          {/*                grid: "initial",*/}
+          {/*                gridArea: "initial",*/}
+          {/*                height: 16,*/}
+          {/*                hyphenateCharacter: "initial",*/}
+          {/*                hyphenateLimitChars: "initial",*/}
+          {/*                hyphens: "initial",*/}
+          {/*                imageOrientation: "initial",*/}
+          {/*                imageRendering: "initial",*/}
+          {/*                initialLetter: "initial",*/}
+          {/*                inlineSize: "initial",*/}
+          {/*                insetBlock: "initial",*/}
+          {/*                insetInline: "initial",*/}
+          {/*                interpolateSize: "initial",*/}
+          {/*                isolation: "initial",*/}
+          {/*                left: 506,*/}
+          {/*                letterSpacing: "initial",*/}
+          {/*                lightingColor: "initial",*/}
+          {/*                lineBreak: "initial",*/}
+          {/*                listStyle: "initial",*/}
+          {/*                marginBlock: "initial",*/}
+          {/*                margin: "initial",*/}
+          {/*                marginInline: "initial",*/}
+          {/*                marker: "initial",*/}
+          {/*                maskType: "initial",*/}
+          {/*                mathShift: "initial",*/}
+          {/*                mathStyle: "initial",*/}
+          {/*                maxBlockSize: "initial",*/}
+          {/*                maxHeight: "initial",*/}
+          {/*                maxInlineSize: "initial",*/}
+          {/*                maxWidth: "initial",*/}
+          {/*                minBlockSize: "initial",*/}
+          {/*                minHeight: "initial",*/}
+          {/*                minInlineSize: "initial",*/}
+          {/*                minWidth: 16,*/}
+          {/*                mixBlendMode: "initial",*/}
+          {/*                objectFit: "initial",*/}
+          {/*                objectPosition: "initial",*/}
+          {/*                objectViewBox: "initial",*/}
+          {/*                offset: "initial",*/}
+          {/*                opacity: 1,*/}
+          {/*                order: "initial",*/}
+          {/*                orphans: "initial",*/}
+          {/*                outline: "initial",*/}
+          {/*                outlineOffset: "initial",*/}
+          {/*                overflowAnchor: "initial",*/}
+          {/*                overflowClipMargin: "initial",*/}
+          {/*                overflowWrap: "initial",*/}
+          {/*                overflow: "initial",*/}
+          {/*                overlay: "initial",*/}
+          {/*                overscrollBehaviorBlock: "initial",*/}
+          {/*                overscrollBehaviorInline: "initial",*/}
+          {/*                overscrollBehavior: "initial",*/}
+          {/*                paddingBlock: "initial",*/}
+          {/*                padding: "initial",*/}
+          {/*                paddingInline: "initial",*/}
+          {/*                page: "initial",*/}
+          {/*                pageOrientation: "initial",*/}
+          {/*                paintOrder: "initial",*/}
+          {/*                perspective: "initial",*/}
+          {/*                perspectiveOrigin: "initial",*/}
+          {/*                pointerEvents: "initial",*/}
+          {/*                positionTry: "initial",*/}
+          {/*                positionVisibility: "initial",*/}
+          {/*                quotes: "initial",*/}
+          {/*                r: "initial",*/}
+          {/*                resize: "initial",*/}
+          {/*                right: "initial",*/}
+          {/*                rotate: "initial",*/}
+          {/*                rubyAlign: "initial",*/}
+          {/*                rubyPosition: "initial",*/}
+          {/*                rx: "initial",*/}
+          {/*                ry: "initial",*/}
+          {/*                scale: "initial",*/}
+          {/*                scrollBehavior: "initial",*/}
+          {/*                scrollMarginBlock: "initial",*/}
+          {/*                scrollMargin: "initial",*/}
+          {/*                scrollMarginInline: "initial",*/}
+          {/*                scrollPaddingBlock: "initial",*/}
+          {/*                scrollPadding: "initial",*/}
+          {/*                scrollPaddingInline: "initial",*/}
+          {/*                scrollSnapAlign: "initial",*/}
+          {/*                scrollSnapStop: "initial",*/}
+          {/*                scrollSnapType: "initial",*/}
+          {/*                scrollTimeline: "initial",*/}
+          {/*                scrollbarColor: "initial",*/}
+          {/*                scrollbarGutter: "initial",*/}
+          {/*                scrollbarWidth: "initial",*/}
+          {/*                shapeImageThreshold: "initial",*/}
+          {/*                shapeMargin: "initial",*/}
+          {/*                shapeOutside: "initial",*/}
+          {/*                shapeRendering: "initial",*/}
+          {/*                size: "initial",*/}
+          {/*                speak: "initial",*/}
+          {/*                stopColor: "initial",*/}
+          {/*                stopOpacity: "initial",*/}
+          {/*                stroke: "initial",*/}
+          {/*                strokeDasharray: "initial",*/}
+          {/*                strokeDashoffset: "initial",*/}
+          {/*                strokeLinecap: "initial",*/}
+          {/*                strokeLinejoin: "initial",*/}
+          {/*                strokeMiterlimit: "initial",*/}
+          {/*                strokeOpacity: "initial",*/}
+          {/*                strokeWidth: "initial",*/}
+          {/*                tabSize: "initial",*/}
+          {/*                tableLayout: "initial",*/}
+          {/*                textAlign: "initial",*/}
+          {/*                textAlignLast: "initial",*/}
+          {/*                textAnchor: "initial",*/}
+          {/*                textCombineUpright: "initial",*/}
+          {/*                textDecoration: "initial",*/}
+          {/*                textDecorationSkipInk: "initial",*/}
+          {/*                textEmphasis: "initial",*/}
+          {/*                textEmphasisPosition: "initial",*/}
+          {/*                textIndent: "initial",*/}
+          {/*                textOverflow: "initial",*/}
+          {/*                textShadow: "initial",*/}
+          {/*                textTransform: "initial",*/}
+          {/*                textUnderlineOffset: "initial",*/}
+          {/*                textUnderlinePosition: "initial",*/}
+          {/*                textWrap: "initial",*/}
+          {/*                timelineScope: "initial",*/}
+          {/*                top: 139,*/}
+          {/*                touchAction: "initial",*/}
+          {/*                transform: "initial",*/}
+          {/*                transformBox: "initial",*/}
+          {/*                transformOrigin: "initial",*/}
+          {/*                transformStyle: "initial",*/}
+          {/*                transition: "initial",*/}
+          {/*                translate: "initial",*/}
+          {/*                userSelect: "initial",*/}
+          {/*                vectorEffect: "initial",*/}
+          {/*                verticalAlign: "initial",*/}
+          {/*                viewTimeline: "initial",*/}
+          {/*                viewTransitionClass: "initial",*/}
+          {/*                viewTransitionName: "initial",*/}
+          {/*                visibility: "visible",*/}
+          {/*                borderSpacing: "initial",*/}
+          {/*                WebkitBoxAlign: "initial",*/}
+          {/*                WebkitBoxDecorationBreak: "initial",*/}
+          {/*                WebkitBoxDirection: "initial",*/}
+          {/*                WebkitBoxFlex: "initial",*/}
+          {/*                WebkitBoxOrdinalGroup: "initial",*/}
+          {/*                WebkitBoxOrient: "initial",*/}
+          {/*                WebkitBoxPack: "initial",*/}
+          {/*                WebkitBoxReflect: "initial",*/}
+          {/*                WebkitLineBreak: "initial",*/}
+          {/*                WebkitLineClamp: "initial",*/}
+          {/*                WebkitMaskBoxImage: "initial",*/}
+          {/*                WebkitPrintColorAdjust: "initial",*/}
+          {/*                WebkitRtlOrdering: "initial",*/}
+          {/*                WebkitRubyPosition: "initial",*/}
+          {/*                WebkitTapHighlightColor: "initial",*/}
+          {/*                WebkitTextCombine: "initial",*/}
+          {/*                WebkitTextDecorationsInEffect: "initial",*/}
+          {/*                WebkitTextFillColor: "initial",*/}
+          {/*                WebkitTextSecurity: "initial",*/}
+          {/*                WebkitTextStroke: "initial",*/}
+          {/*                WebkitUserDrag: "initial",*/}
+          {/*                whiteSpaceCollapse: "initial",*/}
+          {/*                widows: "initial",*/}
+          {/*                width: 16,*/}
+          {/*                willChange: "initial",*/}
+          {/*                wordBreak: "initial",*/}
+          {/*                wordSpacing: "initial",*/}
+          {/*                x: "initial",*/}
+          {/*                y: "initial",*/}
+          {/*                zIndex: "auto"*/}
+          {/*              }}*/}
+          {/*          />*/}
+          {/*        </div>*/}
+          {/*        <div*/}
+          {/*            className="index-rsvp__success js-form-success"*/}
+          {/*            style={{ display: "none" }}*/}
+          {/*        >*/}
+          {/*          <span>Thanks!</span>*/}
+          {/*          <br />*/}
+          {/*          We&apos;ve receieved your response.*/}
+          {/*        </div>*/}
+          {/*      </div>*/}
+          {/*    </div>*/}
+          {/*  </div>*/}
+          {/*</section>*/}
         </main>
         <footer className="site-footer" style={{}}>
           <div className="index-rsvp__right">
