@@ -71,21 +71,21 @@ export default function Home() {
             }}
         >
           <ul className="nav-list">
-            <li>
-              <a href="#story">Our Story</a>
-            </li>
-            <li>
-              <a href="#facts">Fun Facts</a>
-            </li>
-            <li>
-              <a href="#events">Events</a>
-            </li>
-            <li>
-              <a href="#reception">Reception</a>
-            </li>
-            <li>
-              <a href="#hotels">Hotels</a>
-            </li>
+            {/*<li>*/}
+            {/*  <a href="#story">Our Story</a>*/}
+            {/*</li>*/}
+            {/*<li>*/}
+            {/*  <a href="#facts">Fun Facts</a>*/}
+            {/*</li>*/}
+            {/*<li>*/}
+            {/*  <a href="#events">Events</a>*/}
+            {/*</li>*/}
+            {/*<li>*/}
+            {/*  <a href="#reception">Reception</a>*/}
+            {/*</li>*/}
+            {/*<li>*/}
+            {/*  <a href="#hotels">Hotels</a>*/}
+            {/*</li>*/}
             <li>
               <a href="#rsvp">RSVP</a>
             </li>
