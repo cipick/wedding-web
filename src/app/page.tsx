@@ -5,59 +5,59 @@ export default function Home() {
         <meta charSet="utf-8" />
         <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://danielaandmoe.com/" />
-        <title>Daniela Covarrubias and Moe Amaya — Los Angeles Wedding</title>
+        {/*<link rel="canonical" href="https://danielaandmoe.com/" />*/}
+        <title>Cristina & Ciprian</title>
         <meta
             name="title"
-            content="Daniela Covarrubias and Moe Amaya — Los Angeles Wedding"
+            content="Cristina & Ciprian"
         />
-        <meta
-            name="description"
-            content="Friday, October 18, 2019 in Los Angeles, California, we'll be getting celebrating our marriage. Come for a weekend of sun, fun and dancing."
-        />
-        <meta
-            name="google-site-verification"
-            content="3e9iPSUsfWk58n0IMiAshg3IhtEoyruJwnDTth1IWNY"
-        />
-        <meta property="og:site_name" content="Daniela and Moe Wedding 2019" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://danielaandmoe.com/" />
-        <meta
-            property="og:title"
-            content="Daniela Covarrubias and Moe Amaya — Los Angeles Wedding"
-        />
-        <meta
-            property="og:description"
-            content="Friday, October 18, 2019 in Los Angeles, California, we'll be getting celebrating our marriage. Come for a weekend of sun, fun and dancing."
-        />
-        <meta
-            property="og:image"
-            content="https://danielaandmoe.com/images/daniela-and-moe-wedding-085db2c3.jpg"
-        />
-        <meta property="fb:app_id" content={"305232433007153"} />
-        <meta name="twitter:site" content="@moeamaya" />
-        <meta name="twitter:domain" content="danielaandmoe.com" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://danielaandmoe.com/" />
-        <meta
-            name="twitter:title"
-            content="Daniela Covarrubias and Moe Amaya — Los Angeles Wedding"
-        />
-        <meta
-            name="twitter:description"
-            content="Friday, October 18, 2019 in Los Angeles, California, we'll be getting celebrating our marriage. Come for a weekend of sun, fun and dancing."
-        />
-        <meta
-            name="twitter:image"
-            content="https://danielaandmoe.com/images/daniela-and-moe-wedding-085db2c3.jpg"
-        />
-        <link href="/stylesheets/application-7c2a332c.css" rel="stylesheet" />
-        <link
-            rel="shortcut icon"
-            type="image/x-icon"
-            sizes="16x16 32x32 48x48 64x64"
-            href="/images/favicon-da81668a.png"
-        />
+        {/*<meta*/}
+        {/*    name="description"*/}
+        {/*    content="Friday, October 18, 2019 in Los Angeles, California, we'll be getting celebrating our marriage. Come for a weekend of sun, fun and dancing."*/}
+        {/*/>*/}
+        {/*<meta*/}
+        {/*    name="google-site-verification"*/}
+        {/*    content="3e9iPSUsfWk58n0IMiAshg3IhtEoyruJwnDTth1IWNY"*/}
+        {/*/>*/}
+        {/*<meta property="og:site_name" content="Daniela and Moe Wedding 2019" />*/}
+        {/*<meta property="og:type" content="website" />*/}
+        {/*<meta property="og:url" content="https://danielaandmoe.com/" />*/}
+        {/*<meta*/}
+        {/*    property="og:title"*/}
+        {/*    content="Daniela Covarrubias and Moe Amaya — Los Angeles Wedding"*/}
+        {/*/>*/}
+        {/*<meta*/}
+        {/*    property="og:description"*/}
+        {/*    content="Friday, October 18, 2019 in Los Angeles, California, we'll be getting celebrating our marriage. Come for a weekend of sun, fun and dancing."*/}
+        {/*/>*/}
+        {/*<meta*/}
+        {/*    property="og:image"*/}
+        {/*    content="https://danielaandmoe.com/images/daniela-and-moe-wedding-085db2c3.jpg"*/}
+        {/*/>*/}
+        {/*<meta property="fb:app_id" content={"305232433007153"} />*/}
+        {/*<meta name="twitter:site" content="@moeamaya" />*/}
+        {/*<meta name="twitter:domain" content="danielaandmoe.com" />*/}
+        {/*<meta name="twitter:card" content="summary_large_image" />*/}
+        {/*<meta name="twitter:url" content="https://danielaandmoe.com/" />*/}
+        {/*<meta*/}
+        {/*    name="twitter:title"*/}
+        {/*    content="Daniela Covarrubias and Moe Amaya — Los Angeles Wedding"*/}
+        {/*/>*/}
+        {/*<meta*/}
+        {/*    name="twitter:description"*/}
+        {/*    content="Friday, October 18, 2019 in Los Angeles, California, we'll be getting celebrating our marriage. Come for a weekend of sun, fun and dancing."*/}
+        {/*/>*/}
+        {/*<meta*/}
+        {/*    name="twitter:image"*/}
+        {/*    content="https://danielaandmoe.com/images/daniela-and-moe-wedding-085db2c3.jpg"*/}
+        {/*/>*/}
+        {/*<link href="/stylesheets/application-7c2a332c.css" rel="stylesheet" />*/}
+        {/*<link*/}
+        {/*    rel="shortcut icon"*/}
+        {/*    type="image/x-icon"*/}
+        {/*    sizes="16x16 32x32 48x48 64x64"*/}
+        {/*    href="/images/favicon-da81668a.png"*/}
+        {/*/>*/}
         {/*[if IE]><link rel="shortcut icon" href="favicon.png"><![endif]*/}
         <nav
             className="nav"
